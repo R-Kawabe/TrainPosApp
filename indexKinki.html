@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <header>
+        <h1>近畿エリア</h1>
+    </header>
+    <div class="sidebar">
+        <button onclick="getLineData('hokurikubiwako')" name="word1">A 琵琶湖線</button><br>
+        <button onclick="getLineData('kyoto')" name="word1">A 京都線</button><br>
+        <button onclick="getLineData('kobesanyo')" name="word1">A 神戸線</button><br>
+        <button onclick="getLineData('ako')" name="word1">A 赤穂線</button><br>
+        <button onclick="getLineData('kosei')" name="word1">B 湖西線</button><br>
+        <button onclick="getLineData('osakahigashi')" name="word1">F おおさか東線</button><br>
+        <button onclick="getLineData('takarazuka')" name="word1">G 宝塚線</button><br>
+        <button onclick="getLineData('tozai')" name="word1">H JR東西線</button><br>
+        <button onclick="getLineData('gakkentoshi')" name="word1">H 学研都市線</button><br>
+        <button onclick="getLineData('osakaloop')" name="word1">O 大阪環状線</button><br>
+        <button onclick="getLineData('yumesaki')" name="word1">P JRゆめ咲線</button><br>
+        <button onclick="getLineData('yamatoji')" name="word1">Q 大和路線</button><br>
+        <button onclick="getLineData('hanwahagoromo')" name="word1">R 阪和線</button><br>
+        <button onclick="getLineData('kansaiairport')" name="word1">S 関西空港線</button><br>
+    </div>
+    <div class="main">
+        <div id="elem"></div>
+    </div>
+    <!-- <div>
+        <input type="text" placeholder="hoge" id="search_text">
+        <button id="search_button">検索</button>
+    </div> -->
+    <footer>
+        testpage
+    </footer>
+</body>
+
+</html>

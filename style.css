@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    /* bodyの外側の余白を指定する */
+    padding: 50px 10px 50px 10px;
+    /* bodyの内側余白を指定する(上:右:下:左) */
+}
+
+Header {
+    position: fixed;
+    /* ヘッダーを固定する */
+    top: 0;
+    /* 上部から配置の基準位置を決める */
+    left: 0;
+    /* 左から配置の基準位置を決める */
+    width: 100%;
+    /* ヘッダーの横幅を指定する */
+    height: 35px;
+    /* ヘッダーの高さを指定する */
+    padding: 10px;
+    /* ヘッダーの余白を指定する(上下左右) */
+    background-color: #31a9ee;
+    /* ヘッダーの背景色を指定する */
+    color: #000000;
+    /* フォントの色を指定する */
+}
+
+.main {
+    text-align: left;
+  }
+.sidebar {
+    text-align: left;
+  }
+
+.Wkinki {
+    color: blue;
+}
+
+.Wokayama {
+    color: orange;
+}
+
+Footer {
+    position: fixed;
+    /* フッターを固定する */
+    bottom: 0;
+    /* 上部から配置の基準位置を決める */
+    left: 0;
+    /* 左から配置の基準位置を決める */
+    width: 100%;
+    /* フッターの横幅を指定する */
+    height: 35px;
+    /* フッターの高さを指定する */
+    padding: 10px;
+    /* フッター内側の余白を指定する(上下左右) */
+    background-color: #31a9ee;
+    /* フッターの背景色を指定する */
+    color: #FFFFFF;
+    /* フッターのフォントの色を指定する */
+}
