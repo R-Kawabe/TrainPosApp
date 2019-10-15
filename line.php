@@ -1,6 +1,6 @@
 <?php
 
-$word1 = htmlspecialchars($_GET['word1']);
+$word1 = ($_GET['word1']);
 
 switch ($word1) {
     case "kyoto": {
@@ -85,3 +85,12 @@ switch ($word1) {
         }
         break;
 }
+
+// mergeArrays([$array1, $array2]);
+
+// function mergeArrays(array $arrays): array
+// {
+//     return array_reduce($arrays, function ($carry, $item) {
+//         return array_merge_recursive($carry, $item);
+//     }, []);
+// }

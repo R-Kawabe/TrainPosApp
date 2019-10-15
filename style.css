@@ -1,35 +1,56 @@
 body {
-    margin: 20px;
-    /* bodyの外側の余白を指定する */
-    padding: 50px 10px 50px 10px;
-    /* bodyの内側余白を指定する(上:右:下:左) */
+    margin: 0;
 }
 
-Header {
-    position: fixed;
-    /* ヘッダーを固定する */
-    top: 0;
-    /* 上部から配置の基準位置を決める */
-    left: 0;
-    /* 左から配置の基準位置を決める */
+.header {
+    background: black;
+    height: 80px;
+    text-align: center;
+    color: #fff;
     width: 100%;
-    /* ヘッダーの横幅を指定する */
-    height: 35px;
-    /* ヘッダーの高さを指定する */
-    padding: 10px;
-    /* ヘッダーの余白を指定する(上下左右) */
-    background-color: #31a9ee;
-    /* ヘッダーの背景色を指定する */
-    color: #000000;
-    /* フォントの色を指定する */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-wrap {
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }
 
 .main {
-    text-align: left;
-  }
+    background: lightgray;
+    height: 100%;
+    text-align: center;
+    color: black;
+    width: 70%;
+    float: left;
+    overflow: auto;
+}
+
 .sidebar {
-    text-align: left;
-  }
+    background: lightskyblue;
+    height: 100%;
+    text-align: center;
+    color: black;
+    width: 30%;
+    float: left;
+    overflow: auto;
+}
+
+.footer {
+    background: black;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .Wkinki {
     color: blue;
@@ -39,21 +60,41 @@ Header {
     color: orange;
 }
 
-Footer {
-    position: fixed;
-    /* フッターを固定する */
-    bottom: 0;
-    /* 上部から配置の基準位置を決める */
-    left: 0;
-    /* 左から配置の基準位置を決める */
-    width: 100%;
-    /* フッターの横幅を指定する */
-    height: 35px;
-    /* フッターの高さを指定する */
-    padding: 10px;
-    /* フッター内側の余白を指定する(上下左右) */
-    background-color: #31a9ee;
-    /* フッターの背景色を指定する */
-    color: #FFFFFF;
-    /* フッターのフォントの色を指定する */
+.button {
+    display: inline-block;
+    width: 200px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 54px;
+    outline: none;
+  }
+  .button::before,
+  .button::after {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: '';
+  }
+  .button,
+  .button::before,
+  .button::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+
+.button {
+    background-color: #333;
+    border: 2px solid #333;
+    color: #fff;
+    line-height: 50px;
+}
+
+.button:hover {
+    background-color: #fff;
+    border-color: #59b1eb;
+    color: #59b1eb;
 }
