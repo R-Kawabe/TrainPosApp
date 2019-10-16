@@ -15,7 +15,7 @@
 // }, false);
 
 function getLineData(line) {
-    //document.getElementsByName('word1').addEventListener('click', function (e) {
+    // document.getElementsByName('word1').addEventListener('click', function (e) {
         let params = new URLSearchParams();
         params.set('word1', line);
         fetch('line.php?' + params.toString())
@@ -30,7 +30,7 @@ function getLineData(line) {
             .catch(function (error) {
                 document.getElementById('result').textContent = error;
             });
-    //}, false)
+    // }, false)
 }
 
 /**
