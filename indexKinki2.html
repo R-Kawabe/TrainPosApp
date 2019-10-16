@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script_other.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Kinki2</title>
+</head>
+<body>
+    <header class="header">
+        <h1>近畿エリア2</h1>
+    </header>
+    <main class="main-wrap">
+        <aside class="sidebar">
+            <h3>路線名</h3>
+            <button class="button" onclick="getLineData_other('nara')" name="word1">D 奈良線</button><br>
+            <button class="button" onclick="getLineData_other('sagano')" name="word1">E 嵯峨野線</button><br>
+            <button class="button" onclick="getLineData_other('sanin1')" name="word1">E 山陰本線 園部～福知山</button><br>
+            <button class="button" onclick="getLineData_other('sanin2')" name="word1">E/A 山陰本線 福知山～居組</button><br>
+            <button class="button" onclick="getLineData_other('fukuchiyama')" name="word1">G 福知山線 篠山口～福知山</button><br>
+            <button class="button" onclick="getLineData_other('bantan')" name="word1">J 播但線</button><br>
+            <button class="button" onclick="getLineData_other('maizuru')" name="word1">L 舞鶴線</button><br>
+            <button class="button" onclick="getLineData_other('wakayama1')" name="word1">T 和歌山線 和歌山～五条</button><br>
+            <button class="button" onclick="getLineData_other('kinokuni')" name="word1">W きのくに線</button>
+        </aside>
+        <article class="main">
+            <div id="elem"></div>
+        </article>
+        <aside class="sidebar2">
+            <h3>検索フォーム</h3>            
+            <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ"><br>
+        </aside>
+    </main>
+    <!-- <div>
+        <input type="text" placeholder="hoge" id="search_text">
+        <button id="search_button">検索</button>
+    </div> -->
+    <footer class="footer">
+        testpage <a href="./index.html">戻る</a>
+    </footer>
+</body>
+</html>

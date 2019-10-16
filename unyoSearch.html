@@ -5,24 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="test.js"></script>
+    <script src="unyoData.js"></script>
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Unyo_Search</title>
 </head>
 
 <body>
     <header class="header">
-        <h1>WebApp_Test</h1>
+        <h1>運用検索ページ</h1>
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
-            <label>JR西日本</label><br>
+            <h3>運用検索</h3><br>
             <button class="button" onclick="get()">宮原支所運用</button><br>
         </aside>
         <article class="main">
             <div>Hello,World!</div>
             <div id="a"></div>
         </article>
+        <aside class="sidebar2">
+            <h3>在線ページ</h3>            
+            <input type="button" class="button" onclick="location.href='./indexKinki.html'" value="近畿エリア"><br>
+            <input type="button" class="button" onclick="location.href='./indexKinki2.html'" value="近畿エリア2"><br>
+        </aside>
     </main>
     <footer class="footer">
         testpage <a href="./index.html">戻る</a>

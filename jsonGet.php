@@ -1,6 +1,6 @@
 <?php
 
-$file = "./test.json";
+$file = "./miyahara.json";
 echo file_get_contents($file);
 
 

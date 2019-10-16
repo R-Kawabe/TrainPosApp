@@ -1,17 +1,20 @@
-function get() {
-    fetch('./test.php')
+function getLineData_other(line) {
+    // document.getElementsByName('word1').addEventListener('click', function (e) {
+    let params = new URLSearchParams();
+    params.set('word1', line);
+    fetch('line.php?' + params.toString())
         .then(function (response) {
             console.log(response.status); //200
             return response.json();
         })
         .then(function (data) {
-            const trains = data.Unyo.map(buildTrain); //mapで回して関数に従って格納？
+            const trains = data.trains.map(buildTrain); //mapで回して関数に従って格納？
             viewTrains(trains); //関数を実行しhtmlへ出力
         })
         .catch(function (error) {
-            document.getElementById('a').textContent = error;
+            document.getElementById('result').textContent = error;
         });
-    //}, false)
+    // }, false)
 }
 
 /**
@@ -21,14 +24,15 @@ function get() {
  */
 function buildTrain(obj) { //jsonから取得した各要素について？？？
     const train = new Train();
-    train.UnyoNo = obj["UnyoNo"];
-    train.TrainNo = obj["TrainNo"];
-    train.Position = obj["Position"];
-    train.Type = obj["Type"];
-    train.Destination = obj["Destination"];
-    train.Day = obj["Day"];
-    train.FirstTime = obj["FirstTime"];
-    train.ArrivalTime = obj["ArrivalTime"];
+    train.dest = obj["dest"];
+    train.direction = obj["direction"];
+    train.delayMinutes = obj["delayMinutes"];
+    train.displayType = obj["displayType"];
+    train.nickname = obj["nickname"];
+    train.no = obj["no"];
+    train.pos = obj["pos"];
+    train.type = obj["type"];
+    train.notice = obj["notice"];
     return train;
 }
 
@@ -45,7 +49,7 @@ function getSearchText() { //入力された文字列を取得し返す関数
  * @return {HTMLElement}
  */
 function trainElement(train) {
-    const text = `${train.UnyoNo} ${train.TrainNo} ${train.Destination}行き`;
+    const text = `${train.no} ${train.displayType} ${train.dest}行き`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
@@ -56,7 +60,7 @@ function trainElement(train) {
  * @param {Train[]} trains 
  */
 function viewTrains(trains) {
-    const elem = document.getElementById("a");
+    const elem = document.getElementById("elem");
     while (child = elem.firstChild) elem.removeChild(child);
     const trainElems = trains.map(trainElement);
     trainElems.forEach(element => {
@@ -66,15 +70,15 @@ function viewTrains(trains) {
 
 class Train {
     constructor() {
-        this.UnyoNo = "";
-        this.TrainNo = "";
-        this.Position = "";
-        this.Position = "";
-        this.Type = "";
-        this.Destination = "";
-        this.Day = "";
-        this.FirstTime = "";
-        this.ArrivalTime = "";
+        this.no = "";
+        this.dest = "";
+        this.direction = 0;
+        this.displayType = "";
+        this.delayMinutes = 0;
+        this.nickname = "";
+        this.pos = "";
+        this.type = "";
+        this.notice = "";
     }
 }
 

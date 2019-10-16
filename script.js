@@ -16,20 +16,20 @@
 
 function getLineData(line) {
     // document.getElementsByName('word1').addEventListener('click', function (e) {
-        let params = new URLSearchParams();
-        params.set('word1', line);
-        fetch('line.php?' + params.toString())
-            .then(function (response) {
-                console.log(response.status); //200
-                return response.json();
-            })
-            .then(function (data) {
-                const trains = data.trains.map(buildTrain); //mapで回して関数に従って格納？
-                viewTrains(trains); //関数を実行しhtmlへ出力
-            })
-            .catch(function (error) {
-                document.getElementById('result').textContent = error;
-            });
+    let params = new URLSearchParams();
+    params.set('word1', line);
+    fetch('line.php?' + params.toString())
+        .then(function (response) {
+            console.log(response.status); //200
+            return response.json();
+        })
+        .then(function (data) {
+            const trains = data.trains.map(buildTrain); //mapで回して関数に従って格納？
+            viewTrains(trains); //関数を実行しhtmlへ出力
+        })
+        .catch(function (error) {
+            document.getElementById('elem').textContent = error;
+        });
     // }, false)
 }
 
@@ -43,6 +43,7 @@ function buildTrain(obj) { //jsonから取得した各要素について？？�
     train.dest = buildDestination(obj["dest"]);
     train.direction = obj["direction"];
     train.displayType = obj["displayType"];
+    train.delayMinutes = obj["delayMinutes"];
     train.nickname = obj["nickname"];
     train.no = obj["no"];
     train.numberOfCars = obj["numberOfCars"];
@@ -100,6 +101,7 @@ class Train {
         this.dest = {};
         this.direction = 0;
         this.displayType = "";
+        this.delayMinutes = 0;
         this.nickname = "";
         this.numberOfCars = 0;
         this.pos = "";
