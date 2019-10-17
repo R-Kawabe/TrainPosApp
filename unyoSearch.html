@@ -16,17 +16,30 @@
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
-            <h3>運用検索</h3><br>
+            <h3>運用検索</h3>
             <button class="button" onclick="get()">宮原支所運用</button><br>
         </aside>
         <article class="main">
-            <div>Hello,World!</div>
+            <div>運用番号 列車番号 組成位置 種別 行先 始発駅時刻 終着駅時刻 運転日</div>
             <div id="a"></div>
         </article>
         <aside class="sidebar2">
-            <h3>在線ページ</h3>            
-            <input type="button" class="button" onclick="location.href='./indexKinki.html'" value="近畿エリア"><br>
-            <input type="button" class="button" onclick="location.href='./indexKinki2.html'" value="近畿エリア2"><br>
+            <h3>検索フォーム</h3>
+            <div>
+                <input type="text" placeholder="宮501" id="search_Unyo_text">
+                <button id="search_Unyo">運番検索</button>
+            </div>
+            <div>
+                <input type="text" placeholder="新三田" id="search_Dest_text">
+                <button id="search_Dest">行先検索</button>
+            </div>
+            <div>
+                <input type="text" placeholder="平日" id="search_Day_text">
+                <button id="search_Day">運転日検索</button>
+            </div>
+            <h3>在線ページ</h3>
+            <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
+            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
         </aside>
     </main>
     <footer class="footer">

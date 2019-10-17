@@ -5,13 +5,6 @@
 //     // const trains = json.trains.map(buildTrain); //mapで回して関数に従って格納？
 //     // viewTrains(trains); //関数を実行しhtmlへ出力
 
-//     document.getElementById('search_button') //一致するIDのボタンがクリックされたとき
-//         .addEventListener('click', () => {
-//             const searchText = getSearchText(); //関数を実行し入力された文字列を取得
-//             const searchResult = searchDest(searchText, trainElement(trains.dest.text)); //取得した文字列とtrainsの要素を比較する関数実行
-//             viewTrains(searchResult); //関数を実行しhtmlへ出力
-//         }, false);
-
 // }, false);
 
 function getLineData(line) {
@@ -25,7 +18,7 @@ function getLineData(line) {
         })
         .then(function (data) {
             const trains = data.trains.map(buildTrain); //mapで回して関数に従って格納？
-            viewTrains(trains); //関数を実行しhtmlへ出力
+            viewTrains(trains); //関数を実行しhtmlへ出
         })
         .catch(function (error) {
             document.getElementById('elem').textContent = error;
@@ -76,7 +69,7 @@ function buildDestination(obj) {
  * @return {HTMLElement}
  */
 function trainElement(train) {
-    const text = `${train.no} ${train.displayType} ${train.dest.text}行き`;
+    const text = `${train.no} ${train.displayType}${train.nickname} ${train.dest.text}行き ${train.numberOfCars}両 `;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;

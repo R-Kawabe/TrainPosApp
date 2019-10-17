@@ -27,7 +27,7 @@ body {
 .main {
     background: lightgray;
     height: 100%;
-    text-align: center;
+    text-align: left;
     color: black;
     width: 50%;
     float: left;

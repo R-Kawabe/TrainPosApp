@@ -7,6 +7,21 @@ function get() {
         .then(function (data) {
             const trains = data.Unyo.map(buildTrain); //mapで回して関数に従って格納？
             viewTrains(trains); //関数を実行しhtmlへ出力
+            document.getElementById("search_Unyo").addEventListener('click', () => {
+                const searchText = getSearchUnyo();
+                const searchResult = searchUnyo(searchText, trains);
+                viewTrains(searchResult);
+            }, false)
+            document.getElementById("search_Dest").addEventListener('click', () => {
+                const searchText = getSearchDest();
+                const searchResult = searchDest(searchText, trains);
+                viewTrains(searchResult);
+            }, false)
+            document.getElementById("search_Day").addEventListener('click', () => {
+                const searchText = getSearchDay();
+                const searchResult = searchDay(searchText, trains);
+                viewTrains(searchResult);
+            }, false)
         })
         .catch(function (error) {
             document.getElementById('a').textContent = error;
@@ -35,8 +50,22 @@ function buildTrain(obj) { //jsonから取得した各要素について？？�
 /**
  * @return {string}
  */
-function getSearchText() { //入力された文字列を取得し返す関数
-    return document.getElementById('search_text').value;
+function getSearchUnyo() { //入力された文字列を取得し返す関数
+    return document.getElementById('search_Unyo_text').value;
+}
+
+/**
+ * @return {string}
+ */
+function getSearchDest() { //入力された文字列を取得し返す関数
+    return document.getElementById('search_Dest_text').value;
+}
+
+/**
+ * @param {string}
+ */
+function getSearchDay() { //入力された文字列を取得し返す関数
+    return document.getElementById('search_Day_text').value;
 }
 
 /**
@@ -45,7 +74,7 @@ function getSearchText() { //入力された文字列を取得し返す関数
  * @return {HTMLElement}
  */
 function trainElement(train) {
-    const text = `${train.UnyoNo} ${train.TrainNo} ${train.Destination}行き`;
+    const text = `${train.UnyoNo} ${train.TrainNo}${train.Position} ${train.Type} ${train.Destination}行き ${train.FirstTime} ${train.ArrivalTime} ${train.Day}`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
@@ -84,8 +113,32 @@ class Train {
  * @param {Train[]} trains 
  * @return {Train[]}
  */
+function searchUnyo(text, trains) {
+    return trains.filter(train => {
+        return train.UnyoNo.match(text) != null;
+    });
+}
+
+/**
+ * 
+ * @param {string} text 
+ * @param {Train[]} trains 
+ * @return {Train[]}
+ */
 function searchDest(text, trains) {
     return trains.filter(train => {
-        return train.dest.text.match(text) != null;
+        return train.Destination.match(text) != null;
+    });
+}
+
+/**
+ * 
+ * @param {string} text 
+ * @param {Train[]} trains 
+ * @return {Train[]}
+ */
+function searchDay(text, trains) {
+    return trains.filter(train => {
+        return train.Day.match(text) != null;
     });
 }

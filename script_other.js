@@ -49,7 +49,7 @@ function getSearchText() { //入力された文字列を取得し返す関数
  * @return {HTMLElement}
  */
 function trainElement(train) {
-    const text = `${train.no} ${train.displayType} ${train.dest}行き`;
+    const text = `${train.no} ${train.displayType}${train.nickname} ${train.dest}行き`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
