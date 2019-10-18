@@ -7,26 +7,35 @@ function get() {
         .then(function (data) {
             const trains = data.Unyo.map(buildTrain); //mapで回して関数に従って格納？
             viewTrains(trains); //関数を実行しhtmlへ出力
-            document.getElementById("search_Unyo").addEventListener('click', () => {
-                const searchText = getSearchUnyo();
-                const searchResult = searchUnyo(searchText, trains);
-                viewTrains(searchResult);
-            }, false)
-            document.getElementById("search_Dest").addEventListener('click', () => {
-                const searchText = getSearchDest();
-                const searchResult = searchDest(searchText, trains);
-                viewTrains(searchResult);
-            }, false)
-            document.getElementById("search_Day").addEventListener('click', () => {
-                const searchText = getSearchDay();
-                const searchResult = searchDay(searchText, trains);
-                viewTrains(searchResult);
+            document.getElementById("form").addEventListener('click', () => {
+                const searchText = formfunc();
+                const searchResult = searchUnyo(searchText[0], trains);
+                const searchResult1 = searchTrainNo(searchText[1], searchResult);
+                const searchResult2 = searchType(searchText[2], searchResult1);
+                const searchResult3 = searchDest(searchText[3], searchResult2);
+                const searchResult4 = searchDay(searchText[4], searchResult3);
+                viewTrains(searchResult4);
             }, false)
         })
         .catch(function (error) {
             document.getElementById('a').textContent = error;
         });
     //}, false)
+}
+
+/**
+ * 
+ * @param {string} 
+ */
+function formfunc() {
+    const UnyoNo_text = document.forms.Unyo_Search.Unyo_Text.value;
+    const TrainNo_text = document.forms.Unyo_Search.TrainNo_Text.value;
+    const Type_text = document.forms.Unyo_Search.Type_Text.value;
+    const Dest_text = document.forms.Unyo_Search.Dest_Text.value;
+    const Day_text = document.forms.Unyo_Search.Day_Text.value;
+    const array = [UnyoNo_text, TrainNo_text, Type_text, Dest_text, Day_text];
+    console.log(array);
+    return array;
 }
 
 /**
@@ -43,29 +52,8 @@ function buildTrain(obj) { //jsonから取得した各要素について？？�
     train.Destination = obj["Destination"];
     train.Day = obj["Day"];
     train.FirstTime = obj["FirstTime"];
-    train.ArrivalTime = obj["ArrivalTime"];
+    train.EndTime = obj["EndTime"];
     return train;
-}
-
-/**
- * @return {string}
- */
-function getSearchUnyo() { //入力された文字列を取得し返す関数
-    return document.getElementById('search_Unyo_text').value;
-}
-
-/**
- * @return {string}
- */
-function getSearchDest() { //入力された文字列を取得し返す関数
-    return document.getElementById('search_Dest_text').value;
-}
-
-/**
- * @param {string}
- */
-function getSearchDay() { //入力された文字列を取得し返す関数
-    return document.getElementById('search_Day_text').value;
 }
 
 /**
@@ -74,7 +62,7 @@ function getSearchDay() { //入力された文字列を取得し返す関数
  * @return {HTMLElement}
  */
 function trainElement(train) {
-    const text = `${train.UnyoNo} ${train.TrainNo}${train.Position} ${train.Type} ${train.Destination}行き ${train.FirstTime} ${train.ArrivalTime} ${train.Day}`;
+    const text = `${train.UnyoNo} ${train.TrainNo}${train.Position} ${train.Type} ${train.Destination}行き ${train.FirstTime} ${train.EndTime} ${train.Day}`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
@@ -103,7 +91,7 @@ class Train {
         this.Destination = "";
         this.Day = "";
         this.FirstTime = "";
-        this.ArrivalTime = "";
+        this.EndTime = "";
     }
 }
 
@@ -116,6 +104,30 @@ class Train {
 function searchUnyo(text, trains) {
     return trains.filter(train => {
         return train.UnyoNo.match(text) != null;
+    });
+}
+
+/**
+ * 
+ * @param {string} text 
+ * @param {Train[]} trains 
+ * @return {Train[]}
+ */
+function searchTrainNo(text, trains) {
+    return trains.filter(train => {
+        return train.TrainNo.match(text) != null;
+    });
+}
+
+/**
+ * 
+ * @param {string} text 
+ * @param {Train[]} trains 
+ * @return {Train[]}
+ */
+function searchType(text, trains) {
+    return trains.filter(train => {
+        return train.Type.match(text) != null;
     });
 }
 

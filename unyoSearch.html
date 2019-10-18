@@ -25,18 +25,31 @@
         </article>
         <aside class="sidebar2">
             <h3>検索フォーム</h3>
-            <div>
-                <input type="text" placeholder="宮501" id="search_Unyo_text">
-                <button id="search_Unyo">運番検索</button>
-            </div>
-            <div>
-                <input type="text" placeholder="新三田" id="search_Dest_text">
-                <button id="search_Dest">行先検索</button>
-            </div>
-            <div>
-                <input type="text" placeholder="平日" id="search_Day_text">
-                <button id="search_Day">運転日検索</button>
-            </div>
+            <form id="Unyo_Search">
+                <div>
+                    <label for="UnyoNo">運用番号</label>
+                    <input type="text" id="Unyo_Text" name="Train_Unyo" value="">
+                </div>
+                <div>
+                    <label for="TrainNo">列車番号</label>
+                    <input type="text" id="TrainNo_Text" name="Train_TrainNo" value="">
+                </div>
+                <div>
+                    <label for="Type">種別</label>
+                    <input type="text" id="Type_Text" name="Train_Type" value="">
+                </div>
+                <div>
+                    <label for="Destination">行先</label>
+                    <input type="text" id="Dest_Text" name="Train_Dest" value="">
+                </div>
+                <div>
+                    <label for="Day">運転日</label>
+                    <input type="text" id="Day_Text" name="Train_Day" value="">
+                </div>
+                <div>
+                    <button type="button" id="form">送信</button>
+                </div>
+            </form>
             <h3>在線ページ</h3>
             <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
             <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>

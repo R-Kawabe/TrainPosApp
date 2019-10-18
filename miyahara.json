@@ -8,7 +8,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "福知山6:14",
-            "ArrivalTime": "大阪8:23"
+            "EndTime": "大阪8:23"
         },
         {
             "UnyoNo": "宮501",
@@ -18,7 +18,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "福知山6:14",
-            "ArrivalTime": "大阪8:29"
+            "EndTime": "大阪8:29"
         },
         {
             "UnyoNo": "宮502",
@@ -28,7 +28,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪6:09",
-            "ArrivalTime": "篠山口7:24"
+            "EndTime": "篠山口7:24"
         },
         {
             "UnyoNo": "宮502",
@@ -38,7 +38,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口7:28",
-            "ArrivalTime": "大阪8:48"
+            "EndTime": "大阪8:48"
         },
         {
             "UnyoNo": "宮502",
@@ -48,7 +48,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口7:28",
-            "ArrivalTime": "大阪8:44"
+            "EndTime": "大阪8:44"
         },
         {
             "UnyoNo": "宮502",
@@ -58,7 +58,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪13:21",
-            "ArrivalTime": "篠山口14:28"
+            "EndTime": "篠山口14:28"
         },
         {
             "UnyoNo": "宮502",
@@ -68,7 +68,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口14:43",
-            "ArrivalTime": "大阪15:51"
+            "EndTime": "大阪15:51"
         },
         {
             "UnyoNo": "宮502",
@@ -78,7 +78,7 @@
             "Destination": "新三田",
             "Day": "土休日",
             "FirstTime": "大阪16:40",
-            "ArrivalTime": "篠山口17:24"
+            "EndTime": "篠山口17:24"
         },
         {
             "UnyoNo": "宮502",
@@ -88,7 +88,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "大阪19:39",
-            "ArrivalTime": "新三田20:24"
+            "EndTime": "新三田20:24"
         },
         {
             "UnyoNo": "宮503",
@@ -98,7 +98,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田7:16",
-            "ArrivalTime": "大阪8:06"
+            "EndTime": "大阪8:06"
         },
         {
             "UnyoNo": "宮503",
@@ -108,7 +108,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "新三田8:42",
-            "ArrivalTime": "大阪9:34"
+            "EndTime": "大阪9:34"
         },
         {
             "UnyoNo": "宮503",
@@ -118,7 +118,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪10:51",
-            "ArrivalTime": "篠山口11:58"
+            "EndTime": "篠山口11:58"
         },
         {
             "UnyoNo": "宮503",
@@ -128,7 +128,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪11:21",
-            "ArrivalTime": "篠山口12:28"
+            "EndTime": "篠山口12:28"
         },
         {
             "UnyoNo": "宮503",
@@ -138,7 +138,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口12:14",
-            "ArrivalTime": "大阪13:22"
+            "EndTime": "大阪13:22"
         },
         {
             "UnyoNo": "宮503",
@@ -148,7 +148,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口12:43",
-            "ArrivalTime": "大阪13:51"
+            "EndTime": "大阪13:51"
         },
         {
             "UnyoNo": "宮503",
@@ -158,7 +158,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪14:51",
-            "ArrivalTime": "篠山口15:58"
+            "EndTime": "篠山口15:58"
         },
         {
             "UnyoNo": "宮503",
@@ -168,7 +168,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口15:43",
-            "ArrivalTime": "大阪16:51"
+            "EndTime": "大阪16:51"
         },
         {
             "UnyoNo": "宮503",
@@ -178,7 +178,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口16:07",
-            "ArrivalTime": "大阪17:16"
+            "EndTime": "大阪17:16"
         },
         {
             "UnyoNo": "宮503",
@@ -188,7 +188,7 @@
             "Destination": "新三田",
             "Day": "全日",
             "FirstTime": "大阪18:39",
-            "ArrivalTime": "新三田19:24"
+            "EndTime": "新三田19:24"
         },
         {
             "UnyoNo": "宮504",
@@ -198,7 +198,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田7:33",
-            "ArrivalTime": "大阪8:22"
+            "EndTime": "大阪8:22"
         },
         {
             "UnyoNo": "宮504",
@@ -208,7 +208,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪9:20",
-            "ArrivalTime": "篠山口10:28"
+            "EndTime": "篠山口10:28"
         },
         {
             "UnyoNo": "宮504",
@@ -218,7 +218,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "新三田10:29",
-            "ArrivalTime": "大阪11:16"
+            "EndTime": "大阪11:16"
         },
         {
             "UnyoNo": "宮504",
@@ -228,7 +228,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪11:51",
-            "ArrivalTime": "篠山口12:58"
+            "EndTime": "篠山口12:58"
         },
         {
             "UnyoNo": "宮504",
@@ -238,7 +238,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "篠山口16:40",
-            "ArrivalTime": "大阪17:48"
+            "EndTime": "大阪17:48"
         },
         {
             "UnyoNo": "宮504",
@@ -248,7 +248,7 @@
             "Destination": "福知山",
             "Day": "全日",
             "FirstTime": "大阪19:24",
-            "ArrivalTime": "福知山21:34"
+            "EndTime": "福知山21:34"
         },
         {
             "UnyoNo": "宮505",
@@ -258,7 +258,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "福知山5:32",
-            "ArrivalTime": "大阪7:54"
+            "EndTime": "大阪7:54"
         },
         {
             "UnyoNo": "宮505",
@@ -268,7 +268,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "福知山5:32",
-            "ArrivalTime": "大阪7:50"
+            "EndTime": "大阪7:50"
         },
         {
             "UnyoNo": "宮505",
@@ -278,7 +278,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪9:52",
-            "ArrivalTime": "篠山口10:59"
+            "EndTime": "篠山口10:59"
         },
         {
             "UnyoNo": "宮505",
@@ -288,7 +288,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪11:06",
-            "ArrivalTime": "宝塚11:31"
+            "EndTime": "宝塚11:31"
         },
         {
             "UnyoNo": "宮505",
@@ -298,7 +298,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口11:14",
-            "ArrivalTime": "大阪12:21"
+            "EndTime": "大阪12:21"
         },
         {
             "UnyoNo": "宮505",
@@ -308,7 +308,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚11:41",
-            "ArrivalTime": "大阪12:06"
+            "EndTime": "大阪12:06"
         },
         {
             "UnyoNo": "宮505",
@@ -318,7 +318,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪12:51",
-            "ArrivalTime": "篠山口13:58"
+            "EndTime": "篠山口13:58"
         },
         {
             "UnyoNo": "宮505",
@@ -328,7 +328,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪13:06",
-            "ArrivalTime": "宝塚13:31"
+            "EndTime": "宝塚13:31"
         },
         {
             "UnyoNo": "宮505",
@@ -338,7 +338,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚13:41",
-            "ArrivalTime": "大阪14:06"
+            "EndTime": "大阪14:06"
         },
         {
             "UnyoNo": "宮505",
@@ -348,7 +348,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口14:14",
-            "ArrivalTime": "大阪15:22"
+            "EndTime": "大阪15:22"
         },
         {
             "UnyoNo": "宮505",
@@ -358,7 +358,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪15:06",
-            "ArrivalTime": "宝塚15:31"
+            "EndTime": "宝塚15:31"
         },
         {
             "UnyoNo": "宮505",
@@ -368,7 +368,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚15:41",
-            "ArrivalTime": "大阪16:06"
+            "EndTime": "大阪16:06"
         },
         {
             "UnyoNo": "宮505",
@@ -378,7 +378,7 @@
             "Destination": "新三田",
             "Day": "土休日",
             "FirstTime": "大阪16:40",
-            "ArrivalTime": "篠山口17:24"
+            "EndTime": "篠山口17:24"
         },
         {
             "UnyoNo": "宮505",
@@ -388,7 +388,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "大阪19:39",
-            "ArrivalTime": "新三田20:24"
+            "EndTime": "新三田20:24"
         },
         {
             "UnyoNo": "宮506",
@@ -398,7 +398,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田7:16",
-            "ArrivalTime": "大阪8:06"
+            "EndTime": "大阪8:06"
         },
         {
             "UnyoNo": "宮506",
@@ -408,7 +408,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "新三田8:42",
-            "ArrivalTime": "大阪9:34"
+            "EndTime": "大阪9:34"
         },
         {
             "UnyoNo": "宮506",
@@ -418,7 +418,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪10:51",
-            "ArrivalTime": "篠山口11:58"
+            "EndTime": "篠山口11:58"
         },
         {
             "UnyoNo": "宮506",
@@ -428,7 +428,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪11:21",
-            "ArrivalTime": "篠山口12:28"
+            "EndTime": "篠山口12:28"
         },
         {
             "UnyoNo": "宮506",
@@ -438,7 +438,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口12:14",
-            "ArrivalTime": "大阪13:22"
+            "EndTime": "大阪13:22"
         },
         {
             "UnyoNo": "宮506",
@@ -448,7 +448,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口12:43",
-            "ArrivalTime": "大阪13:51"
+            "EndTime": "大阪13:51"
         },
         {
             "UnyoNo": "宮506",
@@ -458,7 +458,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪14:51",
-            "ArrivalTime": "篠山口15:58"
+            "EndTime": "篠山口15:58"
         },
         {
             "UnyoNo": "宮506",
@@ -468,7 +468,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口15:43",
-            "ArrivalTime": "大阪16:51"
+            "EndTime": "大阪16:51"
         },
         {
             "UnyoNo": "宮506",
@@ -478,7 +478,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口16:07",
-            "ArrivalTime": "大阪17:16"
+            "EndTime": "大阪17:16"
         },
         {
             "UnyoNo": "宮506",
@@ -488,7 +488,7 @@
             "Destination": "新三田",
             "Day": "全日",
             "FirstTime": "大阪18:39",
-            "ArrivalTime": "新三田19:24"
+            "EndTime": "新三田19:24"
         },
         {
             "UnyoNo": "宮507",
@@ -498,7 +498,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田7:33",
-            "ArrivalTime": "大阪8:22"
+            "EndTime": "大阪8:22"
         },
         {
             "UnyoNo": "宮507",
@@ -508,7 +508,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪9:20",
-            "ArrivalTime": "篠山口10:28"
+            "EndTime": "篠山口10:28"
         },
         {
             "UnyoNo": "宮507",
@@ -518,7 +518,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "新三田10:29",
-            "ArrivalTime": "大阪11:16"
+            "EndTime": "大阪11:16"
         },
         {
             "UnyoNo": "宮507",
@@ -528,7 +528,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪11:51",
-            "ArrivalTime": "篠山口12:58"
+            "EndTime": "篠山口12:58"
         },
         {
             "UnyoNo": "宮507",
@@ -538,7 +538,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "篠山口16:40",
-            "ArrivalTime": "大阪17:48"
+            "EndTime": "大阪17:48"
         },
         {
             "UnyoNo": "宮507",
@@ -548,7 +548,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪19:24",
-            "ArrivalTime": "篠山口20:33"
+            "EndTime": "篠山口20:33"
         },
         {
             "UnyoNo": "宮508",
@@ -558,7 +558,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口6:58",
-            "ArrivalTime": "大阪8:12"
+            "EndTime": "大阪8:12"
         },
         {
             "UnyoNo": "宮508",
@@ -568,7 +568,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口7:01",
-            "ArrivalTime": "大阪8:09"
+            "EndTime": "大阪8:09"
         },
         {
             "UnyoNo": "宮508",
@@ -578,7 +578,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪9:20",
-            "ArrivalTime": "篠山口10:28"
+            "EndTime": "篠山口10:28"
         },
         {
             "UnyoNo": "宮508",
@@ -588,7 +588,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口10:43",
-            "ArrivalTime": "大阪11:51"
+            "EndTime": "大阪11:51"
         },
         {
             "UnyoNo": "宮508",
@@ -598,7 +598,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪12:51",
-            "ArrivalTime": "篠山口13:58"
+            "EndTime": "篠山口13:58"
         },
         {
             "UnyoNo": "宮508",
@@ -608,7 +608,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪13:51",
-            "ArrivalTime": "篠山口14:58"
+            "EndTime": "篠山口14:58"
         },
         {
             "UnyoNo": "宮508",
@@ -618,7 +618,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口14:14",
-            "ArrivalTime": "大阪15:22"
+            "EndTime": "大阪15:22"
         },
         {
             "UnyoNo": "宮508",
@@ -628,7 +628,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口15:12",
-            "ArrivalTime": "大阪16:20"
+            "EndTime": "大阪16:20"
         },
         {
             "UnyoNo": "宮508",
@@ -638,7 +638,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪16:25",
-            "ArrivalTime": "篠山口17:33"
+            "EndTime": "篠山口17:33"
         },
         {
             "UnyoNo": "宮508",
@@ -648,7 +648,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口17:40",
-            "ArrivalTime": "大阪18:49"
+            "EndTime": "大阪18:49"
         },
         {
             "UnyoNo": "宮508",
@@ -658,7 +658,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪20:24",
-            "ArrivalTime": "福知山21:33"
+            "EndTime": "福知山21:33"
         },
         {
             "UnyoNo": "宮509",
@@ -668,7 +668,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口5:43",
-            "ArrivalTime": "大阪6:57"
+            "EndTime": "大阪6:57"
         },
         {
             "UnyoNo": "宮509",
@@ -678,7 +678,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口5:48",
-            "ArrivalTime": "大阪6:58"
+            "EndTime": "大阪6:58"
         },
         {
             "UnyoNo": "宮509",
@@ -688,7 +688,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "大阪7:28",
-            "ArrivalTime": "新三田8:28"
+            "EndTime": "新三田8:28"
         },
         {
             "UnyoNo": "宮509",
@@ -698,7 +698,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田8:34",
-            "ArrivalTime": "大阪9:34"
+            "EndTime": "大阪9:34"
         },
         {
             "UnyoNo": "宮509",
@@ -708,7 +708,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪10:34",
-            "ArrivalTime": "宝塚11:01"
+            "EndTime": "宝塚11:01"
         },
         {
             "UnyoNo": "宮509",
@@ -718,7 +718,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚11:11",
-            "ArrivalTime": "大阪11:36"
+            "EndTime": "大阪11:36"
         },
         {
             "UnyoNo": "宮509",
@@ -728,7 +728,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪12:36",
-            "ArrivalTime": "宝塚13:01"
+            "EndTime": "宝塚13:01"
         },
         {
             "UnyoNo": "宮509",
@@ -738,7 +738,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚13:11",
-            "ArrivalTime": "大阪13:36"
+            "EndTime": "大阪13:36"
         },
         {
             "UnyoNo": "宮509",
@@ -748,7 +748,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪14:36",
-            "ArrivalTime": "宝塚15:01"
+            "EndTime": "宝塚15:01"
         },
         {
             "UnyoNo": "宮509",
@@ -758,7 +758,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚15:11",
-            "ArrivalTime": "大阪15:36"
+            "EndTime": "大阪15:36"
         },
         {
             "UnyoNo": "宮509",
@@ -768,7 +768,7 @@
             "Destination": "新三田",
             "Day": "土休日",
             "FirstTime": "大阪19:39",
-            "ArrivalTime": "新三田20:24"
+            "EndTime": "新三田20:24"
         },
         {
             "UnyoNo": "宮509",
@@ -778,7 +778,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "大阪20:39",
-            "ArrivalTime": "新三田21:24"
+            "EndTime": "新三田21:24"
         },
         {
             "UnyoNo": "宮510",
@@ -788,7 +788,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田6:54",
-            "ArrivalTime": "大阪7:41"
+            "EndTime": "大阪7:41"
         },
         {
             "UnyoNo": "宮510",
@@ -798,7 +798,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "新三田9:25",
-            "ArrivalTime": "大阪10:08"
+            "EndTime": "大阪10:08"
         },
         {
             "UnyoNo": "宮510",
@@ -808,7 +808,7 @@
             "Destination": "福知山",
             "Day": "全日",
             "FirstTime": "大阪17:24",
-            "ArrivalTime": "福知山19:46"
+            "EndTime": "福知山19:46"
         },
         {
             "UnyoNo": "宮511",
@@ -818,7 +818,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "福知山5:57",
-            "ArrivalTime": "大阪8:09"
+            "EndTime": "大阪8:09"
         },
         {
             "UnyoNo": "宮511",
@@ -828,7 +828,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "福知山5:57",
-            "ArrivalTime": "大阪8:12"
+            "EndTime": "大阪8:12"
         },
         {
             "UnyoNo": "宮511",
@@ -838,7 +838,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪9:20",
-            "ArrivalTime": "篠山口10:28"
+            "EndTime": "篠山口10:28"
         },
         {
             "UnyoNo": "宮511",
@@ -848,7 +848,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口10:43",
-            "ArrivalTime": "大阪11:51"
+            "EndTime": "大阪11:51"
         },
         {
             "UnyoNo": "宮511",
@@ -858,7 +858,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪12:51",
-            "ArrivalTime": "篠山口13:58"
+            "EndTime": "篠山口13:58"
         },
         {
             "UnyoNo": "宮511",
@@ -868,7 +868,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪13:51",
-            "ArrivalTime": "篠山口14:58"
+            "EndTime": "篠山口14:58"
         },
         {
             "UnyoNo": "宮511",
@@ -878,7 +878,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口14:14",
-            "ArrivalTime": "大阪15:22"
+            "EndTime": "大阪15:22"
         },
         {
             "UnyoNo": "宮511",
@@ -888,7 +888,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口15:12",
-            "ArrivalTime": "大阪16:20"
+            "EndTime": "大阪16:20"
         },
         {
             "UnyoNo": "宮511",
@@ -898,7 +898,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪16:25",
-            "ArrivalTime": "篠山口17:33"
+            "EndTime": "篠山口17:33"
         },
         {
             "UnyoNo": "宮511",
@@ -908,7 +908,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口17:40",
-            "ArrivalTime": "大阪18:49"
+            "EndTime": "大阪18:49"
         },
         {
             "UnyoNo": "宮511",
@@ -918,7 +918,7 @@
             "Destination": "福知山",
             "Day": "全日",
             "FirstTime": "大阪20:24",
-            "ArrivalTime": "福知山22:31"
+            "EndTime": "福知山22:31"
         },
         {
             "UnyoNo": "宮512",
@@ -928,7 +928,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "福知山5:17",
-            "ArrivalTime": "篠山口6:10"
+            "EndTime": "篠山口6:10"
         },
         {
             "UnyoNo": "宮512",
@@ -938,7 +938,7 @@
             "Destination": "福知山",
             "Day": "全日",
             "FirstTime": "篠山口6:40",
-            "ArrivalTime": "福知山7:44"
+            "EndTime": "福知山7:44"
         },
         {
             "UnyoNo": "宮512",
@@ -948,7 +948,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "福知山8:00",
-            "ArrivalTime": "大阪10:19"
+            "EndTime": "大阪10:19"
         },
         {
             "UnyoNo": "宮512",
@@ -958,7 +958,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "福知山8:00",
-            "ArrivalTime": "大阪10:24"
+            "EndTime": "大阪10:24"
         },
         {
             "UnyoNo": "宮512",
@@ -968,7 +968,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪12:06",
-            "ArrivalTime": "宝塚12:31"
+            "EndTime": "宝塚12:31"
         },
         {
             "UnyoNo": "宮512",
@@ -978,7 +978,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚12:41",
-            "ArrivalTime": "大阪13:06"
+            "EndTime": "大阪13:06"
         },
         {
             "UnyoNo": "宮512",
@@ -988,7 +988,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪14:06",
-            "ArrivalTime": "宝塚14:31"
+            "EndTime": "宝塚14:31"
         },
         {
             "UnyoNo": "宮512",
@@ -998,7 +998,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚14:41",
-            "ArrivalTime": "大阪15:06"
+            "EndTime": "大阪15:06"
         },
         {
             "UnyoNo": "宮512",
@@ -1008,7 +1008,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪16:55",
-            "ArrivalTime": "篠山口18:03"
+            "EndTime": "篠山口18:03"
         },
         {
             "UnyoNo": "宮512",
@@ -1018,7 +1018,7 @@
             "Destination": "新三田",
             "Day": "全日",
             "FirstTime": "篠山口",
-            "ArrivalTime": "新三田"
+            "EndTime": "新三田"
         },
         {
             "UnyoNo": "宮513",
@@ -1028,7 +1028,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田7:05",
-            "ArrivalTime": "大阪7:57"
+            "EndTime": "大阪7:57"
         },
         {
             "UnyoNo": "宮513",
@@ -1038,7 +1038,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "新三田9:54",
-            "ArrivalTime": "大阪10:36"
+            "EndTime": "大阪10:36"
         },
         {
             "UnyoNo": "宮513",
@@ -1048,7 +1048,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪10:51",
-            "ArrivalTime": "篠山口11:58"
+            "EndTime": "篠山口11:58"
         },
         {
             "UnyoNo": "宮513",
@@ -1058,7 +1058,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪11:21",
-            "ArrivalTime": "篠山口12:28"
+            "EndTime": "篠山口12:28"
         },
         {
             "UnyoNo": "宮513",
@@ -1068,7 +1068,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口12:14",
-            "ArrivalTime": "大阪13:22"
+            "EndTime": "大阪13:22"
         },
         {
             "UnyoNo": "宮513",
@@ -1078,7 +1078,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口12:43",
-            "ArrivalTime": "大阪13:51"
+            "EndTime": "大阪13:51"
         },
         {
             "UnyoNo": "宮513",
@@ -1088,7 +1088,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪14:21",
-            "ArrivalTime": "篠山口15:28"
+            "EndTime": "篠山口15:28"
         },
         {
             "UnyoNo": "宮513",
@@ -1098,7 +1098,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口15:43",
-            "ArrivalTime": "大阪16:51"
+            "EndTime": "大阪16:51"
         },
         {
             "UnyoNo": "宮513",
@@ -1108,7 +1108,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口16:07",
-            "ArrivalTime": "大阪17:16"
+            "EndTime": "大阪17:16"
         },
         {
             "UnyoNo": "宮513",
@@ -1118,7 +1118,7 @@
             "Destination": "福知山",
             "Day": "全日",
             "FirstTime": "大阪18:24",
-            "ArrivalTime": "福知山20:47"
+            "EndTime": "福知山20:47"
         },
         {
             "UnyoNo": "宮513",
@@ -1128,7 +1128,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "福知山21:38",
-            "ArrivalTime": "大阪23:47"
+            "EndTime": "大阪23:47"
         },
         {
             "UnyoNo": "宮513",
@@ -1136,9 +1136,9 @@
             "Position": "単",
             "Type": "回送",
             "Destination": "大阪",
-            "Day": "全日",
+            "Day": "土休日",
             "FirstTime": "吹田",
-            "ArrivalTime": "大阪"
+            "EndTime": "大阪"
         },
         {
             "UnyoNo": "宮513",
@@ -1146,9 +1146,9 @@
             "Position": "単",
             "Type": "回送",
             "Destination": "大阪",
-            "Day": "全日",
+            "Day": "平日",
             "FirstTime": "吹田",
-            "ArrivalTime": "大阪"
+            "EndTime": "大阪"
         },
         {
             "UnyoNo": "宮513",
@@ -1156,9 +1156,9 @@
             "Position": "単",
             "Type": "回送",
             "Destination": "吹田",
-            "Day": "全日",
+            "Day": "土休日",
             "FirstTime": "大阪",
-            "ArrivalTime": "吹田"
+            "EndTime": "吹田"
         },
         {
             "UnyoNo": "宮513",
@@ -1166,9 +1166,9 @@
             "Position": "単",
             "Type": "回送",
             "Destination": "吹田",
-            "Day": "全日",
+            "Day": "平日",
             "FirstTime": "大阪",
-            "ArrivalTime": "吹田"
+            "EndTime": "吹田"
         },
         {
             "UnyoNo": "宮514",
@@ -1178,7 +1178,7 @@
             "Destination": "福知山",
             "Day": "全日",
             "FirstTime": "大阪6:43",
-            "ArrivalTime": "福知山8:56"
+            "EndTime": "福知山8:56"
         },
         {
             "UnyoNo": "宮514",
@@ -1188,7 +1188,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "福知山15:58",
-            "ArrivalTime": "篠山口17:06"
+            "EndTime": "篠山口17:06"
         },
         {
             "UnyoNo": "宮514",
@@ -1198,7 +1198,7 @@
             "Destination": "福知山",
             "Day": "平日",
             "FirstTime": "篠山口17:35",
-            "ArrivalTime": "福知山18:36"
+            "EndTime": "福知山18:36"
         },
         {
             "UnyoNo": "宮531",
@@ -1208,7 +1208,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口7:15",
-            "ArrivalTime": "大阪8:29"
+            "EndTime": "大阪8:29"
         },
         {
             "UnyoNo": "宮531",
@@ -1218,7 +1218,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口7:16",
-            "ArrivalTime": "大阪8:23"
+            "EndTime": "大阪8:23"
         },
         {
             "UnyoNo": "宮532",
@@ -1228,7 +1228,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "大阪6:37",
-            "ArrivalTime": "新三田7:38"
+            "EndTime": "新三田7:38"
         },
         {
             "UnyoNo": "宮532",
@@ -1238,7 +1238,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田7:43",
-            "ArrivalTime": "大阪8:49"
+            "EndTime": "大阪8:49"
         },
         {
             "UnyoNo": "宮532",
@@ -1248,7 +1248,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪9:52",
-            "ArrivalTime": "篠山口10:59"
+            "EndTime": "篠山口10:59"
         },
         {
             "UnyoNo": "宮532",
@@ -1258,7 +1258,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口11:14",
-            "ArrivalTime": "大阪12:21"
+            "EndTime": "大阪12:21"
         },
         {
             "UnyoNo": "宮532",
@@ -1268,7 +1268,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪16:55",
-            "ArrivalTime": "篠山口18:03"
+            "EndTime": "篠山口18:03"
         },
         {
             "UnyoNo": "宮532",
@@ -1278,7 +1278,7 @@
             "Destination": "新三田",
             "Day": "全日",
             "FirstTime": "篠山口",
-            "ArrivalTime": "新三田"
+            "EndTime": "新三田"
         },
         {
             "UnyoNo": "宮533",
@@ -1288,7 +1288,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田7:05",
-            "ArrivalTime": "大阪7:57"
+            "EndTime": "大阪7:57"
         },
         {
             "UnyoNo": "宮533",
@@ -1298,7 +1298,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "新三田9:54",
-            "ArrivalTime": "大阪10:36"
+            "EndTime": "大阪10:36"
         },
         {
             "UnyoNo": "宮533",
@@ -1308,7 +1308,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪10:51",
-            "ArrivalTime": "篠山口11:58"
+            "EndTime": "篠山口11:58"
         },
         {
             "UnyoNo": "宮533",
@@ -1318,7 +1318,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪11:21",
-            "ArrivalTime": "篠山口12:28"
+            "EndTime": "篠山口12:28"
         },
         {
             "UnyoNo": "宮533",
@@ -1328,7 +1328,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口12:14",
-            "ArrivalTime": "大阪13:22"
+            "EndTime": "大阪13:22"
         },
         {
             "UnyoNo": "宮533",
@@ -1338,7 +1338,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口12:43",
-            "ArrivalTime": "大阪13:51"
+            "EndTime": "大阪13:51"
         },
         {
             "UnyoNo": "宮533",
@@ -1348,7 +1348,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪14:21",
-            "ArrivalTime": "篠山口15:28"
+            "EndTime": "篠山口15:28"
         },
         {
             "UnyoNo": "宮533",
@@ -1358,7 +1358,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口15:43",
-            "ArrivalTime": "大阪16:51"
+            "EndTime": "大阪16:51"
         },
         {
             "UnyoNo": "宮533",
@@ -1368,7 +1368,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口16:07",
-            "ArrivalTime": "大阪17:16"
+            "EndTime": "大阪17:16"
         },
         {
             "UnyoNo": "宮533",
@@ -1378,7 +1378,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪18:24",
-            "ArrivalTime": "篠山口19:33"
+            "EndTime": "篠山口19:33"
         },
         {
             "UnyoNo": "宮534",
@@ -1388,7 +1388,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口6:37",
-            "ArrivalTime": "大阪7:50"
+            "EndTime": "大阪7:50"
         },
         {
             "UnyoNo": "宮534",
@@ -1398,7 +1398,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口6:46",
-            "ArrivalTime": "大阪7:54"
+            "EndTime": "大阪7:54"
         },
         {
             "UnyoNo": "宮534",
@@ -1408,7 +1408,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪9:52",
-            "ArrivalTime": "篠山口10:59"
+            "EndTime": "篠山口10:59"
         },
         {
             "UnyoNo": "宮534",
@@ -1418,7 +1418,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口11:14",
-            "ArrivalTime": "大阪12:21"
+            "EndTime": "大阪12:21"
         },
         {
             "UnyoNo": "宮534",
@@ -1428,7 +1428,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪11:36",
-            "ArrivalTime": "宝塚12:01"
+            "EndTime": "宝塚12:01"
         },
         {
             "UnyoNo": "宮534",
@@ -1438,7 +1438,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚12:11",
-            "ArrivalTime": "大阪12:36"
+            "EndTime": "大阪12:36"
         },
         {
             "UnyoNo": "宮534",
@@ -1448,7 +1448,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪12:51",
-            "ArrivalTime": "篠山口13:58"
+            "EndTime": "篠山口13:58"
         },
         {
             "UnyoNo": "宮534",
@@ -1458,7 +1458,7 @@
             "Destination": "宝塚",
             "Day": "全日",
             "FirstTime": "大阪13:36",
-            "ArrivalTime": "宝塚14:01"
+            "EndTime": "宝塚14:01"
         },
         {
             "UnyoNo": "宮534",
@@ -1468,7 +1468,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "宝塚14:11",
-            "ArrivalTime": "大阪14:36"
+            "EndTime": "大阪14:36"
         },
         {
             "UnyoNo": "宮534",
@@ -1478,7 +1478,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口14:14",
-            "ArrivalTime": "大阪15:22"
+            "EndTime": "大阪15:22"
         },
         {
             "UnyoNo": "宮534",
@@ -1488,7 +1488,7 @@
             "Destination": "新三田",
             "Day": "土休日",
             "FirstTime": "大阪19:39",
-            "ArrivalTime": "新三田20:24"
+            "EndTime": "新三田20:24"
         },
         {
             "UnyoNo": "宮534",
@@ -1498,7 +1498,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "大阪20:39",
-            "ArrivalTime": "新三田21:24"
+            "EndTime": "新三田21:24"
         },
         {
             "UnyoNo": "宮535",
@@ -1508,7 +1508,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田6:54",
-            "ArrivalTime": "大阪7:41"
+            "EndTime": "大阪7:41"
         },
         {
             "UnyoNo": "宮535",
@@ -1518,7 +1518,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "新三田9:25",
-            "ArrivalTime": "大阪10:08"
+            "EndTime": "大阪10:08"
         },
         {
             "UnyoNo": "宮535",
@@ -1528,7 +1528,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪21:24",
-            "ArrivalTime": "篠山口22:33"
+            "EndTime": "篠山口22:33"
         },
         {
             "UnyoNo": "宮535",
@@ -1538,7 +1538,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪21:31",
-            "ArrivalTime": "篠山口22:41"
+            "EndTime": "篠山口22:41"
         },
         {
             "UnyoNo": "宮551",
@@ -1548,7 +1548,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪6:09",
-            "ArrivalTime": "篠山口7:24"
+            "EndTime": "篠山口7:24"
         },
         {
             "UnyoNo": "宮551",
@@ -1558,7 +1558,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口7:28",
-            "ArrivalTime": "大阪8:48"
+            "EndTime": "大阪8:48"
         },
         {
             "UnyoNo": "宮551",
@@ -1568,7 +1568,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口7:28",
-            "ArrivalTime": "大阪8:44"
+            "EndTime": "大阪8:44"
         },
         {
             "UnyoNo": "宮552",
@@ -1578,7 +1578,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "大阪6:37",
-            "ArrivalTime": "新三田7:38"
+            "EndTime": "新三田7:38"
         },
         {
             "UnyoNo": "宮552",
@@ -1588,7 +1588,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田7:43",
-            "ArrivalTime": "大阪8:49"
+            "EndTime": "大阪8:49"
         },
         {
             "UnyoNo": "宮552",
@@ -1598,7 +1598,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪9:52",
-            "ArrivalTime": "篠山口10:59"
+            "EndTime": "篠山口10:59"
         },
         {
             "UnyoNo": "宮552",
@@ -1608,7 +1608,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口11:14",
-            "ArrivalTime": "大阪12:21"
+            "EndTime": "大阪12:21"
         },
         {
             "UnyoNo": "宮552",
@@ -1618,7 +1618,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪17:24",
-            "ArrivalTime": "篠山口18:33"
+            "EndTime": "篠山口18:33"
         },
         {
             "UnyoNo": "宮552",
@@ -1628,7 +1628,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "篠山口18:43",
-            "ArrivalTime": "大阪19:51"
+            "EndTime": "大阪19:51"
         },
         {
             "UnyoNo": "宮553",
@@ -1638,7 +1638,7 @@
             "Destination": "福知山",
             "Day": "全日",
             "FirstTime": "大阪5:55",
-            "ArrivalTime": "福知山8:19"
+            "EndTime": "福知山8:19"
         },
         {
             "UnyoNo": "宮553",
@@ -1648,7 +1648,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "福知山17:06",
-            "ArrivalTime": "大阪19:22"
+            "EndTime": "大阪19:22"
         },
         {
             "UnyoNo": "宮553",
@@ -1658,7 +1658,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪21:24",
-            "ArrivalTime": "篠山口22:33"
+            "EndTime": "篠山口22:33"
         },
         {
             "UnyoNo": "宮553",
@@ -1668,7 +1668,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪21:31",
-            "ArrivalTime": "篠山口22:41"
+            "EndTime": "篠山口22:41"
         },
         {
             "UnyoNo": "宮554",
@@ -1678,7 +1678,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "篠山口5:03",
-            "ArrivalTime": "大阪6:21"
+            "EndTime": "大阪6:21"
         },
         {
             "UnyoNo": "宮554",
@@ -1688,7 +1688,7 @@
             "Destination": "福知山",
             "Day": "平日",
             "FirstTime": "大阪7:13",
-            "ArrivalTime": "福知山9:28"
+            "EndTime": "福知山9:28"
         },
         {
             "UnyoNo": "宮554",
@@ -1698,7 +1698,7 @@
             "Destination": "福知山",
             "Day": "土休日",
             "FirstTime": "大阪7:23",
-            "ArrivalTime": "福知山9:28"
+            "EndTime": "福知山9:28"
         },
         {
             "UnyoNo": "宮554",
@@ -1708,7 +1708,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "福知山14:56",
-            "ArrivalTime": "篠山口15:54"
+            "EndTime": "篠山口15:54"
         },
         {
             "UnyoNo": "宮554",
@@ -1718,7 +1718,7 @@
             "Destination": "福知山",
             "Day": "全日",
             "FirstTime": "篠山口16:59",
-            "ArrivalTime": "福知山17:58"
+            "EndTime": "福知山17:58"
         },
         {
             "UnyoNo": "宮554",
@@ -1728,7 +1728,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "福知山19:30",
-            "ArrivalTime": "大阪21:52"
+            "EndTime": "大阪21:52"
         },
         {
             "UnyoNo": "宮601",
@@ -1738,7 +1738,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "福知山6:59",
-            "ArrivalTime": "大阪9:09"
+            "EndTime": "大阪9:09"
         },
         {
             "UnyoNo": "宮601",
@@ -1748,7 +1748,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "福知山6:59",
-            "ArrivalTime": "大阪9:10"
+            "EndTime": "大阪9:10"
         },
         {
             "UnyoNo": "宮602",
@@ -1758,7 +1758,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "大阪7:00",
-            "ArrivalTime": "新三田7:56"
+            "EndTime": "新三田7:56"
         },
         {
             "UnyoNo": "宮602",
@@ -1768,7 +1768,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "新三田8:04",
-            "ArrivalTime": "大阪9:02"
+            "EndTime": "大阪9:02"
         },
         {
             "UnyoNo": "宮602",
@@ -1778,7 +1778,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪10:21",
-            "ArrivalTime": "篠山口11:28"
+            "EndTime": "篠山口11:28"
         },
         {
             "UnyoNo": "宮602",
@@ -1788,7 +1788,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口11:43",
-            "ArrivalTime": "大阪12:51"
+            "EndTime": "大阪12:51"
         },
         {
             "UnyoNo": "宮602",
@@ -1798,7 +1798,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口11:43",
-            "ArrivalTime": "大阪12:51"
+            "EndTime": "大阪12:51"
         },
         {
             "UnyoNo": "宮602",
@@ -1808,7 +1808,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪13:21",
-            "ArrivalTime": "篠山口14:28"
+            "EndTime": "篠山口14:28"
         },
         {
             "UnyoNo": "宮602",
@@ -1818,7 +1818,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪13:51",
-            "ArrivalTime": "篠山口14:58"
+            "EndTime": "篠山口14:58"
         },
         {
             "UnyoNo": "宮602",
@@ -1828,7 +1828,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口14:43",
-            "ArrivalTime": "大阪15:51"
+            "EndTime": "大阪15:51"
         },
         {
             "UnyoNo": "宮602",
@@ -1838,7 +1838,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口15:12",
-            "ArrivalTime": "大阪16:20"
+            "EndTime": "大阪16:20"
         },
         {
             "UnyoNo": "宮602",
@@ -1848,7 +1848,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪16:25",
-            "ArrivalTime": "篠山口17:33"
+            "EndTime": "篠山口17:33"
         },
         {
             "UnyoNo": "宮602",
@@ -1858,7 +1858,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口17:40",
-            "ArrivalTime": "大阪18:49"
+            "EndTime": "大阪18:49"
         },
         {
             "UnyoNo": "宮602",
@@ -1868,7 +1868,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪23:02",
-            "ArrivalTime": "篠山口0:10"
+            "EndTime": "篠山口0:10"
         },
         {
             "UnyoNo": "宮603",
@@ -1878,7 +1878,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口6:13",
-            "ArrivalTime": "大阪7:29"
+            "EndTime": "大阪7:29"
         },
         {
             "UnyoNo": "宮603",
@@ -1888,7 +1888,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口6:15",
-            "ArrivalTime": "大阪7:25"
+            "EndTime": "大阪7:25"
         },
         {
             "UnyoNo": "宮603",
@@ -1898,7 +1898,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪7:54",
-            "ArrivalTime": "篠山口9:18"
+            "EndTime": "篠山口9:18"
         },
         {
             "UnyoNo": "宮603",
@@ -1908,7 +1908,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪7:54",
-            "ArrivalTime": "篠山口9:03"
+            "EndTime": "篠山口9:03"
         },
         {
             "UnyoNo": "宮603",
@@ -1918,7 +1918,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口10:44",
-            "ArrivalTime": "大阪11:51"
+            "EndTime": "大阪11:51"
         },
         {
             "UnyoNo": "宮603",
@@ -1928,7 +1928,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪12:20",
-            "ArrivalTime": "篠山口13:28"
+            "EndTime": "篠山口13:28"
         },
         {
             "UnyoNo": "宮603",
@@ -1938,7 +1938,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口13:14",
-            "ArrivalTime": "大阪14:21"
+            "EndTime": "大阪14:21"
         },
         {
             "UnyoNo": "宮603",
@@ -1948,7 +1948,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口13:43",
-            "ArrivalTime": "大阪14:51"
+            "EndTime": "大阪14:51"
         },
         {
             "UnyoNo": "宮603",
@@ -1958,7 +1958,7 @@
             "Destination": "福知山",
             "Day": "土休日",
             "FirstTime": "大阪15:21",
-            "ArrivalTime": "篠山口17:31"
+            "EndTime": "篠山口17:31"
         },
         {
             "UnyoNo": "宮603",
@@ -1968,7 +1968,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪15:50",
-            "ArrivalTime": "篠山口16:58"
+            "EndTime": "篠山口16:58"
         },
         {
             "UnyoNo": "宮603",
@@ -1978,7 +1978,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口17:08",
-            "ArrivalTime": "大阪18:17"
+            "EndTime": "大阪18:17"
         },
         {
             "UnyoNo": "宮603",
@@ -1988,7 +1988,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "福知山18:11",
-            "ArrivalTime": "大阪20:21"
+            "EndTime": "大阪20:21"
         },
         {
             "UnyoNo": "宮603",
@@ -1998,7 +1998,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪18:54",
-            "ArrivalTime": "篠山口20:03"
+            "EndTime": "篠山口20:03"
         },
         {
             "UnyoNo": "宮603",
@@ -2008,7 +2008,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口20:15",
-            "ArrivalTime": "大阪21:22"
+            "EndTime": "大阪21:22"
         },
         {
             "UnyoNo": "宮603",
@@ -2018,7 +2018,7 @@
             "Destination": "篠山口",
             "Day": "全日",
             "FirstTime": "大阪21:54",
-            "ArrivalTime": "篠山口23:03"
+            "EndTime": "篠山口23:03"
         },
         {
             "UnyoNo": "宮604",
@@ -2028,7 +2028,7 @@
             "Destination": "大阪",
             "Day": "全日",
             "FirstTime": "篠山口5:27",
-            "ArrivalTime": "大阪6:37"
+            "EndTime": "大阪6:37"
         },
         {
             "UnyoNo": "宮604",
@@ -2038,7 +2038,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪7:05",
-            "ArrivalTime": "篠山口8:15"
+            "EndTime": "篠山口8:15"
         },
         {
             "UnyoNo": "宮604",
@@ -2048,7 +2048,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪7:05",
-            "ArrivalTime": "篠山口8:14"
+            "EndTime": "篠山口8:14"
         },
         {
             "UnyoNo": "宮604",
@@ -2058,7 +2058,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口8:33",
-            "ArrivalTime": "大阪9:46"
+            "EndTime": "大阪9:46"
         },
         {
             "UnyoNo": "宮604",
@@ -2068,7 +2068,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口8:33",
-            "ArrivalTime": "大阪9:46"
+            "EndTime": "大阪9:46"
         },
         {
             "UnyoNo": "宮604",
@@ -2078,7 +2078,7 @@
             "Destination": "篠山口",
             "Day": "平日",
             "FirstTime": "大阪11:51",
-            "ArrivalTime": "篠山口12:58"
+            "EndTime": "篠山口12:58"
         },
         {
             "UnyoNo": "宮604",
@@ -2088,7 +2088,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪12:20",
-            "ArrivalTime": "篠山口13:28"
+            "EndTime": "篠山口13:28"
         },
         {
             "UnyoNo": "宮604",
@@ -2098,7 +2098,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "篠山口13:14",
-            "ArrivalTime": "大阪14:21"
+            "EndTime": "大阪14:21"
         },
         {
             "UnyoNo": "宮604",
@@ -2108,7 +2108,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口13:43",
-            "ArrivalTime": "大阪14:51"
+            "EndTime": "大阪14:51"
         },
         {
             "UnyoNo": "宮604",
@@ -2118,7 +2118,7 @@
             "Destination": "福知山",
             "Day": "平日",
             "FirstTime": "大阪15:21",
-            "ArrivalTime": "篠山口17:31"
+            "EndTime": "篠山口17:31"
         },
         {
             "UnyoNo": "宮604",
@@ -2128,7 +2128,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪15:50",
-            "ArrivalTime": "篠山口16:58"
+            "EndTime": "篠山口16:58"
         },
         {
             "UnyoNo": "宮604",
@@ -2138,7 +2138,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口17:08",
-            "ArrivalTime": "大阪18:17"
+            "EndTime": "大阪18:17"
         },
         {
             "UnyoNo": "宮604",
@@ -2148,7 +2148,7 @@
             "Destination": "大阪",
             "Day": "平日",
             "FirstTime": "福知山18:11",
-            "ArrivalTime": "大阪20:21"
+            "EndTime": "大阪20:21"
         },
         {
             "UnyoNo": "宮604",
@@ -2158,7 +2158,7 @@
             "Destination": "篠山口",
             "Day": "土休日",
             "FirstTime": "大阪18:54",
-            "ArrivalTime": "篠山口20:03"
+            "EndTime": "篠山口20:03"
         },
         {
             "UnyoNo": "宮604",
@@ -2168,7 +2168,7 @@
             "Destination": "大阪",
             "Day": "土休日",
             "FirstTime": "篠山口20:15",
-            "ArrivalTime": "大阪21:22"
+            "EndTime": "大阪21:22"
         },
         {
             "UnyoNo": "宮604",
@@ -2178,7 +2178,7 @@
             "Destination": "福知山",
             "Day": "全日",
             "FirstTime": "大阪22:32",
-            "ArrivalTime": "福知山0:36"
+            "EndTime": "福知山0:36"
         }
     ]
 }
