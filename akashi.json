@@ -1,0 +1,284 @@
+{
+    "Unyo": [
+        {
+            "UnyoNo": "0",
+            "TrainNo": "0000M",
+            "Type": "0",
+            "Destination": "0",
+            "Day": "0",
+            "FirstTime": "00:00",
+            "EndTime": "00:00",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2736M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口9:46",
+            "EndTime": "大阪10:53",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2738M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口9:42",
+            "EndTime": "大阪10:49",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2740M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口10:14",
+            "EndTime": "大阪11:21",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2740M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口10:14",
+            "EndTime": "大阪11:21",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2755M",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "大阪17:39",
+            "EndTime": "新三田18:24",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2755M",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "土休日",
+            "FirstTime": "大阪17:39",
+            "EndTime": "新三田18:24",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2757M",
+            "Type": "快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪17:54",
+            "EndTime": "篠山口19:03",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2757M",
+            "Type": "快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪17:54",
+            "EndTime": "篠山口19:03",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2769M",
+            "Type": "快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪19:54",
+            "EndTime": "篠山口21:04",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2769M",
+            "Type": "快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪19:54",
+            "EndTime": "篠山口21:04",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2775M",
+            "Type": "快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪20:54",
+            "EndTime": "篠山口22:03",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2775M",
+            "Type": "快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪20:54",
+            "EndTime": "篠山口22:03",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2782M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口21:18",
+            "EndTime": "大阪22:27",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2782M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口21:18",
+            "EndTime": "大阪22:27",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2784M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口21:44",
+            "EndTime": "大阪22:52",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2784M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口21:42",
+            "EndTime": "大阪22:52",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2785M",
+            "Type": "快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪23:30",
+            "EndTime": "篠山口0:39",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "2785M",
+            "Type": "快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪23:30",
+            "EndTime": "篠山口0:39",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "3750M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚9:58",
+            "EndTime": "大阪10:24",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "3752M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚10:11",
+            "EndTime": "大阪10:36",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "3752M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚10:17",
+            "EndTime": "大阪10:46",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "3754M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚10:41",
+            "EndTime": "大阪11:06",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "3754M",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚10:41",
+            "EndTime": "大阪11:06",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "3771M",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪15:36",
+            "EndTime": "宝塚16:01",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "3771M",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪15:36",
+            "EndTime": "宝塚16:01",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "3773M",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪16:06",
+            "EndTime": "宝塚16:32",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "0",
+            "TrainNo": "3773M",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪16:06",
+            "EndTime": "宝塚16:32",
+            "Position": ""
+        }
+    ]
+}

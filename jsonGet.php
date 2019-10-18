@@ -1,6 +1,7 @@
 <?php
 
-$file = "./miyahara.json";
+$word_U = ($_GET['word_U']);
+$file = "./" . $word_U . ".json";
 echo file_get_contents($file);
 
 

@@ -16,16 +16,16 @@
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
-            <h3>運用検索</h3>
-            <button class="button" onclick="get()">宮原支所運用</button><br>
+            <h3>全件表示</h3>
+            <button class="button" onclick="get('miyahara')" name="word_U">宮原支所運用</button><br>
+            <button class="button" onclick="get('akashi')" name="word_U">明石支所運用</button><br>
         </aside>
         <article class="main">
-            <div>運用番号 列車番号 組成位置 種別 行先 始発駅時刻 終着駅時刻 運転日</div>
             <div id="a"></div>
         </article>
         <aside class="sidebar2">
-            <h3>検索フォーム</h3>
-            <form id="Unyo_Search">
+            <form id="Unyo_Search" class="form">
+                <h3 class="form">検索フォーム</h3>
                 <div>
                     <label for="Unyo_Text">運用番号</label>
                     <input type="text" id="Unyo_Text" name="Train_Unyo" value="">
@@ -35,15 +35,15 @@
                     <input type="text" id="TrainNo_Text" name="Train_TrainNo" value="">
                 </div>
                 <div>
-                    <label for="Type_Text">種別</label>
+                    <label for="Type_Text">　種別　</label>
                     <input type="text" id="Type_Text" name="Train_Type" value="">
                 </div>
                 <div>
-                    <label for="Dest_Text">行先</label>
+                    <label for="Dest_Text">　行先　</label>
                     <input type="text" id="Dest_Text" name="Train_Dest" value="">
                 </div>
                 <div>
-                    <label for="Day_Text">運転日</label>
+                    <label for="Day_Text">運転曜日</label>
                     <input type="text" id="Day_Text" name="Train_Day" value="">
                 </div>
                 <div>

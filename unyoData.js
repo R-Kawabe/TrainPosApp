@@ -1,5 +1,8 @@
-function get() {
-    fetch('./jsonGet.php')
+function get(Unyo) {
+    // fetch('./jsonGet.php')
+    let params = new URLSearchParams();
+    params.set('word_U', Unyo);
+    fetch('./jsonGet.php?' + params.toString())
         .then(function (response) {
             console.log(response.status); //200
             return response.json();
