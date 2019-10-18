@@ -14,7 +14,12 @@ function get() {
                 const searchResult2 = searchType(searchText[2], searchResult1);
                 const searchResult3 = searchDest(searchText[3], searchResult2);
                 const searchResult4 = searchDay(searchText[4], searchResult3);
-                viewTrains(searchResult4);
+                if (searchText.length < 6) viewTrains(searchResult4);
+                else if (searchText.length == 6) {
+                    const searchResult5 = searchDay(searchText[5], searchResult3);
+                    const array_merge = searchResult4.concat(searchResult5);
+                    viewTrains(array_merge);
+                }
             }, false)
         })
         .catch(function (error) {
@@ -33,9 +38,11 @@ function formfunc() {
     const Type_text = document.forms.Unyo_Search.Type_Text.value;
     const Dest_text = document.forms.Unyo_Search.Dest_Text.value;
     const Day_text = document.forms.Unyo_Search.Day_Text.value;
-    const array = [UnyoNo_text, TrainNo_text, Type_text, Dest_text, Day_text];
-    console.log(array);
-    return array;
+    if (Day_text.includes(',')) {
+        const Day_array = Day_text.split(",");
+        return array = [UnyoNo_text, TrainNo_text, Type_text, Dest_text, Day_array[0], Day_array[1]];
+    }
+    else return array = [UnyoNo_text, TrainNo_text, Type_text, Dest_text, Day_text];
 }
 
 /**
