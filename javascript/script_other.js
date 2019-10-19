@@ -63,7 +63,7 @@ function trainElement(train) {
  * @param {*} nickname 
  */
 function nicknameSet(nickname) {
-    if (nickname == null) return nickname = "";
+    if (nickname == null) return "";
     else return nickname;
 }
 
@@ -81,8 +81,8 @@ function directionSet(direction) {
  * @param {*} delayMinutes 
  */
 function delayMinutesSet(delayMinutes) {
-    if (delayMinutes == 0) return delayMinutes = "定刻";
-    else return delayMinutes = delayMinutes + "分遅れ";
+    if (delayMinutes == 0) return "定刻";
+    else return delayMinutes + "分遅れ";
 }
 
 /**
