@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="unyoData.js"></script>
+    <script src="javascript/unyoData.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Unyo_Search</title>
 </head>
@@ -21,30 +21,32 @@
             <button class="button" onclick="get('akashi')" name="word_U">明石支所運用</button><br>
         </aside>
         <article class="main">
-            <div id="a"></div>
+            <div class="output-area">
+                <div id="a"></div>
+            </div>
         </article>
         <aside class="sidebar2">
             <form id="Unyo_Search" class="form">
                 <h3 class="form">検索フォーム</h3>
                 <div>
                     <label for="Unyo_Text">運用番号</label>
-                    <input type="text" id="Unyo_Text" name="Train_Unyo" value="">
+                    <input type="text" id="Unyo_Text" name="Train_Unyo" value="" placeholder="明支0">
                 </div>
                 <div>
                     <label for="TrainNo_Text">列車番号</label>
-                    <input type="text" id="TrainNo_Text" name="Train_TrainNo" value="">
+                    <input type="text" id="TrainNo_Text" name="Train_TrainNo" value="" placeholder="0000M">
                 </div>
                 <div>
                     <label for="Type_Text">　種別　</label>
-                    <input type="text" id="Type_Text" name="Train_Type" value="">
+                    <input type="text" id="Type_Text" name="Train_Type" value="" placeholder="快速">
                 </div>
                 <div>
                     <label for="Dest_Text">　行先　</label>
-                    <input type="text" id="Dest_Text" name="Train_Dest" value="">
+                    <input type="text" id="Dest_Text" name="Train_Dest" value="" placeholder="大阪">
                 </div>
                 <div>
                     <label for="Day_Text">運転曜日</label>
-                    <input type="text" id="Day_Text" name="Train_Day" value="">
+                    <input type="text" id="Day_Text" name="Train_Day" value="" placeholder="平日 または 平日,全日">
                 </div>
                 <div>
                     <button type="button" id="form">検索</button>

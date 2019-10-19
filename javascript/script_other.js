@@ -1,13 +1,4 @@
-// const endpoint1 = "/line.php";
-// window.addEventListener('load', async () => { //ページロード時実行
-//     // const res = await fetch(endpoint1); //プロミス 予約 URLフェッチ
-//     // const json = await res.json(); //JSONパース
-//     // const trains = json.trains.map(buildTrain); //mapで回して関数に従って格納？
-//     // viewTrains(trains); //関数を実行しhtmlへ出力
-
-// }, false);
-
-function getLineData(line) {
+function getLineData_other(line) {
     // document.getElementsByName('word1').addEventListener('click', function (e) {
     let params = new URLSearchParams();
     params.set('word1', line);
@@ -18,10 +9,10 @@ function getLineData(line) {
         })
         .then(function (data) {
             const trains = data.trains.map(buildTrain); //mapで回して関数に従って格納？
-            viewTrains(trains); //関数を実行しhtmlへ出
+            viewTrains(trains); //関数を実行しhtmlへ出力
         })
         .catch(function (error) {
-            document.getElementById('elem').textContent = error;
+            document.getElementById('result').textContent = error;
         });
     // }, false)
 }
@@ -33,17 +24,15 @@ function getLineData(line) {
  */
 function buildTrain(obj) { //jsonから取得した各要素について？？？
     const train = new Train();
-    train.dest = buildDestination(obj["dest"]);
+    train.dest = obj["dest"];
     train.direction = obj["direction"];
-    train.displayType = obj["displayType"];
     train.delayMinutes = obj["delayMinutes"];
+    train.displayType = obj["displayType"];
     train.nickname = obj["nickname"];
     train.no = obj["no"];
-    train.numberOfCars = obj["numberOfCars"];
     train.pos = obj["pos"];
     train.type = obj["type"];
-    train.textChange = obj["textChange"];
-    train.via = obj["via"];
+    train.notice = obj["notice"];
     return train;
 }
 
@@ -56,23 +45,44 @@ function getSearchText() { //入力された文字列を取得し返す関数
 
 /**
  * 
- * @param {*} obj
- * @return {Destination}
- */
-function buildDestination(obj) {
-    return new Destination(obj["code"], obj["line"], obj["text"]);
-}
-
-/**
- * 
  * @param {Train} train 
  * @return {HTMLElement}
  */
 function trainElement(train) {
-    const text = `${train.no} ${train.displayType}${train.nickname} ${train.dest.text}行き ${train.numberOfCars}両 `;
+    const nickname = nicknameSet(train.nickname);
+    const direction = directionSet(train.direction);
+    const delayMinutes = delayMinutesSet(train.delayMinutes);
+    const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} ${direction}`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
+}
+
+/**
+ * 
+ * @param {*} nickname 
+ */
+function nicknameSet(nickname) {
+    if (nickname == null) return nickname = "";
+    else return nickname;
+}
+
+/**
+ * 
+ * @param {*} direction 
+ */
+function directionSet(direction) {
+    if (direction == 0) return "上り";
+    else return "下り";
+}
+
+/**
+ * 
+ * @param {*} delayMinutes 
+ */
+function delayMinutesSet(delayMinutes) {
+    if (delayMinutes == 0) return delayMinutes = "定刻";
+    else return delayMinutes = delayMinutes + "分遅れ";
 }
 
 /**
@@ -91,35 +101,27 @@ function viewTrains(trains) {
 class Train {
     constructor() {
         this.no = "";
-        this.dest = {};
+        this.dest = "";
         this.direction = 0;
         this.displayType = "";
         this.delayMinutes = 0;
         this.nickname = "";
-        this.numberOfCars = 0;
         this.pos = "";
         this.type = "";
-        this.textChange = "";
-        this.via = "";
-    }
-}
-
-class Destination {
-    constructor(code, line, text) {
-        this.code = code;
-        this.line = line;
-        this.text = text;
+        this.notice = "";
     }
 }
 
 /**
  * 
- * @param {string} text 
- * @param {Train[]} trains 
+ * @param {*} obj 
  * @return {Train[]}
  */
-function searchDest(text, trains) {
-    return trains.filter(train => {
-        return train.dest.text.match(text) != null;
+function matchDest(obj) {
+    const destination = new Train(obj["dest"]);
+    return destination.filter(train => {
+        // return train.dest.match(text) != null;
+        if (train.Dest != null) return train.dest;
+        else train.Dest = "";
     });
 }

@@ -1,7 +1,7 @@
 <?php
 
 $word_U = ($_GET['word_U']);
-$file = "./" . $word_U . ".json";
+$file = "json/" . $word_U . ".json";
 echo file_get_contents($file);
 
 

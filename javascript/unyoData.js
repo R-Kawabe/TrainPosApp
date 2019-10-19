@@ -113,7 +113,8 @@ class Train {
  */
 function searchUnyo(text, trains) {
     return trains.filter(train => {
-        return train.UnyoNo.match(text) != null;
+        if (train.UnyoNo === text) return train.UnyoNo;
+        else if (text === "") return train.UnyoNo;
     });
 }
 
@@ -125,7 +126,9 @@ function searchUnyo(text, trains) {
  */
 function searchTrainNo(text, trains) {
     return trains.filter(train => {
-        return train.TrainNo.match(text) != null;
+        // return train.TrainNo.match(text) != null;
+        if (train.TrainNo === text) return train.TrainNo;
+        else if (text === "") return train.TrainNo;
     });
 }
 
@@ -137,7 +140,9 @@ function searchTrainNo(text, trains) {
  */
 function searchType(text, trains) {
     return trains.filter(train => {
-        return train.Type.match(text) != null;
+        // return train.Type.match(text) != null;
+        if (train.Type === text) return train.Type;
+        else if (text === "") return train.Type;
     });
 }
 
