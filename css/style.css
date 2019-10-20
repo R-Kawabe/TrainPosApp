@@ -1,117 +1,215 @@
-body {
-    margin: 0;
+/*===============================================
+画面の横幅が769px以上（パソコン用）
+===============================================*/
+
+@media screen and (min-width: 769px) {
+    /* この部分にパソコン用だけに対応させたいCSSコードを入力していく */
+    body {
+        margin: 0;
+    }
+    .header {
+        z-index: 10;
+        background: black;
+        height: 80px;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+    .head-div {
+        font-size: 20pt;
+    }
+    .main-wrap {
+        height: 500px;
+        text-align: center;
+        /* color: #fff; */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .main {
+        background: whitesmoke;
+        height: 100%;
+        text-align: left;
+        /* color: black; */
+        width: 70%;
+        float: left;
+        overflow: auto;
+    }
+    .sidebar {
+        background: lightskyblue;
+        height: 100%;
+        text-align: center;
+        color: black;
+        width: 30%;
+        float: left;
+        overflow: auto;
+    }
+    .footer {
+        background: black;
+        height: 80px;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Wkinki {
+        color: blue;
+    }
+    .Wokayama {
+        color: orange;
+    }
+    .button {
+        display: inline-block;
+        width: 100pt;
+        height: 54px;
+        text-align: center;
+        text-decoration: none;
+        line-height: 54px;
+        outline: none;
+    }
+    .button::before, .button::after {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        content: '';
+    }
+    .button, .button::before, .button::after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+    .button {
+        background-color: #333;
+        border: 2px solid #333;
+        color: #fff;
+        line-height: 50px;
+    }
+    .button:hover {
+        background-color: #fff;
+        border-color: #59b1eb;
+        color: #59b1eb;
+    }
+    .form {
+        background-color: greenyellow;
+        width: 100%;
+        text-align: center;
+    }
 }
 
-.header {
-    z-index: 10;
-    background: black;
-    height: 80px;
-    text-align: center;
-    color: #fff;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+/*===============================================
+    画面の横幅が768pxまで（タブレット用）
+    ===============================================*/
+
+@media screen and (max-width: 768px) {
+    /* この部分にタブレット用・スマホ用に対応させたいCSSコードを入力していく */
 }
 
-.main-wrap {
-    height: 500px;
-    text-align: center;
-    /* color: #fff; */
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-}
+/*===============================================
+    画面の横幅が640pxまで（スマホ用）
+    ===============================================*/
 
-.main {
-    background: whitesmoke;
-    height: 100%;
-    text-align: left;
-    /* color: black; */
-    width: 60%;
-    float: left;
-    overflow: auto;
-}
-
-.sidebar {
-    background: lightskyblue;
-    height: 100%;
-    text-align: center;
-    color: black;
-    width: 20%;
-    float: left;
-    overflow: auto;
-}
-
-.sidebar2 {
-    background: lightskyblue;
-    height: 100%;
-    text-align: center;
-    color: black;
-    width: 20%;
-    float: center;
-    overflow: auto;
-}
-
-.footer {
-    background: black;
-    height: 80px;
-    text-align: center;
-    color: #fff;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Wkinki {
-    color: blue;
-}
-
-.Wokayama {
-    color: orange;
-}
-
-.button {
-    display: inline-block;
-    width: 200px;
-    height: 54px;
-    text-align: center;
-    text-decoration: none;
-    line-height: 54px;
-    outline: none;
-}
-
-.button::before, .button::after {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    content: '';
-}
-
-.button, .button::before, .button::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-}
-
-.button {
-    background-color: #333;
-    border: 2px solid #333;
-    color: #fff;
-    line-height: 50px;
-}
-
-.button:hover {
-    background-color: #fff;
-    border-color: #59b1eb;
-    color: #59b1eb;
-}
-
-.form {
-    background-color: greenyellow;
-    width: 100%;
-    text-align: center;
+@media screen and (max-width:640px) {
+    /* この部分にスマホ用だけに対応させたいCSSコードを入力していく */
+    body {
+        margin: 0;
+        height: auto;
+    }
+    .header {
+        z-index: 10;
+        background: black;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .head-div {
+        font-size: 20pt;
+    }
+    .main-wrap {
+        height: 600px;
+        text-align: center;
+        /* color: #fff; */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .main {
+        background: whitesmoke;
+        height: 100%;
+        text-align: left;
+        /* color: black; */
+        width: 70%;
+        float: left;
+        overflow: auto;
+    }
+    .sidebar {
+        background: lightskyblue;
+        height: 100%;
+        text-align: center;
+        color: black;
+        width: 30%;
+        float: left;
+        overflow: auto;
+    }
+    .footer {
+        background: black;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button {
+        display: inline-block;
+        width: 75pt;
+        height: auto;
+        text-align: center;
+        text-decoration: none;
+        line-height: auto;
+        outline: none;
+    }
+    .button::before, .button::after {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        content: '';
+    }
+    .button, .button::before, .button::after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+    .button {
+        background-color: #333;
+        border: 2px solid #333;
+        color: #fff;
+        line-height: auto;
+    }
+    .button:hover {
+        background-color: #fff;
+        border-color: #59b1eb;
+        color: #59b1eb;
+    }
+    .form {
+        background-color: greenyellow;
+        width: 100%;
+        text-align: center;
+        size: 10;
+    }
+    .output-area{
+        font-size: 10pt;
+    }
 }

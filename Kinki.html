@@ -12,39 +12,37 @@
 
 <body>
     <header class="header">
-        <h1>近畿エリア</h1>
+        <div class="head-div">近畿エリア</div>
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
-            <h3>路線名</h3>
-            <button class="button" onclick="getLineData('hokurikubiwako')" name="word1">A 琵琶湖線</button><br>
-            <button class="button" onclick="getLineData('kyoto')" name="word1">A 京都線</button><br>
-            <button class="button" onclick="getLineData('kobesanyo')" name="word1">A 神戸線</button><br>
-            <button class="button" onclick="getLineData('ako')" name="word1">A 赤穂線</button><br>
-            <button class="button" onclick="getLineData('kosei')" name="word1">B 湖西線</button><br>
-            <button class="button" onclick="getLineData('osakahigashi')" name="word1">F おおさか東線</button><br>
-            <button class="button" onclick="getLineData('takarazuka')" name="word1">G 宝塚線</button><br>
-            <button class="button" onclick="getLineData('tozai')" name="word1">H JR東西線</button><br>
-            <button class="button" onclick="getLineData('gakkentoshi')" name="word1">H 学研都市線</button><br>
-            <button class="button" onclick="getLineData('osakaloop')" name="word1">O 大阪環状線</button><br>
-            <button class="button" onclick="getLineData('yumesaki')" name="word1">P JRゆめ咲線</button><br>
-            <button class="button" onclick="getLineData('yamatoji')" name="word1">Q 大和路線</button><br>
-            <button class="button" onclick="getLineData('hanwahagoromo')" name="word1">R 阪和線</button><br>
-            <button class="button" onclick="getLineData('kansaiairport')" name="word1">S 関西空港線</button><br>
-            </aside>
+            <p>運用検索</p>
+            <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ"><br>
+            <p>近畿エリア2</p>
+            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
+            <p>路線名</p>
+            <button class="button" onclick="getLineData('hokurikubiwako')" name="word1">A 琵琶湖線</button>
+            <button class="button" onclick="getLineData('kyoto')" name="word1">A 京都線</button>
+            <button class="button" onclick="getLineData('kobesanyo')" name="word1">A 神戸線</button>
+            <button class="button" onclick="getLineData('ako')" name="word1">A 赤穂線</button>
+            <button class="button" onclick="getLineData('kosei')" name="word1">B 湖西線</button>
+            <button class="button" onclick="getLineData('osakahigashi')" name="word1">F おおさか東線</button>
+            <button class="button" onclick="getLineData('takarazuka')" name="word1">G 宝塚線</button>
+            <button class="button" onclick="getLineData('tozai')" name="word1">H JR東西線</button>
+            <button class="button" onclick="getLineData('gakkentoshi')" name="word1">H 学研都市線</button>
+            <button class="button" onclick="getLineData('osakaloop')" name="word1">O 大阪環状線</button>
+            <button class="button" onclick="getLineData('yumesaki')" name="word1">P JRゆめ咲線</button>
+            <button class="button" onclick="getLineData('yamatoji')" name="word1">Q 大和路線</button>
+            <button class="button" onclick="getLineData('hanwahagoromo')" name="word1">R 阪和線</button>
+            <button class="button" onclick="getLineData('kansaiairport')" name="word1">S 関西空港線</button>
+            <p>運用検索</p>
+            <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ">
+            <p>近畿エリア2</p>
+            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2">
+        </aside>
         <article class="main">
             <div id="elem"></div>
         </article>
-        <aside class="sidebar2">
-            <h3>運用検索</h3>
-            <!-- <div>
-                <input type="text" placeholder="hoge" id="search_text">
-                <button id="search_dest">検索</button>
-            </div> -->
-            <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ"><br>
-            <h3>近畿エリア2</h3>
-            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
-        </aside>
     </main>
     <footer class="footer">
         testpage <a href="./index.html">戻る</a>

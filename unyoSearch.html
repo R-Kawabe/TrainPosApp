@@ -12,51 +12,49 @@
 
 <body>
     <header class="header">
-        <h1>運用検索ページ</h1>
+        <div class="head-div">運用検索ページ</div>
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
-            <h3>全件表示</h3>
-            <button class="button" onclick="get('miyahara')" name="word_U">宮原支所運用</button><br>
-            <button class="button" onclick="get('akashi')" name="word_U">明石支所運用</button><br>
-        </aside>
-        <article class="main">
-            <div class="output-area">
-                <div id="a"></div>
-            </div>
-        </article>
-        <aside class="sidebar2">
+            <p>全件表示</p>
+            <button class="button" onclick="get('miyahara')" name="word_U">宮原支所運用</button>
+            <button class="button" onclick="get('akashi')" name="word_U">明石支所運用</button>
             <form id="Unyo_Search" class="form">
-                <h3 class="form">検索フォーム</h3>
+                <p class="form">検索フォーム</p>
                 <div>
                     <label for="Unyo_Text">運用番号</label>
-                    <input type="text" id="Unyo_Text" name="Train_Unyo" value="" placeholder="明支0">
+                    <input type="text" id="Unyo_Text" name="Train_Unyo" value="" placeholder="明支0" size=12>
                 </div>
                 <div>
                     <label for="TrainNo_Text">列車番号</label>
-                    <input type="text" id="TrainNo_Text" name="Train_TrainNo" value="" placeholder="0000M">
+                    <input type="text" id="TrainNo_Text" name="Train_TrainNo" value="" placeholder="0000M" size=12>
                 </div>
                 <div>
                     <label for="Type_Text">　種別　</label>
-                    <input type="text" id="Type_Text" name="Train_Type" value="" placeholder="快速">
+                    <input type="text" id="Type_Text" name="Train_Type" value="" placeholder="快速" size=12>
                 </div>
                 <div>
                     <label for="Dest_Text">　行先　</label>
-                    <input type="text" id="Dest_Text" name="Train_Dest" value="" placeholder="大阪">
+                    <input type="text" id="Dest_Text" name="Train_Dest" value="" placeholder="大阪" size=12>
                 </div>
                 <div>
                     <label for="Day_Text">運転曜日</label>
-                    <input type="text" id="Day_Text" name="Train_Day" value="" placeholder="平日 または 平日,全日">
+                    <input type="text" id="Day_Text" name="Train_Day" value="" placeholder="平日 or 平日,全日" size=12>
                 </div>
                 <div>
                     <button type="button" id="form">検索</button>
                     <input type="reset" value="入力クリア">
                 </div>
             </form>
-            <h3>在線ページ</h3>
-            <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
-            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
+            <p>在線ページ</p>
+            <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア">
+            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2">
         </aside>
+        <article class="main">
+            <div class="output-area">
+                <div id="a"></div>
+            </div>
+        </article>
     </main>
     <footer class="footer">
         testpage <a href="./index.html">戻る</a>
