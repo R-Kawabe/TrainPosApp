@@ -85,39 +85,6 @@
         color: #fff;
         line-height: 50px;
     }
-    .button2 {
-        display: inline-block;
-        width: 100pt;
-        height: 54px;
-        text-align: center;
-        text-decoration: none;
-        line-height: 54px;
-        outline: none;
-    }
-    .button2::before, .button2::after {
-        position: absolute;
-        z-index: -1;
-        display: block;
-        content: '';
-    }
-    .button2, .button2::before, .button2::after {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        -webkit-transition: all .3s;
-        transition: all .3s;
-    }
-    .button2 {
-        background-color: #333;
-        border: 2px solid #333;
-        color: #fff;
-        line-height: 50px;
-    }
-    .button:hover {
-        background-color: #fff;
-        border-color: #59b1eb;
-        color: #59b1eb;
-    }
     .form {
         background-color: greenyellow;
         width: 100%;
@@ -131,6 +98,101 @@
 
 @media screen and (max-width: 768px) {
     /* この部分にタブレット用・スマホ用に対応させたいCSSコードを入力していく */
+    body {
+        margin: 0;
+        height: auto;
+    }
+    .header {
+        z-index: 10;
+        background: black;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .head-div {
+        font-size: 20pt;
+    }
+    .main-wrap {
+        height: 600px;
+        text-align: center;
+        /* color: #fff; */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .main {
+        background: whitesmoke;
+        height: 100%;
+        text-align: left;
+        /* color: black; */
+        width: 70%;
+        float: left;
+        overflow: auto;
+    }
+    .sidebar {
+        background: lightskyblue;
+        height: 100%;
+        text-align: center;
+        color: black;
+        width: 30%;
+        float: left;
+        overflow: auto;
+    }
+    .footer {
+        background: black;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button {
+        display: inline-block;
+        width: 75pt;
+        height: auto;
+        text-align: center;
+        text-decoration: none;
+        line-height: auto;
+        outline: none;
+    }
+    .button::before, .button::after {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        content: '';
+    }
+    .button, .button::before, .button::after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+    .button {
+        background-color: #333;
+        border: 2px solid #333;
+        color: #fff;
+        line-height: auto;
+    }
+    .button:hover {
+        background-color: #fff;
+        border-color: #59b1eb;
+        color: #59b1eb;
+    }
+    .form {
+        background-color: greenyellow;
+        width: 100%;
+        text-align: center;
+        size: 10;
+    }
+    .output-area {
+        font-size: 15pt;
+    }
 }
 
 /*===============================================
@@ -231,7 +293,7 @@
         text-align: center;
         size: 10;
     }
-    .output-area{
+    .output-area {
         font-size: 10pt;
     }
 }
