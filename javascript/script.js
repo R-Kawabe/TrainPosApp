@@ -72,26 +72,11 @@ function buildDestination(obj) {
 function trainElement(train) {
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
-    // const dest = destColor(train.dest.text);
-    // const color = "<font color='darkorange'>$testtext</font>";
     const text = `${train.no} ${train.displayType}${train.nickname} ${train.dest.text}行き ${train.numberOfCars}両 ${direction} ${delayMinutes}`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
 }
-
-// /**
-//  * 
-//  * @param {*} dest 
-//  * @return {Object}
-//  */
-// function destColor(dest) {
-//     const color = document.createElement('font');
-//     color.color = "darkorange";
-//     color.innerText = dest;
-//     // console.log(color);
-//     return color;
-// }
 
 /**
  * 
