@@ -96,7 +96,7 @@
     画面の横幅が768pxまで（タブレット用）
     ===============================================*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     /* この部分にタブレット用・スマホ用に対応させたいCSSコードを入力していく */
     body {
         margin: 0;
