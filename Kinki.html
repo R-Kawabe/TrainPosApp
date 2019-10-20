@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="javascript/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Kinki</title>
+    <title>KinkiArea</title>
 </head>
 
 <body>
@@ -16,11 +16,7 @@
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
-            <p>運用検索</p>
-            <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ"><br>
-            <p>近畿エリア2</p>
-            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
-            <p>路線名</p>
+            <p>路線選択</p>
             <button class="button2" onclick="getLineData('hokurikubiwako')" name="word1">A 琵琶湖線</button>
             <button class="button2" onclick="getLineData('kyoto')" name="word1">A 京都線</button>
             <button class="button2" onclick="getLineData('kobesanyo')" name="word1">A 神戸線</button>
@@ -35,6 +31,14 @@
             <button class="button2" onclick="getLineData('yamatoji')" name="word1">Q 大和路線</button>
             <button class="button2" onclick="getLineData('hanwahagoromo')" name="word1">R 阪和線</button>
             <button class="button2" onclick="getLineData('kansaiairport')" name="word1">S 関西空港線</button>
+            <p>他エリア</p>
+            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
+            <input type="button" class="button" onclick="location.href='./Okayama.html'" value="岡山・福山エリア"><br>
+            <input type="button" class="button" onclick="location.href='./HiroSeki.html'" value="広島・下関エリア"><br>
+            <input type="button" class="button" onclick="location.href='./Sanin.html'" value="山陰エリア"><br>
+            <!-- <input type="button" class="button" onclick="location.href='./JRCentral.html'" value="東海エリア"> -->
+            <p>運用検索</p>
+            <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ"><br>
         </aside>
         <article class="main">
             <div id="elem"></div>
