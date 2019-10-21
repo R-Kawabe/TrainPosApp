@@ -1,12 +1,13 @@
 /*===============================================
 画面の横幅が769px以上（パソコン用）
 ===============================================*/
+body {
+    margin: 0;
+    height: auto;
+}
 
 @media screen and (min-width: 769px) {
     /* この部分にパソコン用だけに対応させたいCSSコードを入力していく */
-    body {
-        margin: 0;
-    }
     .header {
         z-index: 10;
         background: black;
@@ -22,7 +23,7 @@
         font-size: 20pt;
     }
     .main-wrap {
-        height: 500px;
+        height: 1300px;
         text-align: center;
         /* color: #fff; */
         width: 100%;
@@ -245,7 +246,7 @@
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        overflow: hidden;
+        overflow: auto;
     }
     .main {
         background: whitesmoke;
