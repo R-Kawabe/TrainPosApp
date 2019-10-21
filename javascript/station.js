@@ -37,6 +37,18 @@ function buildStaInfo(obj) {
 
 /**
  * 
+ * @param {Train} station
+ * @return {HTMLElement}
+ */
+function stationElement(station) {
+    const text = `${station.info.code} ${station.info.name}`;
+    const elem = document.createElement('div');
+    elem.innerText = text;
+    return elem;
+}
+
+/**
+ * 
  * @param {Station[]} stations 
  */
 function viewStations(stations) {

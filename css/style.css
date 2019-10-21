@@ -1,42 +1,68 @@
 /*===============================================
 画面の横幅が769px以上（パソコン用）
 ===============================================*/
-body {
+
+html, body {
     margin: 0;
-    height: auto;
+    height: 100vh;
+}
+
+.header {
+    z-index: 10;
+    background: black;
+    height: 10%;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.head-div {
+    font-size: 20pt;
+}
+
+.main-wrap {
+    height: 80%;
+    text-align: center;
+    /* color: #fff; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.footer {
+    background: black;
+    height: 10%;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    background-color: greenyellow;
+    width: 100%;
+    text-align: center;
+}
+
+.carefull {
+    background-color: dark;
+    font-weight: bold;
+    color: red;
 }
 
 @media screen and (min-width: 769px) {
     /* この部分にパソコン用だけに対応させたいCSSコードを入力していく */
-    .header {
-        z-index: 10;
-        background: black;
-        height: 80px;
-        text-align: center;
-        color: #fff;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-    }
-    .head-div {
-        font-size: 20pt;
-    }
-    .main-wrap {
-        height: 1300px;
-        text-align: center;
-        /* color: #fff; */
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        overflow: hidden;
-    }
     .main {
         background: whitesmoke;
         height: 100%;
         text-align: left;
         /* color: black; */
-        width: 70%;
+        width: 80%;
         float: left;
         overflow: auto;
     }
@@ -45,26 +71,17 @@ body {
         height: 100%;
         text-align: center;
         color: black;
-        width: 30%;
+        width: 20%;
         float: left;
         overflow: auto;
     }
-    .footer {
-        background: black;
-        height: 80px;
-        text-align: center;
-        color: #fff;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .button {
         display: inline-block;
-        width: 175px;
-        height: 54pt;
+        width: 150px;
+        height: 50pt;
         text-align: center;
         text-decoration: none;
-        line-height: 54px;
+        line-height: 50%;
         outline: none;
         white-space: pre-wrap;
     }
@@ -92,11 +109,6 @@ body {
         border-color: #59b1eb;
         color: #59b1eb;
     }
-    .form {
-        background-color: greenyellow;
-        width: 100%;
-        text-align: center;
-    }
 }
 
 /*===============================================
@@ -105,32 +117,6 @@ body {
 
 @media screen and (max-width: 900px) {
     /* この部分にタブレット用・スマホ用に対応させたいCSSコードを入力していく */
-    body {
-        margin: 0;
-        height: auto;
-    }
-    .header {
-        z-index: 10;
-        background: black;
-        height: 100%;
-        text-align: center;
-        color: #fff;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .head-div {
-        font-size: 20pt;
-    }
-    .main-wrap {
-        height: 900px;
-        text-align: center;
-        /* color: #fff; */
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        overflow: hidden;
-    }
     .main {
         background: whitesmoke;
         height: 100%;
@@ -149,15 +135,6 @@ body {
         float: left;
         overflow: auto;
     }
-    .footer {
-        background: black;
-        height: 100%;
-        text-align: center;
-        color: #fff;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
     input {
         -webkit-appearance: none;
     }
@@ -174,7 +151,7 @@ body {
     .button {
         display: inline-block;
         width: 100pt;
-        height: 50pt;
+        height: 30pt;
         text-align: center;
         text-decoration: none;
         line-height: auto;
@@ -205,12 +182,6 @@ body {
         border-color: #59b1eb;
         color: #59b1eb;
     }
-    .form {
-        background-color: greenyellow;
-        width: 100%;
-        text-align: center;
-        size: 10;
-    }
     .output-area {
         font-size: 12pt;
     }
@@ -222,32 +193,6 @@ body {
 
 @media screen and (max-width:640px) {
     /* この部分にスマホ用だけに対応させたいCSSコードを入力していく */
-    body {
-        margin: 0;
-        height: auto;
-    }
-    .header {
-        z-index: 10;
-        background: black;
-        height: 100%;
-        text-align: center;
-        color: #fff;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .head-div {
-        font-size: 20pt;
-    }
-    .main-wrap {
-        height: 800px;
-        text-align: center;
-        /* color: #fff; */
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        overflow: auto;
-    }
     .main {
         background: whitesmoke;
         height: 100%;
@@ -265,15 +210,6 @@ body {
         width: 35%;
         float: left;
         overflow: auto;
-    }
-    .footer {
-        background: black;
-        height: 100%;
-        text-align: center;
-        color: #fff;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
     }
     input {
         -webkit-appearance: none;
@@ -317,11 +253,6 @@ body {
         background-color: #fff;
         border-color: #59b1eb;
         color: #59b1eb;
-    }
-    .form {
-        background-color: greenyellow;
-        width: 100%;
-        text-align: center;
     }
     .output-area {
         font-size: 10pt;
