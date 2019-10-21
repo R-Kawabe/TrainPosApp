@@ -60,11 +60,12 @@
     .button {
         display: inline-block;
         width: 175px;
-        height: 54px;
+        height: 54pt;
         text-align: center;
         text-decoration: none;
         line-height: 54px;
         outline: none;
+        white-space: pre-wrap;
     }
     .button::before, .button::after {
         position: absolute;
@@ -172,11 +173,12 @@
     .button {
         display: inline-block;
         width: 100pt;
-        height: 30pt;
+        height: 50pt;
         text-align: center;
         text-decoration: none;
-        line-height: 50%;
+        line-height: auto;
         outline: none;
+        word-break: break-all;
     }
     .button::before, .button::after {
         position: absolute;

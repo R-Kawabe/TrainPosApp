@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="javascript/getDate.js"></script>
     <script src="javascript/script_other.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>OkayamaArea</title>
@@ -20,7 +21,7 @@
             <button class="button" onclick="getLineData_other('sanyo1')" name="word1">S/W/X 山陽本線</button>
             <button class="button" onclick="getLineData_other('setoohashi')" name="word1">M 瀬戸大橋線</button>
             <button class="button" onclick="getLineData_other('unominato')" name="word1">L 宇野みなと線</button>
-            <button class="button" onclick="getLineData_other('hakubi1')" name="word1">V 伯備線 倉敷～新郷</button>
+            <button class="button" onclick="getLineData_other('hakubi1')" name="word1">V 伯備線</button>
             <p>他エリア</p>
             <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
             <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
@@ -31,6 +32,7 @@
             <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ">
         </aside>
         <article class="main">
+            <div id="Date-Time"></div>
             <div id="elem"></div>
         </article>
     </main>

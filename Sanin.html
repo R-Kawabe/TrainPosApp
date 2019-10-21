@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="javascript/getDate.js"></script>
     <script src="javascript/script_other.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Kinki2</title>
@@ -17,9 +18,9 @@
     <main class="main-wrap">
         <aside class="sidebar">
             <p>路線選択</p>
-            <button class="button" onclick="getLineData_other('sanin3')" name="word1">A 山陰本線 諸寄～米子</button>
-            <button class="button" onclick="getLineData_other('sanin4')" name="word1">D 山陰本線 米子～益田</button>
-            <button class="button" onclick="getLineData_other('hakubi2')" name="word1">V 伯備線 新郷～伯耆大山</button>
+            <button class="button" onclick="getLineData_other('sanin3')" name="word1">A 山陰本線</button>
+            <button class="button" onclick="getLineData_other('sanin4')" name="word1">D 山陰本線</button>
+            <button class="button" onclick="getLineData_other('hakubi2')" name="word1">V 伯備線</button>
             <p>他エリア</p>
             <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
             <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
@@ -30,6 +31,7 @@
             <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ">
         </aside>
         <article class="main">
+            <div id="Date-Time"></div>
             <div id="elem"></div>
         </article>
     </main>
