@@ -1,254 +1,34 @@
 {
     "Unyo": [
         {
-            "UnyoNo": "宮501",
-            "TrainNo": "2720M",
-            "Position": "後",
-            "Type": "丹波路快速",
+            "UnyoNo": "宮554",
+            "TrainNo": "2520M",
+            "Position": "単",
+            "Type": "普通",
             "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "福知山6:14",
-            "EndTime": "大阪8:23"
+            "Day": "全日",
+            "FirstTime": "篠山口5:03",
+            "EndTime": "大阪6:21"
         },
         {
-            "UnyoNo": "宮501",
-            "TrainNo": "2728M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "福知山6:14",
-            "EndTime": "大阪8:29"
-        },
-        {
-            "UnyoNo": "宮502",
-            "TrainNo": "2527M",
-            "Position": "前",
+            "UnyoNo": "宮512",
+            "TrainNo": "2524M",
+            "Position": "単",
             "Type": "普通",
             "Destination": "篠山口",
             "Day": "全日",
-            "FirstTime": "大阪6:09",
-            "EndTime": "篠山口7:24"
+            "FirstTime": "福知山5:17",
+            "EndTime": "篠山口6:10"
         },
         {
-            "UnyoNo": "宮502",
-            "TrainNo": "2722M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口7:28",
-            "EndTime": "大阪8:48"
-        },
-        {
-            "UnyoNo": "宮502",
-            "TrainNo": "2730M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口7:28",
-            "EndTime": "大阪8:44"
-        },
-        {
-            "UnyoNo": "宮502",
-            "TrainNo": "2735M",
+            "UnyoNo": "宮604",
+            "TrainNo": "2710M",
             "Position": "単",
             "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪13:21",
-            "EndTime": "篠山口14:28"
-        },
-        {
-            "UnyoNo": "宮502",
-            "TrainNo": "2758M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口14:43",
-            "EndTime": "大阪15:51"
-        },
-        {
-            "UnyoNo": "宮502",
-            "TrainNo": "2749M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "土休日",
-            "FirstTime": "大阪16:40",
-            "EndTime": "篠山口17:24"
-        },
-        {
-            "UnyoNo": "宮502",
-            "TrainNo": "2767M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "大阪19:39",
-            "EndTime": "新三田20:24"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2722M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田7:16",
-            "EndTime": "大阪8:06"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2726M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "新三田8:42",
-            "EndTime": "大阪9:34"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2725M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪10:51",
-            "EndTime": "篠山口11:58"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2727M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪11:21",
-            "EndTime": "篠山口12:28"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2748M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口12:14",
-            "EndTime": "大阪13:22"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2750M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口12:43",
-            "EndTime": "大阪13:51"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2741M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪14:51",
-            "EndTime": "篠山口15:58"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2762M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口15:43",
-            "EndTime": "大阪16:51"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2764M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口16:07",
-            "EndTime": "大阪17:16"
-        },
-        {
-            "UnyoNo": "宮503",
-            "TrainNo": "2761M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "全日",
-            "FirstTime": "大阪18:39",
-            "EndTime": "新三田19:24"
-        },
-        {
-            "UnyoNo": "宮504",
-            "TrainNo": "2726M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田7:33",
-            "EndTime": "大阪8:22"
-        },
-        {
-            "UnyoNo": "宮504",
-            "TrainNo": "2719M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪9:20",
-            "EndTime": "篠山口10:28"
-        },
-        {
-            "UnyoNo": "宮504",
-            "TrainNo": "2738M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "新三田10:29",
-            "EndTime": "大阪11:16"
-        },
-        {
-            "UnyoNo": "宮504",
-            "TrainNo": "2729M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪11:51",
-            "EndTime": "篠山口12:58"
-        },
-        {
-            "UnyoNo": "宮504",
-            "TrainNo": "2766M",
-            "Position": "後",
-            "Type": "丹波路快速",
             "Destination": "大阪",
             "Day": "全日",
-            "FirstTime": "篠山口16:40",
-            "EndTime": "大阪17:48"
-        },
-        {
-            "UnyoNo": "宮504",
-            "TrainNo": "2765M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "福知山",
-            "Day": "全日",
-            "FirstTime": "大阪19:24",
-            "EndTime": "福知山21:34"
+            "FirstTime": "篠山口5:27",
+            "EndTime": "大阪6:37"
         },
         {
             "UnyoNo": "宮505",
@@ -271,396 +51,6 @@
             "EndTime": "大阪7:50"
         },
         {
-            "UnyoNo": "宮505",
-            "TrainNo": "2721M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪9:52",
-            "EndTime": "篠山口10:59"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "3753M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪11:06",
-            "EndTime": "宝塚11:31"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "2744M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口11:14",
-            "EndTime": "大阪12:21"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "3758M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚11:41",
-            "EndTime": "大阪12:06"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "2733M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪12:51",
-            "EndTime": "篠山口13:58"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "3761M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪13:06",
-            "EndTime": "宝塚13:31"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "3766M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚13:41",
-            "EndTime": "大阪14:06"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "2756M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口14:14",
-            "EndTime": "大阪15:22"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "3769M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪15:06",
-            "EndTime": "宝塚15:31"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "3774M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚15:41",
-            "EndTime": "大阪16:06"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "2749M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "土休日",
-            "FirstTime": "大阪16:40",
-            "EndTime": "篠山口17:24"
-        },
-        {
-            "UnyoNo": "宮505",
-            "TrainNo": "2767M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "大阪19:39",
-            "EndTime": "新三田20:24"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2722M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田7:16",
-            "EndTime": "大阪8:06"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2726M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "新三田8:42",
-            "EndTime": "大阪9:34"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2725M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪10:51",
-            "EndTime": "篠山口11:58"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2727M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪11:21",
-            "EndTime": "篠山口12:28"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2748M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口12:14",
-            "EndTime": "大阪13:22"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2750M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口12:43",
-            "EndTime": "大阪13:51"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2741M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪14:51",
-            "EndTime": "篠山口15:58"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2762M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口15:43",
-            "EndTime": "大阪16:51"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2764M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口16:07",
-            "EndTime": "大阪17:16"
-        },
-        {
-            "UnyoNo": "宮506",
-            "TrainNo": "2761M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "全日",
-            "FirstTime": "大阪18:39",
-            "EndTime": "新三田19:24"
-        },
-        {
-            "UnyoNo": "宮507",
-            "TrainNo": "2726M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田7:33",
-            "EndTime": "大阪8:22"
-        },
-        {
-            "UnyoNo": "宮507",
-            "TrainNo": "2719M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪9:20",
-            "EndTime": "篠山口10:28"
-        },
-        {
-            "UnyoNo": "宮507",
-            "TrainNo": "2738M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "新三田10:29",
-            "EndTime": "大阪11:16"
-        },
-        {
-            "UnyoNo": "宮507",
-            "TrainNo": "2729M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪11:51",
-            "EndTime": "篠山口12:58"
-        },
-        {
-            "UnyoNo": "宮507",
-            "TrainNo": "2766M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "篠山口16:40",
-            "EndTime": "大阪17:48"
-        },
-        {
-            "UnyoNo": "宮507",
-            "TrainNo": "2765M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪19:24",
-            "EndTime": "篠山口20:33"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2724M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口6:58",
-            "EndTime": "大阪8:12"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2718M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口7:01",
-            "EndTime": "大阪8:09"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2719M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪9:20",
-            "EndTime": "篠山口10:28"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2742M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口10:43",
-            "EndTime": "大阪11:51"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2733M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪12:51",
-            "EndTime": "篠山口13:58"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2737M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪13:51",
-            "EndTime": "篠山口14:58"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2756M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口14:14",
-            "EndTime": "大阪15:22"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2760M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口15:12",
-            "EndTime": "大阪16:20"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2747M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪16:25",
-            "EndTime": "篠山口17:33"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2770M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口17:40",
-            "EndTime": "大阪18:49"
-        },
-        {
-            "UnyoNo": "宮508",
-            "TrainNo": "2771M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪20:24",
-            "EndTime": "福知山21:33"
-        },
-        {
             "UnyoNo": "宮509",
             "TrainNo": "2712M",
             "Position": "単",
@@ -681,134 +71,14 @@
             "EndTime": "大阪6:58"
         },
         {
-            "UnyoNo": "宮509",
-            "TrainNo": "565M",
+            "UnyoNo": "宮553",
+            "TrainNo": "2525M",
             "Position": "単",
             "Type": "普通",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "大阪7:28",
-            "EndTime": "新三田8:28"
-        },
-        {
-            "UnyoNo": "宮509",
-            "TrainNo": "568M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田8:34",
-            "EndTime": "大阪9:34"
-        },
-        {
-            "UnyoNo": "宮509",
-            "TrainNo": "3751M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪10:34",
-            "EndTime": "宝塚11:01"
-        },
-        {
-            "UnyoNo": "宮509",
-            "TrainNo": "3756M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚11:11",
-            "EndTime": "大阪11:36"
-        },
-        {
-            "UnyoNo": "宮509",
-            "TrainNo": "3759M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪12:36",
-            "EndTime": "宝塚13:01"
-        },
-        {
-            "UnyoNo": "宮509",
-            "TrainNo": "3764M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚13:11",
-            "EndTime": "大阪13:36"
-        },
-        {
-            "UnyoNo": "宮509",
-            "TrainNo": "3767M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪14:36",
-            "EndTime": "宝塚15:01"
-        },
-        {
-            "UnyoNo": "宮509",
-            "TrainNo": "3772M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚15:11",
-            "EndTime": "大阪15:36"
-        },
-        {
-            "UnyoNo": "宮509",
-            "TrainNo": "2767M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "土休日",
-            "FirstTime": "大阪19:39",
-            "EndTime": "新三田20:24"
-        },
-        {
-            "UnyoNo": "宮509",
-            "TrainNo": "2773M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "大阪20:39",
-            "EndTime": "新三田21:24"
-        },
-        {
-            "UnyoNo": "宮510",
-            "TrainNo": "2716M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田6:54",
-            "EndTime": "大阪7:41"
-        },
-        {
-            "UnyoNo": "宮510",
-            "TrainNo": "2730M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "新三田9:25",
-            "EndTime": "大阪10:08"
-        },
-        {
-            "UnyoNo": "宮510",
-            "TrainNo": "2753M",
-            "Position": "前",
-            "Type": "丹波路快速",
             "Destination": "福知山",
             "Day": "全日",
-            "FirstTime": "大阪17:24",
-            "EndTime": "福知山19:46"
+            "FirstTime": "大阪5:55",
+            "EndTime": "福知山8:19"
         },
         {
             "UnyoNo": "宮511",
@@ -831,104 +101,94 @@
             "EndTime": "大阪8:12"
         },
         {
-            "UnyoNo": "宮511",
-            "TrainNo": "2719M",
+            "UnyoNo": "宮502",
+            "TrainNo": "2527M",
             "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪9:20",
-            "EndTime": "篠山口10:28"
-        },
-        {
-            "UnyoNo": "宮511",
-            "TrainNo": "2742M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口10:43",
-            "EndTime": "大阪11:51"
-        },
-        {
-            "UnyoNo": "宮511",
-            "TrainNo": "2733M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪12:51",
-            "EndTime": "篠山口13:58"
-        },
-        {
-            "UnyoNo": "宮511",
-            "TrainNo": "2737M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪13:51",
-            "EndTime": "篠山口14:58"
-        },
-        {
-            "UnyoNo": "宮511",
-            "TrainNo": "2756M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口14:14",
-            "EndTime": "大阪15:22"
-        },
-        {
-            "UnyoNo": "宮511",
-            "TrainNo": "2760M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口15:12",
-            "EndTime": "大阪16:20"
-        },
-        {
-            "UnyoNo": "宮511",
-            "TrainNo": "2747M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪16:25",
-            "EndTime": "篠山口17:33"
-        },
-        {
-            "UnyoNo": "宮511",
-            "TrainNo": "2770M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口17:40",
-            "EndTime": "大阪18:49"
-        },
-        {
-            "UnyoNo": "宮511",
-            "TrainNo": "2771M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "福知山",
-            "Day": "全日",
-            "FirstTime": "大阪20:24",
-            "EndTime": "福知山22:31"
-        },
-        {
-            "UnyoNo": "宮512",
-            "TrainNo": "2524M",
-            "Position": "単",
             "Type": "普通",
             "Destination": "篠山口",
             "Day": "全日",
-            "FirstTime": "福知山5:17",
-            "EndTime": "篠山口6:10"
+            "FirstTime": "大阪6:09",
+            "EndTime": "篠山口7:24"
+        },
+        {
+            "UnyoNo": "宮551",
+            "TrainNo": "2527M",
+            "Position": "後",
+            "Type": "普通",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪6:09",
+            "EndTime": "篠山口7:24"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2714M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口6:13",
+            "EndTime": "大阪7:29"
+        },
+        {
+            "UnyoNo": "宮501",
+            "TrainNo": "2720M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "福知山6:14",
+            "EndTime": "大阪8:23"
+        },
+        {
+            "UnyoNo": "宮501",
+            "TrainNo": "2728M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "福知山6:14",
+            "EndTime": "大阪8:29"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2714M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口6:15",
+            "EndTime": "大阪7:25"
+        },
+        {
+            "UnyoNo": "宮532",
+            "TrainNo": "561M",
+            "Position": "後",
+            "Type": "普通",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "大阪6:37",
+            "EndTime": "新三田7:38"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "2718M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口6:37",
+            "EndTime": "大阪7:50"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "561M",
+            "Position": "前",
+            "Type": "普通",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "大阪6:37",
+            "EndTime": "新三田7:38"
         },
         {
             "UnyoNo": "宮512",
@@ -939,6 +199,306 @@
             "Day": "全日",
             "FirstTime": "篠山口6:40",
             "EndTime": "福知山7:44"
+        },
+        {
+            "UnyoNo": "宮514",
+            "TrainNo": "2711M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "福知山",
+            "Day": "全日",
+            "FirstTime": "大阪6:43",
+            "EndTime": "福知山8:56"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "2716M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口6:46",
+            "EndTime": "大阪7:54"
+        },
+        {
+            "UnyoNo": "宮510",
+            "TrainNo": "2716M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田6:54",
+            "EndTime": "大阪7:41"
+        },
+        {
+            "UnyoNo": "宮535",
+            "TrainNo": "2716M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田6:54",
+            "EndTime": "大阪7:41"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2724M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口6:58",
+            "EndTime": "大阪8:12"
+        },
+        {
+            "UnyoNo": "宮601",
+            "TrainNo": "2724M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "福知山6:59",
+            "EndTime": "大阪9:09"
+        },
+        {
+            "UnyoNo": "宮601",
+            "TrainNo": "2732M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "福知山6:59",
+            "EndTime": "大阪9:10"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "563M",
+            "Position": "単",
+            "Type": "普通",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "大阪7:00",
+            "EndTime": "新三田7:56"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2718M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口7:01",
+            "EndTime": "大阪8:09"
+        },
+        {
+            "UnyoNo": "宮513",
+            "TrainNo": "2720M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田7:05",
+            "EndTime": "大阪7:57"
+        },
+        {
+            "UnyoNo": "宮533",
+            "TrainNo": "2720M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田7:05",
+            "EndTime": "大阪7:57"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2713M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪7:05",
+            "EndTime": "篠山口8:15"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2713M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪7:05",
+            "EndTime": "篠山口8:14"
+        },
+        {
+            "UnyoNo": "宮554",
+            "TrainNo": "2531M",
+            "Position": "単",
+            "Type": "普通",
+            "Destination": "福知山",
+            "Day": "平日",
+            "FirstTime": "大阪7:13",
+            "EndTime": "福知山9:28"
+        },
+        {
+            "UnyoNo": "宮531",
+            "TrainNo": "2728M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口7:15",
+            "EndTime": "大阪8:29"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2722M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田7:16",
+            "EndTime": "大阪8:06"
+        },
+        {
+            "UnyoNo": "宮506",
+            "TrainNo": "2722M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田7:16",
+            "EndTime": "大阪8:06"
+        },
+        {
+            "UnyoNo": "宮531",
+            "TrainNo": "2720M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口7:16",
+            "EndTime": "大阪8:23"
+        },
+        {
+            "UnyoNo": "宮554",
+            "TrainNo": "2715M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "福知山",
+            "Day": "土休日",
+            "FirstTime": "大阪7:23",
+            "EndTime": "福知山9:28"
+        },
+        {
+            "UnyoNo": "宮502",
+            "TrainNo": "2722M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口7:28",
+            "EndTime": "大阪8:48"
+        },
+        {
+            "UnyoNo": "宮502",
+            "TrainNo": "2730M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口7:28",
+            "EndTime": "大阪8:44"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "565M",
+            "Position": "単",
+            "Type": "普通",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "大阪7:28",
+            "EndTime": "新三田8:28"
+        },
+        {
+            "UnyoNo": "宮551",
+            "TrainNo": "2722M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口7:28",
+            "EndTime": "大阪8:48"
+        },
+        {
+            "UnyoNo": "宮551",
+            "TrainNo": "2730M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口7:28",
+            "EndTime": "大阪8:44"
+        },
+        {
+            "UnyoNo": "宮504",
+            "TrainNo": "2726M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田7:33",
+            "EndTime": "大阪8:22"
+        },
+        {
+            "UnyoNo": "宮507",
+            "TrainNo": "2726M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田7:33",
+            "EndTime": "大阪8:22"
+        },
+        {
+            "UnyoNo": "宮532",
+            "TrainNo": "562M",
+            "Position": "前",
+            "Type": "普通",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田7:43",
+            "EndTime": "大阪8:49"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "562M",
+            "Position": "後",
+            "Type": "普通",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田7:43",
+            "EndTime": "大阪8:49"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2533M",
+            "Position": "単",
+            "Type": "普通",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪7:54",
+            "EndTime": "篠山口9:18"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2717M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪7:54",
+            "EndTime": "篠山口9:03"
         },
         {
             "UnyoNo": "宮512",
@@ -961,74 +521,164 @@
             "EndTime": "大阪10:24"
         },
         {
-            "UnyoNo": "宮512",
-            "TrainNo": "3757M",
+            "UnyoNo": "宮602",
+            "TrainNo": "564M",
             "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪12:06",
-            "EndTime": "宝塚12:31"
+            "Type": "普通",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田8:04",
+            "EndTime": "大阪9:02"
         },
         {
-            "UnyoNo": "宮512",
-            "TrainNo": "3762M",
+            "UnyoNo": "宮604",
+            "TrainNo": "2728M",
             "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口8:33",
+            "EndTime": "大阪9:46"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2734M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口8:33",
+            "EndTime": "大阪9:46"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "568M",
+            "Position": "単",
+            "Type": "普通",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田8:34",
+            "EndTime": "大阪9:34"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2726M",
+            "Position": "後",
             "Type": "快速",
             "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚12:41",
-            "EndTime": "大阪13:06"
+            "Day": "土休日",
+            "FirstTime": "新三田8:42",
+            "EndTime": "大阪9:34"
         },
         {
-            "UnyoNo": "宮512",
-            "TrainNo": "3765M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪14:06",
-            "EndTime": "宝塚14:31"
-        },
-        {
-            "UnyoNo": "宮512",
-            "TrainNo": "3770M",
-            "Position": "単",
+            "UnyoNo": "宮506",
+            "TrainNo": "2726M",
+            "Position": "前",
             "Type": "快速",
             "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚14:41",
-            "EndTime": "大阪15:06"
+            "Day": "土休日",
+            "FirstTime": "新三田8:42",
+            "EndTime": "大阪9:34"
         },
         {
-            "UnyoNo": "宮512",
-            "TrainNo": "2751M",
+            "UnyoNo": "宮504",
+            "TrainNo": "2719M",
             "Position": "前",
             "Type": "丹波路快速",
             "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪16:55",
-            "EndTime": "篠山口18:03"
+            "Day": "平日",
+            "FirstTime": "大阪9:20",
+            "EndTime": "篠山口10:28"
         },
         {
-            "UnyoNo": "宮512",
-            "TrainNo": "回1530M",
+            "UnyoNo": "宮507",
+            "TrainNo": "2719M",
             "Position": "後",
-            "Type": "回送",
-            "Destination": "新三田",
-            "Day": "全日",
-            "FirstTime": "篠山口",
-            "EndTime": "新三田"
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪9:20",
+            "EndTime": "篠山口10:28"
         },
         {
-            "UnyoNo": "宮513",
-            "TrainNo": "2720M",
+            "UnyoNo": "宮508",
+            "TrainNo": "2719M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪9:20",
+            "EndTime": "篠山口10:28"
+        },
+        {
+            "UnyoNo": "宮511",
+            "TrainNo": "2719M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪9:20",
+            "EndTime": "篠山口10:28"
+        },
+        {
+            "UnyoNo": "宮510",
+            "TrainNo": "2730M",
             "Position": "後",
             "Type": "快速",
             "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "新三田9:25",
+            "EndTime": "大阪10:08"
+        },
+        {
+            "UnyoNo": "宮535",
+            "TrainNo": "2730M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "新三田9:25",
+            "EndTime": "大阪10:08"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "2721M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪9:52",
+            "EndTime": "篠山口10:59"
+        },
+        {
+            "UnyoNo": "宮532",
+            "TrainNo": "2721M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
             "Day": "平日",
-            "FirstTime": "新三田7:05",
-            "EndTime": "大阪7:57"
+            "FirstTime": "大阪9:52",
+            "EndTime": "篠山口10:59"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "2721M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪9:52",
+            "EndTime": "篠山口10:59"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "2721M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪9:52",
+            "EndTime": "篠山口10:59"
         },
         {
             "UnyoNo": "宮513",
@@ -1041,6 +691,116 @@
             "EndTime": "大阪10:36"
         },
         {
+            "UnyoNo": "宮533",
+            "TrainNo": "2734M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "新三田9:54",
+            "EndTime": "大阪10:36"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2723M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪10:21",
+            "EndTime": "篠山口11:28"
+        },
+        {
+            "UnyoNo": "宮504",
+            "TrainNo": "2738M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "新三田10:29",
+            "EndTime": "大阪11:16"
+        },
+        {
+            "UnyoNo": "宮507",
+            "TrainNo": "2738M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "新三田10:29",
+            "EndTime": "大阪11:16"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "3751M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪10:34",
+            "EndTime": "宝塚11:01"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "3751M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪10:34",
+            "EndTime": "宝塚11:01"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2742M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口10:43",
+            "EndTime": "大阪11:51"
+        },
+        {
+            "UnyoNo": "宮511",
+            "TrainNo": "2742M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口10:43",
+            "EndTime": "大阪11:51"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2742M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口10:44",
+            "EndTime": "大阪11:51"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2725M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪10:51",
+            "EndTime": "篠山口11:58"
+        },
+        {
+            "UnyoNo": "宮506",
+            "TrainNo": "2725M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪10:51",
+            "EndTime": "篠山口11:58"
+        },
+        {
             "UnyoNo": "宮513",
             "TrainNo": "2725M",
             "Position": "前",
@@ -1049,6 +809,116 @@
             "Day": "平日",
             "FirstTime": "大阪10:51",
             "EndTime": "篠山口11:58"
+        },
+        {
+            "UnyoNo": "宮533",
+            "TrainNo": "2725M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪10:51",
+            "EndTime": "篠山口11:58"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "3753M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪11:06",
+            "EndTime": "宝塚11:31"
+        },
+        {
+            "UnyoNo": "宮512",
+            "TrainNo": "3753M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪11:06",
+            "EndTime": "宝塚11:31"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "3756M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚11:11",
+            "EndTime": "大阪11:36"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "3756M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚11:11",
+            "EndTime": "大阪11:36"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "2744M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口11:14",
+            "EndTime": "大阪12:21"
+        },
+        {
+            "UnyoNo": "宮532",
+            "TrainNo": "2744M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口11:14",
+            "EndTime": "大阪12:21"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "2744M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口11:14",
+            "EndTime": "大阪12:21"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "2744M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口11:14",
+            "EndTime": "大阪12:21"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2727M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪11:21",
+            "EndTime": "篠山口12:28"
+        },
+        {
+            "UnyoNo": "宮506",
+            "TrainNo": "2727M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪11:21",
+            "EndTime": "篠山口12:28"
         },
         {
             "UnyoNo": "宮513",
@@ -1061,6 +931,166 @@
             "EndTime": "篠山口12:28"
         },
         {
+            "UnyoNo": "宮533",
+            "TrainNo": "2727M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪11:21",
+            "EndTime": "篠山口12:28"
+        },
+        {
+            "UnyoNo": "宮510",
+            "TrainNo": "3755M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪11:36",
+            "EndTime": "宝塚12:01"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "3755M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪11:36",
+            "EndTime": "宝塚12:01"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "3758M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚11:41",
+            "EndTime": "大阪12:06"
+        },
+        {
+            "UnyoNo": "宮512",
+            "TrainNo": "3758M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚11:41",
+            "EndTime": "大阪12:06"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2746M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口11:43",
+            "EndTime": "大阪12:51"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2746M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口11:43",
+            "EndTime": "大阪12:51"
+        },
+        {
+            "UnyoNo": "宮504",
+            "TrainNo": "2729M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪11:51",
+            "EndTime": "篠山口12:58"
+        },
+        {
+            "UnyoNo": "宮507",
+            "TrainNo": "2729M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪11:51",
+            "EndTime": "篠山口12:58"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2729M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪11:51",
+            "EndTime": "篠山口12:58"
+        },
+        {
+            "UnyoNo": "宮512",
+            "TrainNo": "3757M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪12:06",
+            "EndTime": "宝塚12:31"
+        },
+        {
+            "UnyoNo": "宮535",
+            "TrainNo": "3757M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪12:06",
+            "EndTime": "宝塚12:31"
+        },
+        {
+            "UnyoNo": "宮510",
+            "TrainNo": "3760M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚12:11",
+            "EndTime": "大阪12:36"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "3760M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚12:11",
+            "EndTime": "大阪12:36"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2748M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口12:14",
+            "EndTime": "大阪13:22"
+        },
+        {
+            "UnyoNo": "宮506",
+            "TrainNo": "2748M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口12:14",
+            "EndTime": "大阪13:22"
+        },
+        {
             "UnyoNo": "宮513",
             "TrainNo": "2748M",
             "Position": "後",
@@ -1069,6 +1099,96 @@
             "Day": "平日",
             "FirstTime": "篠山口12:14",
             "EndTime": "大阪13:22"
+        },
+        {
+            "UnyoNo": "宮533",
+            "TrainNo": "2748M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口12:14",
+            "EndTime": "大阪13:22"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2731M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪12:20",
+            "EndTime": "篠山口13:28"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2731M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪12:20",
+            "EndTime": "篠山口13:28"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "3759M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪12:36",
+            "EndTime": "宝塚13:01"
+        },
+        {
+            "UnyoNo": "宮532",
+            "TrainNo": "3759M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪12:36",
+            "EndTime": "宝塚13:01"
+        },
+        {
+            "UnyoNo": "宮512",
+            "TrainNo": "3762M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚12:41",
+            "EndTime": "大阪13:06"
+        },
+        {
+            "UnyoNo": "宮535",
+            "TrainNo": "3762M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚12:41",
+            "EndTime": "大阪13:06"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2750M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口12:43",
+            "EndTime": "大阪13:51"
+        },
+        {
+            "UnyoNo": "宮506",
+            "TrainNo": "2750M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口12:43",
+            "EndTime": "大阪13:51"
         },
         {
             "UnyoNo": "宮513",
@@ -1081,6 +1201,306 @@
             "EndTime": "大阪13:51"
         },
         {
+            "UnyoNo": "宮533",
+            "TrainNo": "2750M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口12:43",
+            "EndTime": "大阪13:51"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "2733M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪12:51",
+            "EndTime": "篠山口13:58"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2733M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪12:51",
+            "EndTime": "篠山口13:58"
+        },
+        {
+            "UnyoNo": "宮511",
+            "TrainNo": "2733M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪12:51",
+            "EndTime": "篠山口13:58"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "2733M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪12:51",
+            "EndTime": "篠山口13:58"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "3761M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪13:06",
+            "EndTime": "宝塚13:31"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "3761M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪13:06",
+            "EndTime": "宝塚13:31"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "3764M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚13:11",
+            "EndTime": "大阪13:36"
+        },
+        {
+            "UnyoNo": "宮532",
+            "TrainNo": "3764M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚13:11",
+            "EndTime": "大阪13:36"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2752M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口13:14",
+            "EndTime": "大阪14:21"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2752M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口13:14",
+            "EndTime": "大阪14:21"
+        },
+        {
+            "UnyoNo": "宮502",
+            "TrainNo": "2735M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪13:21",
+            "EndTime": "篠山口14:28"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2735M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪13:21",
+            "EndTime": "篠山口14:28"
+        },
+        {
+            "UnyoNo": "宮510",
+            "TrainNo": "3763M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪13:36",
+            "EndTime": "宝塚14:01"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "3763M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪13:36",
+            "EndTime": "宝塚14:01"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "3766M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚13:41",
+            "EndTime": "大阪14:06"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "3766M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚13:41",
+            "EndTime": "大阪14:06"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2754M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口13:43",
+            "EndTime": "大阪14:51"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2754M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口13:43",
+            "EndTime": "大阪14:51"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2737M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪13:51",
+            "EndTime": "篠山口14:58"
+        },
+        {
+            "UnyoNo": "宮511",
+            "TrainNo": "2737M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪13:51",
+            "EndTime": "篠山口14:58"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2737M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪13:51",
+            "EndTime": "篠山口14:58"
+        },
+        {
+            "UnyoNo": "宮512",
+            "TrainNo": "3765M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪14:06",
+            "EndTime": "宝塚14:31"
+        },
+        {
+            "UnyoNo": "宮535",
+            "TrainNo": "3765M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪14:06",
+            "EndTime": "宝塚14:31"
+        },
+        {
+            "UnyoNo": "宮510",
+            "TrainNo": "3768M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚14:11",
+            "EndTime": "大阪14:36"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "3768M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚14:11",
+            "EndTime": "大阪14:36"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "2756M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口14:14",
+            "EndTime": "大阪15:22"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2756M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口14:14",
+            "EndTime": "大阪15:22"
+        },
+        {
+            "UnyoNo": "宮511",
+            "TrainNo": "2756M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口14:14",
+            "EndTime": "大阪15:22"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "2756M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口14:14",
+            "EndTime": "大阪15:22"
+        },
+        {
             "UnyoNo": "宮513",
             "TrainNo": "2739M",
             "Position": "前",
@@ -1089,6 +1509,236 @@
             "Day": "平日",
             "FirstTime": "大阪14:21",
             "EndTime": "篠山口15:28"
+        },
+        {
+            "UnyoNo": "宮533",
+            "TrainNo": "2739M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪14:21",
+            "EndTime": "篠山口15:28"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "3767M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪14:36",
+            "EndTime": "宝塚15:01"
+        },
+        {
+            "UnyoNo": "宮532",
+            "TrainNo": "3767M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪14:36",
+            "EndTime": "宝塚15:01"
+        },
+        {
+            "UnyoNo": "宮512",
+            "TrainNo": "3770M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚14:41",
+            "EndTime": "大阪15:06"
+        },
+        {
+            "UnyoNo": "宮535",
+            "TrainNo": "3770M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚14:41",
+            "EndTime": "大阪15:06"
+        },
+        {
+            "UnyoNo": "宮502",
+            "TrainNo": "2758M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口14:43",
+            "EndTime": "大阪15:51"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2758M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口14:43",
+            "EndTime": "大阪15:51"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2741M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪14:51",
+            "EndTime": "篠山口15:58"
+        },
+        {
+            "UnyoNo": "宮506",
+            "TrainNo": "2741M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪14:51",
+            "EndTime": "篠山口15:58"
+        },
+        {
+            "UnyoNo": "宮554",
+            "TrainNo": "2540M",
+            "Position": "単",
+            "Type": "普通",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "福知山14:56",
+            "EndTime": "篠山口15:54"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "3769M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "大阪15:06",
+            "EndTime": "宝塚15:31"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "3769M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪15:06",
+            "EndTime": "宝塚15:31"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "3772M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚15:11",
+            "EndTime": "大阪15:36"
+        },
+        {
+            "UnyoNo": "宮532",
+            "TrainNo": "3772M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚15:11",
+            "EndTime": "大阪15:36"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2760M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口15:12",
+            "EndTime": "大阪16:20"
+        },
+        {
+            "UnyoNo": "宮511",
+            "TrainNo": "2760M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口15:12",
+            "EndTime": "大阪16:20"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2760M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口15:12",
+            "EndTime": "大阪16:20"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2743M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "福知山",
+            "Day": "土休日",
+            "FirstTime": "大阪15:21",
+            "EndTime": "篠山口17:31"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2743M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "福知山",
+            "Day": "平日",
+            "FirstTime": "大阪15:21",
+            "EndTime": "篠山口17:31"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "3774M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚15:41",
+            "EndTime": "大阪16:06"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "3774M",
+            "Position": "単",
+            "Type": "快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚15:41",
+            "EndTime": "大阪16:06"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2762M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口15:43",
+            "EndTime": "大阪16:51"
+        },
+        {
+            "UnyoNo": "宮506",
+            "TrainNo": "2762M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口15:43",
+            "EndTime": "大阪16:51"
         },
         {
             "UnyoNo": "宮513",
@@ -1101,6 +1751,66 @@
             "EndTime": "大阪16:51"
         },
         {
+            "UnyoNo": "宮533",
+            "TrainNo": "2762M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口15:43",
+            "EndTime": "大阪16:51"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2745M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪15:50",
+            "EndTime": "篠山口16:58"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2745M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪15:50",
+            "EndTime": "篠山口16:58"
+        },
+        {
+            "UnyoNo": "宮514",
+            "TrainNo": "2542M",
+            "Position": "単",
+            "Type": "普通",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "福知山15:58",
+            "EndTime": "篠山口17:06"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2764M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口16:07",
+            "EndTime": "大阪17:16"
+        },
+        {
+            "UnyoNo": "宮506",
+            "TrainNo": "2764M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口16:07",
+            "EndTime": "大阪17:16"
+        },
+        {
             "UnyoNo": "宮513",
             "TrainNo": "2764M",
             "Position": "後",
@@ -1109,6 +1819,226 @@
             "Day": "土休日",
             "FirstTime": "篠山口16:07",
             "EndTime": "大阪17:16"
+        },
+        {
+            "UnyoNo": "宮533",
+            "TrainNo": "2764M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口16:07",
+            "EndTime": "大阪17:16"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2747M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪16:25",
+            "EndTime": "篠山口17:33"
+        },
+        {
+            "UnyoNo": "宮511",
+            "TrainNo": "2747M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪16:25",
+            "EndTime": "篠山口17:33"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2747M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪16:25",
+            "EndTime": "篠山口17:33"
+        },
+        {
+            "UnyoNo": "宮502",
+            "TrainNo": "2749M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "土休日",
+            "FirstTime": "大阪16:40",
+            "EndTime": "篠山口17:24"
+        },
+        {
+            "UnyoNo": "宮504",
+            "TrainNo": "2766M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "全日",
+            "FirstTime": "篠山口16:40",
+            "EndTime": "大阪17:48"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "2749M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "土休日",
+            "FirstTime": "大阪16:40",
+            "EndTime": "篠山口17:24"
+        },
+        {
+            "UnyoNo": "宮507",
+            "TrainNo": "2766M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "全日",
+            "FirstTime": "篠山口16:40",
+            "EndTime": "大阪17:48"
+        },
+        {
+            "UnyoNo": "宮512",
+            "TrainNo": "2751M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪16:55",
+            "EndTime": "篠山口18:03"
+        },
+        {
+            "UnyoNo": "宮532",
+            "TrainNo": "2751M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪16:55",
+            "EndTime": "篠山口18:03"
+        },
+        {
+            "UnyoNo": "宮554",
+            "TrainNo": "2549M",
+            "Position": "単",
+            "Type": "普通",
+            "Destination": "福知山",
+            "Day": "全日",
+            "FirstTime": "篠山口16:59",
+            "EndTime": "福知山17:58"
+        },
+        {
+            "UnyoNo": "宮553",
+            "TrainNo": "2772M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "全日",
+            "FirstTime": "福知山17:06",
+            "EndTime": "大阪19:22"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2768M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口17:08",
+            "EndTime": "大阪18:17"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2768M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口17:08",
+            "EndTime": "大阪18:17"
+        },
+        {
+            "UnyoNo": "宮510",
+            "TrainNo": "2753M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "福知山",
+            "Day": "全日",
+            "FirstTime": "大阪17:24",
+            "EndTime": "福知山19:46"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "2753M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪17:24",
+            "EndTime": "篠山口18:33"
+        },
+        {
+            "UnyoNo": "宮514",
+            "TrainNo": "2551M",
+            "Position": "単",
+            "Type": "普通",
+            "Destination": "福知山",
+            "Day": "平日",
+            "FirstTime": "篠山口17:35",
+            "EndTime": "福知山18:36"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2770M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口17:40",
+            "EndTime": "大阪18:49"
+        },
+        {
+            "UnyoNo": "宮511",
+            "TrainNo": "2770M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口17:40",
+            "EndTime": "大阪18:49"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2770M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口17:40",
+            "EndTime": "大阪18:49"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2776M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "福知山18:11",
+            "EndTime": "大阪20:21"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2776M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "福知山18:11",
+            "EndTime": "大阪20:21"
         },
         {
             "UnyoNo": "宮513",
@@ -1121,6 +2051,236 @@
             "EndTime": "福知山20:47"
         },
         {
+            "UnyoNo": "宮533",
+            "TrainNo": "2759M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪18:24",
+            "EndTime": "篠山口19:33"
+        },
+        {
+            "UnyoNo": "宮503",
+            "TrainNo": "2761M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "全日",
+            "FirstTime": "大阪18:39",
+            "EndTime": "新三田19:24"
+        },
+        {
+            "UnyoNo": "宮506",
+            "TrainNo": "2761M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "全日",
+            "FirstTime": "大阪18:39",
+            "EndTime": "新三田19:24"
+        },
+        {
+            "UnyoNo": "宮552",
+            "TrainNo": "2774M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "全日",
+            "FirstTime": "篠山口18:43",
+            "EndTime": "大阪19:51"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2763M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪18:54",
+            "EndTime": "篠山口20:03"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2763M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪18:54",
+            "EndTime": "篠山口20:03"
+        },
+        {
+            "UnyoNo": "宮504",
+            "TrainNo": "2765M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "福知山",
+            "Day": "全日",
+            "FirstTime": "大阪19:24",
+            "EndTime": "福知山21:34"
+        },
+        {
+            "UnyoNo": "宮507",
+            "TrainNo": "2765M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪19:24",
+            "EndTime": "篠山口20:33"
+        },
+        {
+            "UnyoNo": "宮554",
+            "TrainNo": "2780M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "全日",
+            "FirstTime": "福知山19:30",
+            "EndTime": "大阪21:52"
+        },
+        {
+            "UnyoNo": "宮502",
+            "TrainNo": "2767M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "大阪19:39",
+            "EndTime": "新三田20:24"
+        },
+        {
+            "UnyoNo": "宮505",
+            "TrainNo": "2767M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "大阪19:39",
+            "EndTime": "新三田20:24"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "2767M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "土休日",
+            "FirstTime": "大阪19:39",
+            "EndTime": "新三田20:24"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "2767M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "土休日",
+            "FirstTime": "大阪19:39",
+            "EndTime": "新三田20:24"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2778M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "篠山口20:15",
+            "EndTime": "大阪21:22"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2778M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口20:15",
+            "EndTime": "大阪21:22"
+        },
+        {
+            "UnyoNo": "宮508",
+            "TrainNo": "2771M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪20:24",
+            "EndTime": "福知山21:33"
+        },
+        {
+            "UnyoNo": "宮511",
+            "TrainNo": "2771M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "福知山",
+            "Day": "全日",
+            "FirstTime": "大阪20:24",
+            "EndTime": "福知山22:31"
+        },
+        {
+            "UnyoNo": "宮509",
+            "TrainNo": "2773M",
+            "Position": "前",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "大阪20:39",
+            "EndTime": "新三田21:24"
+        },
+        {
+            "UnyoNo": "宮534",
+            "TrainNo": "2773M",
+            "Position": "後",
+            "Type": "快速",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "大阪20:39",
+            "EndTime": "新三田21:24"
+        },
+        {
+            "UnyoNo": "宮535",
+            "TrainNo": "2777M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪21:24",
+            "EndTime": "篠山口22:33"
+        },
+        {
+            "UnyoNo": "宮553",
+            "TrainNo": "2777M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "大阪21:24",
+            "EndTime": "篠山口22:33"
+        },
+        {
+            "UnyoNo": "宮535",
+            "TrainNo": "2777M",
+            "Position": "後",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪21:31",
+            "EndTime": "篠山口22:41"
+        },
+        {
+            "UnyoNo": "宮553",
+            "TrainNo": "2777M",
+            "Position": "前",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪21:31",
+            "EndTime": "篠山口22:41"
+        },
+        {
             "UnyoNo": "宮513",
             "TrainNo": "2786M",
             "Position": "単",
@@ -1129,6 +2289,46 @@
             "Day": "全日",
             "FirstTime": "福知山21:38",
             "EndTime": "大阪23:47"
+        },
+        {
+            "UnyoNo": "宮603",
+            "TrainNo": "2779M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪21:54",
+            "EndTime": "篠山口23:03"
+        },
+        {
+            "UnyoNo": "宮604",
+            "TrainNo": "2781M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "福知山",
+            "Day": "全日",
+            "FirstTime": "大阪22:32",
+            "EndTime": "福知山0:36"
+        },
+        {
+            "UnyoNo": "宮602",
+            "TrainNo": "2783M",
+            "Position": "単",
+            "Type": "丹波路快速",
+            "Destination": "篠山口",
+            "Day": "全日",
+            "FirstTime": "大阪23:02",
+            "EndTime": "篠山口0:10"
+        },
+        {
+            "UnyoNo": "宮512",
+            "TrainNo": "回1530M",
+            "Position": "後",
+            "Type": "回送",
+            "Destination": "新三田",
+            "Day": "全日",
+            "FirstTime": "篠山口",
+            "EndTime": "新三田"
         },
         {
             "UnyoNo": "宮513",
@@ -1171,106 +2371,6 @@
             "EndTime": "吹田"
         },
         {
-            "UnyoNo": "宮514",
-            "TrainNo": "2711M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "福知山",
-            "Day": "全日",
-            "FirstTime": "大阪6:43",
-            "EndTime": "福知山8:56"
-        },
-        {
-            "UnyoNo": "宮514",
-            "TrainNo": "2542M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "福知山15:58",
-            "EndTime": "篠山口17:06"
-        },
-        {
-            "UnyoNo": "宮514",
-            "TrainNo": "2551M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "福知山",
-            "Day": "平日",
-            "FirstTime": "篠山口17:35",
-            "EndTime": "福知山18:36"
-        },
-        {
-            "UnyoNo": "宮531",
-            "TrainNo": "2728M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口7:15",
-            "EndTime": "大阪8:29"
-        },
-        {
-            "UnyoNo": "宮531",
-            "TrainNo": "2720M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口7:16",
-            "EndTime": "大阪8:23"
-        },
-        {
-            "UnyoNo": "宮532",
-            "TrainNo": "561M",
-            "Position": "後",
-            "Type": "普通",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "大阪6:37",
-            "EndTime": "新三田7:38"
-        },
-        {
-            "UnyoNo": "宮532",
-            "TrainNo": "562M",
-            "Position": "前",
-            "Type": "普通",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田7:43",
-            "EndTime": "大阪8:49"
-        },
-        {
-            "UnyoNo": "宮532",
-            "TrainNo": "2721M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪9:52",
-            "EndTime": "篠山口10:59"
-        },
-        {
-            "UnyoNo": "宮532",
-            "TrainNo": "2744M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口11:14",
-            "EndTime": "大阪12:21"
-        },
-        {
-            "UnyoNo": "宮532",
-            "TrainNo": "2751M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪16:55",
-            "EndTime": "篠山口18:03"
-        },
-        {
             "UnyoNo": "宮532",
             "TrainNo": "回1530M",
             "Position": "前",
@@ -1279,906 +2379,6 @@
             "Day": "全日",
             "FirstTime": "篠山口",
             "EndTime": "新三田"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2720M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田7:05",
-            "EndTime": "大阪7:57"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2734M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "新三田9:54",
-            "EndTime": "大阪10:36"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2725M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪10:51",
-            "EndTime": "篠山口11:58"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2727M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪11:21",
-            "EndTime": "篠山口12:28"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2748M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口12:14",
-            "EndTime": "大阪13:22"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2750M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口12:43",
-            "EndTime": "大阪13:51"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2739M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪14:21",
-            "EndTime": "篠山口15:28"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2762M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口15:43",
-            "EndTime": "大阪16:51"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2764M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口16:07",
-            "EndTime": "大阪17:16"
-        },
-        {
-            "UnyoNo": "宮533",
-            "TrainNo": "2759M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪18:24",
-            "EndTime": "篠山口19:33"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "2718M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口6:37",
-            "EndTime": "大阪7:50"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "2716M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口6:46",
-            "EndTime": "大阪7:54"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "2721M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪9:52",
-            "EndTime": "篠山口10:59"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "2744M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口11:14",
-            "EndTime": "大阪12:21"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "3755M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪11:36",
-            "EndTime": "宝塚12:01"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "3760M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚12:11",
-            "EndTime": "大阪12:36"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "2733M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪12:51",
-            "EndTime": "篠山口13:58"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "3763M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "宝塚",
-            "Day": "全日",
-            "FirstTime": "大阪13:36",
-            "EndTime": "宝塚14:01"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "3768M",
-            "Position": "単",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "宝塚14:11",
-            "EndTime": "大阪14:36"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "2756M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口14:14",
-            "EndTime": "大阪15:22"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "2767M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "土休日",
-            "FirstTime": "大阪19:39",
-            "EndTime": "新三田20:24"
-        },
-        {
-            "UnyoNo": "宮534",
-            "TrainNo": "2773M",
-            "Position": "後",
-            "Type": "快速",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "大阪20:39",
-            "EndTime": "新三田21:24"
-        },
-        {
-            "UnyoNo": "宮535",
-            "TrainNo": "2716M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田6:54",
-            "EndTime": "大阪7:41"
-        },
-        {
-            "UnyoNo": "宮535",
-            "TrainNo": "2730M",
-            "Position": "前",
-            "Type": "快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "新三田9:25",
-            "EndTime": "大阪10:08"
-        },
-        {
-            "UnyoNo": "宮535",
-            "TrainNo": "2777M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪21:24",
-            "EndTime": "篠山口22:33"
-        },
-        {
-            "UnyoNo": "宮535",
-            "TrainNo": "2777M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪21:31",
-            "EndTime": "篠山口22:41"
-        },
-        {
-            "UnyoNo": "宮551",
-            "TrainNo": "2527M",
-            "Position": "後",
-            "Type": "普通",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪6:09",
-            "EndTime": "篠山口7:24"
-        },
-        {
-            "UnyoNo": "宮551",
-            "TrainNo": "2722M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口7:28",
-            "EndTime": "大阪8:48"
-        },
-        {
-            "UnyoNo": "宮551",
-            "TrainNo": "2730M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口7:28",
-            "EndTime": "大阪8:44"
-        },
-        {
-            "UnyoNo": "宮552",
-            "TrainNo": "561M",
-            "Position": "前",
-            "Type": "普通",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "大阪6:37",
-            "EndTime": "新三田7:38"
-        },
-        {
-            "UnyoNo": "宮552",
-            "TrainNo": "562M",
-            "Position": "後",
-            "Type": "普通",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田7:43",
-            "EndTime": "大阪8:49"
-        },
-        {
-            "UnyoNo": "宮552",
-            "TrainNo": "2721M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪9:52",
-            "EndTime": "篠山口10:59"
-        },
-        {
-            "UnyoNo": "宮552",
-            "TrainNo": "2744M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口11:14",
-            "EndTime": "大阪12:21"
-        },
-        {
-            "UnyoNo": "宮552",
-            "TrainNo": "2753M",
-            "Position": "後",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪17:24",
-            "EndTime": "篠山口18:33"
-        },
-        {
-            "UnyoNo": "宮552",
-            "TrainNo": "2774M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "篠山口18:43",
-            "EndTime": "大阪19:51"
-        },
-        {
-            "UnyoNo": "宮553",
-            "TrainNo": "2525M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "福知山",
-            "Day": "全日",
-            "FirstTime": "大阪5:55",
-            "EndTime": "福知山8:19"
-        },
-        {
-            "UnyoNo": "宮553",
-            "TrainNo": "2772M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "福知山17:06",
-            "EndTime": "大阪19:22"
-        },
-        {
-            "UnyoNo": "宮553",
-            "TrainNo": "2777M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪21:24",
-            "EndTime": "篠山口22:33"
-        },
-        {
-            "UnyoNo": "宮553",
-            "TrainNo": "2777M",
-            "Position": "前",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪21:31",
-            "EndTime": "篠山口22:41"
-        },
-        {
-            "UnyoNo": "宮554",
-            "TrainNo": "2520M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "篠山口5:03",
-            "EndTime": "大阪6:21"
-        },
-        {
-            "UnyoNo": "宮554",
-            "TrainNo": "2531M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "福知山",
-            "Day": "平日",
-            "FirstTime": "大阪7:13",
-            "EndTime": "福知山9:28"
-        },
-        {
-            "UnyoNo": "宮554",
-            "TrainNo": "2715M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "福知山",
-            "Day": "土休日",
-            "FirstTime": "大阪7:23",
-            "EndTime": "福知山9:28"
-        },
-        {
-            "UnyoNo": "宮554",
-            "TrainNo": "2540M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "福知山14:56",
-            "EndTime": "篠山口15:54"
-        },
-        {
-            "UnyoNo": "宮554",
-            "TrainNo": "2549M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "福知山",
-            "Day": "全日",
-            "FirstTime": "篠山口16:59",
-            "EndTime": "福知山17:58"
-        },
-        {
-            "UnyoNo": "宮554",
-            "TrainNo": "2780M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "福知山19:30",
-            "EndTime": "大阪21:52"
-        },
-        {
-            "UnyoNo": "宮601",
-            "TrainNo": "2724M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "福知山6:59",
-            "EndTime": "大阪9:09"
-        },
-        {
-            "UnyoNo": "宮601",
-            "TrainNo": "2732M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "福知山6:59",
-            "EndTime": "大阪9:10"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "563M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "大阪7:00",
-            "EndTime": "新三田7:56"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "564M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "新三田8:04",
-            "EndTime": "大阪9:02"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2723M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪10:21",
-            "EndTime": "篠山口11:28"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2746M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口11:43",
-            "EndTime": "大阪12:51"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2746M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口11:43",
-            "EndTime": "大阪12:51"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2735M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪13:21",
-            "EndTime": "篠山口14:28"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2737M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪13:51",
-            "EndTime": "篠山口14:58"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2758M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口14:43",
-            "EndTime": "大阪15:51"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2760M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口15:12",
-            "EndTime": "大阪16:20"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2747M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪16:25",
-            "EndTime": "篠山口17:33"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2770M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口17:40",
-            "EndTime": "大阪18:49"
-        },
-        {
-            "UnyoNo": "宮602",
-            "TrainNo": "2783M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪23:02",
-            "EndTime": "篠山口0:10"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2714M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口6:13",
-            "EndTime": "大阪7:29"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2714M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口6:15",
-            "EndTime": "大阪7:25"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2533M",
-            "Position": "単",
-            "Type": "普通",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪7:54",
-            "EndTime": "篠山口9:18"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2717M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪7:54",
-            "EndTime": "篠山口9:03"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2742M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口10:44",
-            "EndTime": "大阪11:51"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2731M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪12:20",
-            "EndTime": "篠山口13:28"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2752M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口13:14",
-            "EndTime": "大阪14:21"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2754M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口13:43",
-            "EndTime": "大阪14:51"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2743M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "福知山",
-            "Day": "土休日",
-            "FirstTime": "大阪15:21",
-            "EndTime": "篠山口17:31"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2745M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪15:50",
-            "EndTime": "篠山口16:58"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2768M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口17:08",
-            "EndTime": "大阪18:17"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2776M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "福知山18:11",
-            "EndTime": "大阪20:21"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2763M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪18:54",
-            "EndTime": "篠山口20:03"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2778M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口20:15",
-            "EndTime": "大阪21:22"
-        },
-        {
-            "UnyoNo": "宮603",
-            "TrainNo": "2779M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "全日",
-            "FirstTime": "大阪21:54",
-            "EndTime": "篠山口23:03"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2710M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "全日",
-            "FirstTime": "篠山口5:27",
-            "EndTime": "大阪6:37"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2713M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪7:05",
-            "EndTime": "篠山口8:15"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2713M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪7:05",
-            "EndTime": "篠山口8:14"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2728M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口8:33",
-            "EndTime": "大阪9:46"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2734M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口8:33",
-            "EndTime": "大阪9:46"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2729M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "大阪11:51",
-            "EndTime": "篠山口12:58"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2731M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪12:20",
-            "EndTime": "篠山口13:28"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2752M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "篠山口13:14",
-            "EndTime": "大阪14:21"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2754M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口13:43",
-            "EndTime": "大阪14:51"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2743M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "福知山",
-            "Day": "平日",
-            "FirstTime": "大阪15:21",
-            "EndTime": "篠山口17:31"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2745M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪15:50",
-            "EndTime": "篠山口16:58"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2768M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口17:08",
-            "EndTime": "大阪18:17"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2776M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "平日",
-            "FirstTime": "福知山18:11",
-            "EndTime": "大阪20:21"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2763M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪18:54",
-            "EndTime": "篠山口20:03"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2778M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口20:15",
-            "EndTime": "大阪21:22"
-        },
-        {
-            "UnyoNo": "宮604",
-            "TrainNo": "2781M",
-            "Position": "単",
-            "Type": "丹波路快速",
-            "Destination": "福知山",
-            "Day": "全日",
-            "FirstTime": "大阪22:32",
-            "EndTime": "福知山0:36"
         }
     ]
 }

@@ -17,7 +17,7 @@
     <main class="main-wrap">
         <aside class="sidebar">
             <p>全件表示</p>
-            <button class="button" onclick="get('miyahara')" name="word_U">宮原支所運用</button>
+            <button class="button" onclick="get('miyahara')" name="word_U">宮原支所運用</button><br>
             <button class="button" onclick="get('akashi')" name="word_U">明石支所運用</button>
             <form id="Unyo_Search" class="form">
                 <p class="form">検索フォーム</p>
@@ -47,12 +47,18 @@
                 </div>
             </form>
             <p>在線ページ</p>
-            <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア">
-            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2">
+            <p>JR西日本</p>
+            <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
+            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
+            <input type="button" class="button" onclick="location.href='./Okayama.html'" value="岡山・福山エリア"><br>
+            <input type="button" class="button" onclick="location.href='./HiroSeki.html'" value="広島・下関エリア"><br>
+            <input type="button" class="button" onclick="location.href='./Sanin.html'" value="山陰エリア"><br>
+            <!-- <p>JR東海</p>
+            <input type="button" class="button" onclick="location.href='./JRCentral.html'" value="JR東海各線"><br> -->
         </aside>
         <article class="main">
             <div class="output-area">
-                <div id="a"></div>
+                <div id="outputArea">始めに全件表示してから検索を始めてください。</div>
             </div>
         </article>
     </main>

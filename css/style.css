@@ -59,7 +59,7 @@
     }
     .button {
         display: inline-block;
-        width: 200px;
+        width: 175px;
         height: 54px;
         text-align: center;
         text-decoration: none;
@@ -84,6 +84,11 @@
         border: 2px solid #333;
         color: #fff;
         line-height: 50px;
+    }
+    .button:hover {
+        background-color: #fff;
+        border-color: #59b1eb;
+        color: #59b1eb;
     }
     .form {
         background-color: greenyellow;
@@ -116,7 +121,7 @@
         font-size: 20pt;
     }
     .main-wrap {
-        height: 600px;
+        height: 900px;
         text-align: center;
         /* color: #fff; */
         width: 100%;
@@ -151,13 +156,26 @@
         margin-left: auto;
         margin-right: auto;
     }
+    input {
+        -webkit-appearance: none;
+    }
+    /* ボタンだけに指定する場合は以下 */
+    input[type="button"] {
+        -webkit-appearance: none;
+    }
+    input[type="button"] {
+        -webkit-appearance: none;
+    }
+    input[type="reset"] {
+        -webkit-appearance: none;
+    }
     .button {
         display: inline-block;
-        width: 75pt;
-        height: auto;
+        width: 100pt;
+        height: 30pt;
         text-align: center;
         text-decoration: none;
-        line-height: auto;
+        line-height: 50%;
         outline: none;
     }
     .button::before, .button::after {
@@ -177,7 +195,7 @@
         background-color: #333;
         border: 2px solid #333;
         color: #fff;
-        line-height: auto;
+        line-height: 50%;
     }
     .button:hover {
         background-color: #fff;
@@ -191,7 +209,7 @@
         size: 10;
     }
     .output-area {
-        font-size: 15pt;
+        font-size: 12pt;
     }
 }
 
@@ -219,7 +237,7 @@
         font-size: 20pt;
     }
     .main-wrap {
-        height: 600px;
+        height: 800px;
         text-align: center;
         /* color: #fff; */
         width: 100%;
@@ -232,7 +250,7 @@
         height: 100%;
         text-align: left;
         /* color: black; */
-        width: 70%;
+        width: 65%;
         float: left;
         overflow: auto;
     }
@@ -241,7 +259,7 @@
         height: 100%;
         text-align: center;
         color: black;
-        width: 30%;
+        width: 35%;
         float: left;
         overflow: auto;
     }
@@ -254,13 +272,23 @@
         margin-left: auto;
         margin-right: auto;
     }
+    input {
+        -webkit-appearance: none;
+    }
+    /* ボタンだけに指定する場合は以下 */
+    input[type="button"] {
+        -webkit-appearance: none;
+    }
+    input[type="reset"] {
+        -webkit-appearance: none;
+    }
     .button {
         display: inline-block;
-        width: 75pt;
-        height: auto;
+        width: 100%;
+        height: 30pt;
         text-align: center;
         text-decoration: none;
-        line-height: auto;
+        line-height: 50%;
         outline: none;
     }
     .button::before, .button::after {
@@ -280,7 +308,7 @@
         background-color: #333;
         border: 2px solid #333;
         color: #fff;
-        line-height: auto;
+        line-height: 50%;
     }
     .button:hover {
         background-color: #fff;
@@ -291,7 +319,6 @@
         background-color: greenyellow;
         width: 100%;
         text-align: center;
-        size: 10;
     }
     .output-area {
         font-size: 10pt;

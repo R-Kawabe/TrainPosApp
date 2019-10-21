@@ -83,7 +83,7 @@ function trainElement(train) {
  * @param {Train[]} trains 
  */
 function viewTrains(trains) {
-    const elem = document.getElementById("a");
+    const elem = document.getElementById("outputArea");
     while (child = elem.firstChild) elem.removeChild(child);
     const trainElems = trains.map(trainElement);
     trainElems.forEach(element => {
