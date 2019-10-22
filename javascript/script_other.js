@@ -65,8 +65,8 @@ function trainElement(train) {
  */
 function StaGet_other(pos) {
     const position = pos.split('_');
-    const pos1 = posMatch_other(position[0]);
-    const pos2 = posMatch_other(position[1]);
+    const pos1 = posMatch_O(position[0]);
+    const pos2 = posMatch_O(position[1]);
     if (pos2[0].name == "") return pos1[0].name;
     else {
         const result = (pos1[0].name + "－" + pos2[0].name);
