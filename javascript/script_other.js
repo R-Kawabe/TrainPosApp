@@ -52,10 +52,26 @@ function trainElement(train) {
     const nickname = nicknameSet(train.nickname);
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
-    const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} ${direction}`;
+    const position = StaGet_other(train.pos);
+    const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} ${position}${direction}`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
+}
+
+/**
+ * 
+ * @param {string} pos 
+ */
+function StaGet_other(pos) {
+    const position = pos.split('_');
+    const pos1 = posMatch_other(position[0]);
+    const pos2 = posMatch_other(position[1]);
+    if (pos2[0].name == "") return pos1[0].name;
+    else {
+        const result = (pos1[0].name + "－" + pos2[0].name);
+        return result;
+    }
 }
 
 /**

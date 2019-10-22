@@ -18,11 +18,12 @@ function getLineData(line) {
         })
         .then(function (data) {
             const trains = data.trains.map(buildTrain); //mapで回して関数に従って格納？
-            viewTrains(trains); //関数を実行しhtmlへ出
+            viewTrains(trains); //関数を実行しhtmlへ
         })
         .catch(function (error) {
             document.getElementById('elem').textContent = error;
         });
+
     // }, false)
 }
 
@@ -72,10 +73,26 @@ function buildDestination(obj) {
 function trainElement(train) {
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
-    const text = `${train.no} ${train.displayType}${train.nickname} ${train.dest.text}行き ${train.numberOfCars}両 ${direction} ${delayMinutes}`;
+    const position = StaGet(train.pos);
+    const text = `${train.no} ${train.displayType}${train.nickname} ${train.dest.text}行き ${train.numberOfCars}両 ${delayMinutes} 走行位置：${position}${direction}`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
+}
+
+/**
+ * 
+ * @param {string} pos 
+ */
+function StaGet(pos) {
+    const position = pos.split('_');
+    const pos1 = posMatch(position[0]);
+    const pos2 = posMatch(position[1]);
+    if (pos2[0].name == "") return pos1[0].name;
+    else {
+        const result = (pos1[0].name + "－" + pos2[0].name);
+        return result;
+    }
 }
 
 /**
@@ -131,16 +148,4 @@ class Destination {
         this.line = line;
         this.text = text;
     }
-}
-
-/**
- * 
- * @param {string} text 
- * @param {Train[]} trains 
- * @return {Train[]}
- */
-function searchDest(text, trains) {
-    return trains.filter(train => {
-        return train.dest.text.match(text) != null;
-    });
 }

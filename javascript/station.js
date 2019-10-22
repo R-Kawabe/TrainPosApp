@@ -42,6 +42,7 @@ function buildStaInfo(obj) {
  */
 function stationElement(station) {
     const text = `${station.info.code} ${station.info.name}`;
+    console.log(text);
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
