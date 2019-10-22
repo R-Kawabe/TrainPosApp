@@ -53,7 +53,7 @@ function trainElement(train) {
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
     const position = StaGet_other(train.pos);
-    const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} ${position}${direction}`;
+    const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} 走行位置：${position}${direction}`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
