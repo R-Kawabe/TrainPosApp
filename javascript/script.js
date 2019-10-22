@@ -43,7 +43,7 @@ function buildTrain(obj) { //jsonから取得した各要素について？？�
     train.numberOfCars = obj["numberOfCars"];
     train.pos = obj["pos"];
     train.type = obj["type"];
-    train.textChange = obj["textChange"];
+    train.typeChange = obj["typeChange"];
     train.via = obj["via"];
     return train;
 }
@@ -74,7 +74,7 @@ function trainElement(train) {
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
     const position = StaGet(train.pos);
-    const text = `${train.no} ${train.displayType}${train.nickname} ${train.dest.text}行き ${train.numberOfCars}両 ${delayMinutes} 走行位置：${position}${direction}`;
+    const text = `${train.no} ${train.displayType}${train.nickname} ${train.typeChange} ${train.dest.text}行き ${train.numberOfCars}両 ${delayMinutes} 走行位置：${position}${direction}`;
     const elem = document.createElement('div');
     elem.innerText = text;
     return elem;
@@ -137,7 +137,7 @@ class Train {
         this.numberOfCars = 0;
         this.pos = "";
         this.type = "";
-        this.textChange = "";
+        this.typeChange = "";
         this.via = "";
     }
 }
