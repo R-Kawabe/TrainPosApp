@@ -1,4 +1,4 @@
-var stations_urban = [
+var stations_urban = [//欠番：383,403,408,1507
     {
         "code": "0382",
         "name": "米原"
@@ -986,6 +986,18 @@ var stations_urban = [
     {
         "code": "####",
         "name": ""
+    },
+    {//姫新線 上り
+        "code": "2201",
+        "name": "播磨高岡"
+    },
+    {//加古川線
+        "code": "2001",
+        "name": "日岡"
+    },
+    {//草津線
+        "code": "0801",
+        "name": "手原"
     }
 ];
 
