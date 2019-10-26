@@ -55,7 +55,7 @@ html, body {
     color: red;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 801px) {
     /* この部分にパソコン用だけに対応させたいCSSコードを入力していく */
     .main {
         background: whitesmoke;
