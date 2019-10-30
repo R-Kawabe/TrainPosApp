@@ -77,16 +77,18 @@ function buildDestination(obj) {
 function trainElement(train) {
     const DispTypeAddCol = AddDispTypeCol(train.displayType);
     const DestAddCol = AddDestCol(train.dest.text);
+    const LineMark = LineMarkGet(train.dest.line);
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
     const position = StaGet(train.pos);
     // const text = `${train.no} ${train.displayType}${train.nickname} ${train.typeChange} ${train.via} ${train.dest.text}行き ${train.numberOfCars}両 ${delayMinutes} 走行位置：${position}${direction}`;
-    const text = train.no + " " + DispTypeAddCol + train.nickname + " " + train.typeChange + " " + train.via + " " + DestAddCol + "行き " + train.numberOfCars + "両 " + delayMinutes + " 走行位置：" + position + direction;
+    const text = train.no + " " + LineMark + DispTypeAddCol + train.nickname + " " + train.typeChange + " " + train.via + " " + DestAddCol + "行き " + train.numberOfCars + "両 " + delayMinutes + " 走行位置：" + position + direction;
     const elem = document.createElement('div');
     // elem.innerText = text;
     elem.innerHTML = text;
     return elem;
 }
+
 
 /**
  * 
@@ -258,4 +260,88 @@ function AddDispTypeCol(trainType) {
  */
 function AddDestCol(trainDest) {
     return '<span class="destination">' + trainDest + '</span>';
+}
+
+/**
+ * 
+ * @param {*} LineMark 
+ */
+function LineMarkGet(LineMark) {
+    switch (LineMark) {
+        case "hokuriku": {
+            const GetMark = '<span class="hokuriku">[A]</span>';
+            return GetMark;
+        }
+        case "kosei": {
+            const GetMark = '<span class="kosei">[B]</span>';
+            return GetMark;
+        }
+        case "kusatsu": {
+            const GetMark = '<span class="kusatsu">[C]</span>';
+            return GetMark;
+        }
+        case "nara": {
+            const GetMark = '<span class="nara">[D]</span>';
+            return GetMark;
+        }
+        case "osakahigashi": {
+            const GetMark = '<span class="osakahigashi">[F]</span>';
+            return GetMark;
+        }
+        case "takarazuka": {
+            const GetMark = '<span class="takarazuka">[G]</span>';
+            return GetMark;
+        }
+        case "tozai": {
+            const GetMark = '<span class="tozai">[H]</span>';
+            return GetMark;
+        }
+        case "kakogawa": {
+            const GetMark = '<span class="kakogawa">[I]</span>';
+            return GetMark;
+        }
+        case "kishin": {
+            const GetMark = '<span class="kishin">[K]</span>';
+            return GetMark;
+        }
+        case "osakaloop": {
+            const GetMark = '<span class="osakaloop">[O]</span>';
+            return GetMark;
+        }
+        case "yumesaki": {
+            const GetMark = '<span class="yumesaki">[P]</span>';
+            return GetMark;
+        }
+        case "yamatoji": {
+            const GetMark = '<span class="yamatoji">[Q]</span>';
+            return GetMark;
+        }
+        case "hanwa": {
+            const GetMark = '<span class="hanwa">[R]</span>';
+            return GetMark;
+        }
+        case "kansaiairport": {
+            const GetMark = '<span class="kix">[S]</span>';
+            return GetMark;
+        }
+        case "wakayama2": {
+            const GetMark = '<span class="wakayama">[T]</span>';
+            return GetMark;
+        }
+        case "kansai": {
+            const GetMark = '<span class="kansai">[V]</span>';
+            return GetMark;
+        }
+        case "kinokuni": {
+            const GetMark = '<span class="kinokuni">[W]</span>';
+            return GetMark;
+        }
+        case "other": {
+            return "";
+        }
+        default: {
+            return LineMark;
+        }
+
+    }
 }

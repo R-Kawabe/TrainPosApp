@@ -1,3 +1,7 @@
+/* span {
+    font-weight: bold;
+} */
+
 /* 行先色付 */
 
 span.destination {
@@ -8,6 +12,7 @@ span.destination {
 
 span.noDelay {
     color: blue;
+    /* font-weight: normal; */
 }
 
 span.delayMinutes {
@@ -71,3 +76,71 @@ span.extra {
 }
 
 /* 路線記号色付 */
+
+span.hokuriku {
+    color: blue;
+}
+
+span.kosei {
+    color: deepskyblue;
+}
+
+span.kusatsu {
+    color: lime;
+}
+
+span.nara {
+    color: darkgoldenrod;
+}
+
+span.osakahigashi {
+    color: steelblue;
+}
+
+span.takarazuka {
+    color: gold;
+}
+
+span.tozai {
+    color: deeppink;
+}
+
+span.kakogawa {
+    color: turquoise;
+}
+
+span.kishin {
+    color: orangered;
+}
+
+span.osakaloop {
+    color: red;
+}
+
+span.yumesaki {
+    color: navy;
+}
+
+span.yamatoji {
+    color: green;
+}
+
+span.hanwa {
+    color: darkorange;
+}
+
+span.kix {
+    color: royalblue;
+}
+
+span.wakayama {
+    color: hotpink;
+}
+
+span.kansai {
+    color: darkviolet;
+}
+
+span.kinokuni {
+    color: darkturquoise;
+}
