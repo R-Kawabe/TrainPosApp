@@ -185,6 +185,14 @@ function AddDispTypeCol(trainType) {
             const typeCol = '<span class="specialrapid">' + trainType + '</span>';
             return typeCol;
         }
+        case "A→一般": {
+            const typeCol = '<span class="specialrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "一般→A": {
+            const typeCol = '<span class="specialrapid">' + trainType + '</span>';
+            return typeCol;
+        }
         case "丹波路快": {
             const typeCol = '<span class="tanbajirapid">' + trainType + '</span>';
             return typeCol;

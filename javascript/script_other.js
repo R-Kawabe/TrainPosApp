@@ -181,19 +181,19 @@ function AddDispTypeCol(trainType) {
             const typeCol = '<span class="specialrapid">' + trainType + '</span>';
             return typeCol;
         }
-        case "丹波路快": {
+        case "丹波路快速": {
             const typeCol = '<span class="tanbajirapid">' + trainType + '</span>';
             return typeCol;
         }
-        case "紀州路快": {
+        case "紀州路快速": {
             const typeCol = '<span class="kishujirapid">' + trainType + '</span>';
             return typeCol;
         }
-        case "大和路快": {
+        case "大和路快速": {
             const typeCol = '<span class="yamatojirapid">' + trainType + '</span>';
             return typeCol;
         }
-        case "みやこ快": {
+        case "みやこ路快速": {
             const typeCol = '<span class="miyakojirapid">' + trainType + '</span>';
             return typeCol;
         }
