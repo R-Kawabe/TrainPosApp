@@ -1,9 +1,21 @@
 /* 行先色付 */
+
 span.destination {
     color: darkorange;
 }
 
+/* 遅延時分色付 */
+
+span.noDelay {
+    color: blue;
+}
+
+span.delayMinutes {
+    color: red;
+}
+
 /* 種別色付 */
+
 span.local {
     color: black;
 }
@@ -16,11 +28,23 @@ span.rapid {
     color: darkorange;
 }
 
+span.specialrapid {
+    color: blue;
+}
+
 span.tanbajirapid {
     color: goldenrod;
 }
 
+span.kixrapid {
+    color: royalblue;
+}
+
 span.kishujirapid {
+    color: darkorange;
+}
+
+span.yamatojirapid {
     color: darkorange;
 }
 
@@ -39,6 +63,11 @@ span.limitedexp {
 span.notinservice {
     color: white;
     background-color: black;
+}
+
+span.extra {
+    color: white;
+    background-color: purple;
 }
 
 /* 路線記号色付 */

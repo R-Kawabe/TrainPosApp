@@ -49,13 +49,17 @@ function getSearchText() { //入力された文字列を取得し返す関数
  * @return {HTMLElement}
  */
 function trainElement(train) {
+    const DispTypeAddCol = AddDispTypeCol(train.displayType);
+    const DestAddCol = AddDestCol(train.dest);
     const nickname = nicknameSet(train.nickname);
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
     const position = StaGet_other(train.pos);
-    const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} 走行位置：${position}${direction}`;
+    // const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} 走行位置：${position}${direction}`;
+    const text = train.no + " " + DispTypeAddCol + nickname + " " + DestAddCol + "行き " + delayMinutes + " 走行位置：" + position + direction;
     const elem = document.createElement('div');
-    elem.innerText = text;
+    // elem.innerText = text;
+    elem.innerHTML = text;
     return elem;
 }
 
@@ -97,8 +101,9 @@ function directionSet(direction) {
  * @param {*} delayMinutes 
  */
 function delayMinutesSet(delayMinutes) {
-    if (delayMinutes == 0) return "定刻";
-    else return delayMinutes + "分遅れ";
+    if (delayMinutes == 0) return '<span class="noDelay">定刻</span>';
+    // '<span class="noDelay">'+delayMinutes+'</span>'+"分遅れ";
+    else return '<span class="delayMinutes">' + delayMinutes + '</span>' + "分遅れ";
 }
 
 /**
@@ -140,4 +145,89 @@ function matchDest(obj) {
         if (train.Dest != null) return train.dest;
         else train.Dest = "";
     });
+}
+
+/**
+ * 
+ * @param {*} trainType 
+ */
+function AddDispTypeCol(trainType) {
+    switch (trainType) {
+        case "普通": {
+            const typeCol = '<span class="local">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "区間快速": {
+            const typeCol = '<span class="regionalrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "快速": {
+            const typeCol = '<span class="rapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "新快速": {
+            const typeCol = '<span class="specialrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "丹波路快": {
+            const typeCol = '<span class="tanbajirapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "紀州路快": {
+            const typeCol = '<span class="kishujirapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "大和路快": {
+            const typeCol = '<span class="yamatojirapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "みやこ快": {
+            const typeCol = '<span class="miyakojirapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "直通快速": {
+            const typeCol = '<span class="directrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "特急": {
+            const typeCol = '<span class="limitedexp">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "関空特急": {
+            const typeCol = '<span class="limitedexp">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "寝台": {
+            const typeCol = '<span class="limitedexp">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "回送": {
+            const typeCol = '<span class="notinservice">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "臨時": {
+            const typeCol = '<span class="extra">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "臨時特急": {
+            const typeCol = '<span class="limitedexp">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "観光列車": {
+            const typeCol = '<span class="extra">' + trainType + '</span>';
+            return typeCol;
+        }
+        default: {
+            return trainType;
+        }
+
+    }
+}
+
+/**
+ * 
+ * @param {*} trainDest 
+ */
+function AddDestCol(trainDest) {
+    return '<span class="destination">' + trainDest + '</span>';
 }

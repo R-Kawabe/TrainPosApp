@@ -117,8 +117,9 @@ function directionSet(direction) {
  * @param {*} delayMinutes 
  */
 function delayMinutesSet(delayMinutes) {
-    if (delayMinutes == 0) return "定刻";
-    else return delayMinutes + "分遅れ";
+    if (delayMinutes == 0) return '<span class="noDelay">定刻</span>';
+    // '<span class="noDelay">'+delayMinutes+'</span>'+"分遅れ";
+    else return '<span class="delayMinutes">' + delayMinutes + '</span>' + "分遅れ";
 }
 
 /**
@@ -158,7 +159,6 @@ class Destination {
     }
 }
 
-
 /**
  * 
  * @param {*} trainType 
@@ -177,8 +177,32 @@ function AddDispTypeCol(trainType) {
             const typeCol = '<span class="rapid">' + trainType + '</span>';
             return typeCol;
         }
-        case "丹波路快速": {
+        case "新快速": {
+            const typeCol = '<span class="specialrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "丹波路快": {
             const typeCol = '<span class="tanbajirapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "紀州路快": {
+            const typeCol = '<span class="kishujirapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "関空快速": {
+            const typeCol = '<span class="kixrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "関空紀州": {
+            const typeCol = '<span class="kixrapid">関空</span>' + '<span class="kishujirapid">紀州</span>';
+            return typeCol;
+        }
+        case "大和路快": {
+            const typeCol = '<span class="yamatojirapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "みやこ快": {
+            const typeCol = '<span class="miyakojirapid">' + trainType + '</span>';
             return typeCol;
         }
         case "直通快速": {
@@ -189,8 +213,24 @@ function AddDispTypeCol(trainType) {
             const typeCol = '<span class="limitedexp">' + trainType + '</span>';
             return typeCol;
         }
+        case "関空特急": {
+            const typeCol = '<span class="limitedexp">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "通勤特急": {
+            const typeCol = '<span class="limitedexp">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "寝台特急": {
+            const typeCol = '<span class="limitedexp">' + trainType + '</span>';
+            return typeCol;
+        }
         case "回送": {
             const typeCol = '<span class="notinservice">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "臨時": {
+            const typeCol = '<span class="extra">' + trainType + '</span>';
             return typeCol;
         }
         default: {
