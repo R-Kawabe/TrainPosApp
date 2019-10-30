@@ -119,7 +119,7 @@ function directionSet(direction) {
 function delayMinutesSet(delayMinutes) {
     if (delayMinutes == 0) return '<span class="noDelay">定刻</span>';
     // '<span class="noDelay">'+delayMinutes+'</span>'+"分遅れ";
-    else return '<span class="delayMinutes">' + delayMinutes + '</span>' + "分遅れ";
+    else return '<span class="delayMinutes">' + delayMinutes + '分遅れ</span>';
 }
 
 /**
