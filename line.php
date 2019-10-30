@@ -2,6 +2,8 @@
 
 $word1 = ($_GET['word1']);
 
+header('Content-Type: application/json');
+
 switch ($word1) {
     case "kyoto": {
             $text1 = "https://www.train-guide.westjr.co.jp/api/v3/" . $word1 . ".json";

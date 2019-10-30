@@ -50,6 +50,7 @@ function buildTrain(obj) { //jsonから取得した各要素について？？�
     train.TrainNo = obj["TrainNo"];
     train.Position = obj["Position"];
     train.Type = obj["Type"];
+    train.TypeChange = obj["TypeChange"];
     train.Destination = obj["Destination"];
     train.Day = obj["Day"];
     train.FirstTime = obj["FirstTime"];
@@ -63,9 +64,12 @@ function buildTrain(obj) { //jsonから取得した各要素について？？�
  * @return {HTMLElement}
  */
 function trainElement(train) {
-    const text = `${train.UnyoNo} ${train.TrainNo}${train.Position} ${train.Type} ${train.Destination}行き ${train.FirstTime} ${train.EndTime} ${train.Day}`;
+    // const text = `${train.UnyoNo} ${train.TrainNo}${train.Position} ${train.Type} ${train.Destination}行き ${train.FirstTime} ${train.EndTime} ${train.Day}`;
+    const TypeAddCol = AddTypeCol(train.Type);
+    const DestAddCol = AddDestCol(train.Destination);
     const elem = document.createElement('div');
-    elem.innerText = text;
+    // elem.innerText = text;
+    elem.innerHTML = train.UnyoNo + " " + train.TrainNo + train.Position + " " + TypeAddCol + " " + train.TypeChange + " " + DestAddCol + " " + train.FirstTime + " " + train.EndTime + " " + train.Day;
     return elem;
 }
 
@@ -89,6 +93,7 @@ class Train {
         this.Position = "";
         this.Position = "";
         this.Type = "";
+        this.TypeChange = "";
         this.Destination = "";
         this.Day = "";
         this.FirstTime = "";
@@ -159,4 +164,49 @@ function searchDay(text, trains) {
     return trains.filter(train => {
         return train.Day.match(text) != null;
     });
+}
+
+/**
+ * 
+ * @param {*} trainType 
+ */
+function AddTypeCol(trainType) {
+    switch (trainType) {
+        case "普通": {
+            const typeCol = '<span class="local">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "区間快速": {
+            const typeCol = '<span class="regionalrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "快速": {
+            const typeCol = '<span class="rapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "丹波路快速": {
+            const typeCol = '<span class="tanbajirapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "直通快速": {
+            const typeCol = '<span class="directrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "回送": {
+            const typeCol = '<span class="notinservice">' + trainType + '</span>';
+            return typeCol;
+        }
+        default: {
+            return trainType;
+        }
+
+    }
+}
+
+/**
+ * 
+ * @param {*} trainDest 
+ */
+function AddDestCol(trainDest) {
+    return '<span class="destination">' + trainDest + '</span>';
 }

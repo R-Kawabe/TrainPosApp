@@ -1,0 +1,44 @@
+/* 行先色付 */
+span.destination {
+    color: darkorange;
+}
+
+/* 種別色付 */
+span.local {
+    color: black;
+}
+
+span.regionalrapid {
+    color: green;
+}
+
+span.rapid {
+    color: darkorange;
+}
+
+span.tanbajirapid {
+    color: goldenrod;
+}
+
+span.kishujirapid {
+    color: darkorange;
+}
+
+span.miyakojirapid {
+    color: darkgoldenrod;
+}
+
+span.directrapid {
+    color: steelblue;
+}
+
+span.limitedexp {
+    color: red;
+}
+
+span.notinservice {
+    color: white;
+    background-color: black;
+}
+
+/* 路線記号色付 */

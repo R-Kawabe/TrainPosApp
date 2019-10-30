@@ -13,10 +13,14 @@ function getLineData(line) {
     params.set('word1', line);
     fetch('line.php?' + params.toString())
         .then(function (response) {
-            console.log(response.status); //200
+            console.log(response);
+            if (!response.ok) {
+                throw new Error("eeeee");
+            }
             return response.json();
         })
         .then(function (data) {
+            console.log(data)
             const trains = data.trains.map(buildTrain); //mapで回して関数に従って格納？
             viewTrains(trains); //関数を実行しhtmlへ
         })
@@ -71,12 +75,16 @@ function buildDestination(obj) {
  * @return {HTMLElement}
  */
 function trainElement(train) {
+    const DispTypeAddCol = AddDispTypeCol(train.displayType);
+    const DestAddCol = AddDestCol(train.dest.text);
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
     const position = StaGet(train.pos);
-    const text = `${train.no} ${train.displayType}${train.nickname} ${train.typeChange} ${train.via} ${train.dest.text}行き ${train.numberOfCars}両 ${delayMinutes} 走行位置：${position}${direction}`;
+    // const text = `${train.no} ${train.displayType}${train.nickname} ${train.typeChange} ${train.via} ${train.dest.text}行き ${train.numberOfCars}両 ${delayMinutes} 走行位置：${position}${direction}`;
+    const text = train.no + " " + DispTypeAddCol + train.nickname + " " + train.typeChange + " " + train.via + " " + DestAddCol + "行き " + train.numberOfCars + "両 " + delayMinutes + " 走行位置：" + position + direction;
     const elem = document.createElement('div');
-    elem.innerText = text;
+    // elem.innerText = text;
+    elem.innerHTML = text;
     return elem;
 }
 
@@ -148,4 +156,54 @@ class Destination {
         this.line = line;
         this.text = text;
     }
+}
+
+
+/**
+ * 
+ * @param {*} trainType 
+ */
+function AddDispTypeCol(trainType) {
+    switch (trainType) {
+        case "普通": {
+            const typeCol = '<span class="local">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "区間快速": {
+            const typeCol = '<span class="regionalrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "快速": {
+            const typeCol = '<span class="rapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "丹波路快速": {
+            const typeCol = '<span class="tanbajirapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "直通快速": {
+            const typeCol = '<span class="directrapid">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "特急": {
+            const typeCol = '<span class="limitedexp">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "回送": {
+            const typeCol = '<span class="notinservice">' + trainType + '</span>';
+            return typeCol;
+        }
+        default: {
+            return trainType;
+        }
+
+    }
+}
+
+/**
+ * 
+ * @param {*} trainDest 
+ */
+function AddDestCol(trainDest) {
+    return '<span class="destination">' + trainDest + '</span>';
 }
