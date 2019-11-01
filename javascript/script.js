@@ -165,7 +165,7 @@ class Destination {
 /**
  * 
  * @param {*} trainType 
- * 
+ * @param {*} linename
  */
 function AddDispTypeCol(trainType, linename) {
     switch (trainType) {
