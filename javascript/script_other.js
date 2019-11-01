@@ -58,6 +58,7 @@ function trainElement(train) {
     // const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} 走行位置：${position}${direction}`;
     const text = train.no + " " + DispTypeAddCol + nickname + " " + DestAddCol + "行き " + delayMinutes + " 走行位置：" + position + direction;
     const elem = document.createElement('div');
+    elem.className = 'kakomi-box3';
     // elem.innerText = text;
     elem.innerHTML = text;
     return elem;

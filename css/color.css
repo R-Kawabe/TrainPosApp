@@ -1,3 +1,13 @@
+/* シンプル 枠（影）1 */
+.kakomi-box3 {
+    margin: 5px auto;
+    padding: 5px;
+    /* width: 90%; */
+    border: 1px solid lightgray; /* 枠線 */
+    background-color: white; /* 背景色 */
+    box-shadow: 1px 1px 2px #ccc;
+   }
+
 /* span {
     font-weight: bold;
 } */
@@ -50,7 +60,7 @@ span.kishujirapid {
 }
 
 span.yamatojirapid {
-    color: darkorange;
+    color: green;
 }
 
 span.miyakojirapid {

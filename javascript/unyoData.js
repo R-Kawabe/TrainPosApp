@@ -68,6 +68,7 @@ function trainElement(train) {
     const TypeAddCol = AddTypeCol(train.Type);
     const DestAddCol = AddDestCol(train.Destination);
     const elem = document.createElement('div');
+    elem.className = 'kakomi-box3';
     // elem.innerText = text;
     elem.innerHTML = train.UnyoNo + " " + train.TrainNo + train.Position + " " + TypeAddCol + " " + train.TypeChange + " " + DestAddCol + " " + train.FirstTime + " " + train.EndTime + " " + train.Day;
     return elem;
