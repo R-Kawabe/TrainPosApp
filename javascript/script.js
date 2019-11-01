@@ -179,7 +179,7 @@ function AddDispTypeCol(trainType, linename) {
                 return typeCol;
             }
             else {
-                const typeCol = '<span class="rapid">' + trainType + '</span>';
+                const typeCol = '<span class="regionalrapid">' + trainType + '</span>';
                 return typeCol;
             }
         }
