@@ -75,7 +75,7 @@ function buildDestination(obj) {
  * @return {HTMLElement}
  */
 function trainElement(train) {
-    const DispTypeAddCol = AddDispTypeCol(train.displayType);
+    const DispTypeAddCol = AddDispTypeCol(train.displayType, train.dest.line);
     const DestAddCol = AddDestCol(train.dest.text);
     const LineMark = LineMarkGet(train.dest.line);
     const direction = directionSet(train.direction);
@@ -167,19 +167,35 @@ class Destination {
  * @param {*} trainType 
  * 
  */
-function AddDispTypeCol(trainType) {
+function AddDispTypeCol(trainType, linename) {
     switch (trainType) {
         case "普通": {
             const typeCol = '<span class="local">' + trainType + '</span>';
             return typeCol;
         }
         case "区間快速": {
-            const typeCol = '<span class="regionalrapid">' + trainType + '</span>';
-            return typeCol;
+            if (linename == "nara") {
+                const typeCol = '<span class="miyakojirapid">' + trainType + '</span>';
+                return typeCol;
+            }
+            else {
+                const typeCol = '<span class="rapid">' + trainType + '</span>';
+                return typeCol;
+            }
         }
         case "快速": {
-            const typeCol = '<span class="rapid">' + trainType + '</span>';
-            return typeCol;
+            if (linename == "yamatoji" || linename == "wakayama2") {
+                const typeCol = '<span class="yamatojirapid">' + trainType + '</span>';
+                return typeCol;
+            }
+            else if (linename == "nara") {
+                const typeCol = '<span class="miyakojirapid">' + trainType + '</span>';
+                return typeCol;
+            }
+            else {
+                const typeCol = '<span class="rapid">' + trainType + '</span>';
+                return typeCol;
+            }
         }
         case "新快速": {
             const typeCol = '<span class="specialrapid">' + trainType + '</span>';
