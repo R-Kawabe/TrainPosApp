@@ -1006,6 +1006,10 @@ var stations_urban = [//欠番：383,403,408,1507
     {//奈良線
         "code": "3213",
         "name": "上狛"
+    },
+    {//和歌山線
+        "code": "3501",
+        "name": "畠田"
     }
 ];
 
@@ -2923,7 +2927,7 @@ var stations_other = [
 function posMatch_O(pos_o) {
     return stations_other.filter(Ostation => {
         if (Ostation.code === pos_o) return Ostation;
-        
+
     });
 }
 
@@ -2935,6 +2939,6 @@ function posMatch_O(pos_o) {
 function posMatch_U(pos_u) {
     return stations_urban.filter(Ustation => {
         if (Ustation.code === pos_u) return Ustation;
-        
+
     });
 }
