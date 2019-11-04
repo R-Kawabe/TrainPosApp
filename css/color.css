@@ -38,6 +38,11 @@ span.delayMinutes {
     color: red;
 }
 
+span.overDelay {
+    color: red;
+    background-color: yellow;
+}
+
 /* 種別色付 */
 
 span.local {

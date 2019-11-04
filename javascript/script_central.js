@@ -1,8 +1,8 @@
 function getLineData_other(line) {
     // document.getElementsByName('word1').addEventListener('click', function (e) {
     let params = new URLSearchParams();
-    params.set('word1', line);
-    fetch('line.php?' + params.toString())
+    params.set('wordC', line);
+    fetch('lineC.php?' + params.toString())
         .then(function (response) {
             console.log(response.status); //200
             return response.json();
@@ -54,7 +54,7 @@ function trainElement(train) {
     const nickname = nicknameSet(train.nickname);
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
-    const position = StaGet_other(train.pos);
+    const position = StaGet_Central(train.pos);
     // const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} 走行位置：${position}${direction}`;
     const text = train.no + " " + DispTypeAddCol + nickname + " " + DestAddCol + "行き " + delayMinutes + " 走行位置：" + position + direction;
     const elem = document.createElement('div');
@@ -103,7 +103,7 @@ function directionSet(direction) {
  */
 function delayMinutesSet(delayMinutes) {
     if (delayMinutes == 0) return '<span class="noDelay">定刻</span>';
-    else if (delayMinutes > 60) return '<span class="overDelay">60分以上遅れ</span>';
+    else if (delayMinutes > 59) return '<span class="overDelay">60分以上遅れ</span>';
     // '<span class="noDelay">'+delayMinutes+'</span>'+"分遅れ";
     else return '<span class="delayMinutes">' + delayMinutes + '分遅れ</span>';
 }
@@ -164,54 +164,26 @@ function AddDispTypeCol(trainType) {
             return typeCol;
         }
         case "快速": {
-            const typeCol = '<span class="rapid">' + trainType + '</span>';
+            const typeCol = '<span class="rapidC">' + trainType + '</span>';
             return typeCol;
         }
         case "新快速": {
-            const typeCol = '<span class="specialrapid">' + trainType + '</span>';
+            const typeCol = '<span class="newrapid">' + trainType + '</span>';
             return typeCol;
         }
-        case "A新快○": {
-            const typeCol = '<span class="specialrapid">' + trainType + '</span>';
+        case "ホームライナー": {
+            const typeCol = '<span class="rapidC">' + trainType + '</span>';
             return typeCol;
         }
-        case "A→一般": {
-            const typeCol = '<span class="specialrapid">' + trainType + '</span>';
-            return typeCol;
-        }
-        case "一般→A": {
-            const typeCol = '<span class="specialrapid">' + trainType + '</span>';
-            return typeCol;
-        }
-        case "丹波路快速": {
-            const typeCol = '<span class="tanbajirapid">' + trainType + '</span>';
-            return typeCol;
-        }
-        case "紀州路快速": {
-            const typeCol = '<span class="kishujirapid">' + trainType + '</span>';
-            return typeCol;
-        }
-        case "大和路快速": {
-            const typeCol = '<span class="yamatojirapid">' + trainType + '</span>';
-            return typeCol;
-        }
-        case "みやこ路快速": {
-            const typeCol = '<span class="miyakojirapid">' + trainType + '</span>';
-            return typeCol;
-        }
-        case "直通快速": {
-            const typeCol = '<span class="directrapid">' + trainType + '</span>';
+        case "特別快速": {
+            const typeCol = '<span class="specialrapidC">' + trainType + '</span>';
             return typeCol;
         }
         case "特急": {
             const typeCol = '<span class="limitedexp">' + trainType + '</span>';
             return typeCol;
         }
-        case "関空特急": {
-            const typeCol = '<span class="limitedexp">' + trainType + '</span>';
-            return typeCol;
-        }
-        case "寝台": {
+        case "寝台特急": {
             const typeCol = '<span class="limitedexp">' + trainType + '</span>';
             return typeCol;
         }
