@@ -254,6 +254,688 @@
             "Position": ""
         },
         {
+            "UnyoNo": "明支7",
+            "TrainNo": "184C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "平日",
+            "FirstTime": "須磨13:57",
+            "EndTime": "京都15:42",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支7",
+            "TrainNo": "179C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "須磨",
+            "Day": "平日",
+            "FirstTime": "高槻12:24",
+            "EndTime": "須磨13:46",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支7",
+            "TrainNo": "209C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "京都15:47",
+            "EndTime": "西明石17:53",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支7",
+            "TrainNo": "4637C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "松井山手20:17",
+            "EndTime": "西明石22:29",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支7",
+            "TrainNo": "4600C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "松井山手",
+            "Day": "平日",
+            "FirstTime": "西明石18:00",
+            "EndTime": "松井山手20:12",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "4429S",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "京橋",
+            "Day": "平日",
+            "FirstTime": "四条畷6:13",
+            "EndTime": "京橋6:35",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "4430S",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "松井山手",
+            "Day": "平日",
+            "FirstTime": "京橋6:48",
+            "EndTime": "松井山手7:26",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "4668M",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "四条畷",
+            "Day": "平日",
+            "FirstTime": "宝塚23:28",
+            "EndTime": "四条畷0:36",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "5444M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "木津",
+            "Day": "平日",
+            "FirstTime": "宝塚9:12",
+            "EndTime": "木津10:53",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "5970M",
+            "Type": "区間快速",
+            "TypeChange": "",
+            "Destination": "同志社前",
+            "Day": "平日",
+            "FirstTime": "塚口12:38",
+            "EndTime": "同志社前13:53",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "5492M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "木津",
+            "Day": "平日",
+            "FirstTime": "塚口15:23",
+            "EndTime": "木津16:53",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "5536M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "木津",
+            "Day": "平日",
+            "FirstTime": "新三田19:24",
+            "EndTime": "木津21:20",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "5961M",
+            "Type": "区間快速",
+            "TypeChange": "",
+            "Destination": "塚口",
+            "Day": "平日",
+            "FirstTime": "木津10:59",
+            "EndTime": "塚口12:33",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "5983M",
+            "Type": "区間快速",
+            "TypeChange": "",
+            "Destination": "塚口",
+            "Day": "平日",
+            "FirstTime": "同志社前14:03",
+            "EndTime": "塚口15:18",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "5507M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "木津16:56",
+            "EndTime": "新三田18:50",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "5543M",
+            "Type": "快速",
+            "TypeChange": "京橋から普通",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "木津21:33",
+            "EndTime": "（京橋22:23）",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "4693M",
+            "Type": "普通",
+            "TypeChange": "京橋まで快速",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "（京橋22:26）",
+            "EndTime": "宝塚23:23",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "5903M",
+            "Type": "区間快速",
+            "TypeChange": "",
+            "Destination": "尼崎",
+            "Day": "平日",
+            "FirstTime": "松井山手7:30",
+            "EndTime": "尼崎8:30",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "回***S",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "四条畷",
+            "Day": "平日",
+            "FirstTime": "放出",
+            "EndTime": "四条畷",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "回***S",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出",
+            "Day": "平日",
+            "FirstTime": "四条畷",
+            "EndTime": "放出",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支10",
+            "TrainNo": "回5903M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "尼崎",
+            "EndTime": "宝塚",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支11",
+            "TrainNo": "2104M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "奈良",
+            "Day": "平日",
+            "FirstTime": "新大阪18:41",
+            "EndTime": "奈良19:35",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支11",
+            "TrainNo": "2107M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "土休日",
+            "FirstTime": "奈良16:24",
+            "EndTime": "新大阪17:17",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支11",
+            "TrainNo": "2104M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "奈良",
+            "Day": "土休日",
+            "FirstTime": "新大阪11:17",
+            "EndTime": "奈良12:11",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支11",
+            "TrainNo": "2108M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "奈良",
+            "Day": "土休日",
+            "FirstTime": "新大阪18:32",
+            "EndTime": "奈良19:30",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支11",
+            "TrainNo": "回2253M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "平日",
+            "FirstTime": "放出",
+            "EndTime": "新大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支11",
+            "TrainNo": "回****M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "土休日",
+            "FirstTime": "放出",
+            "EndTime": "新大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "2107M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "平日",
+            "FirstTime": "奈良7:35",
+            "EndTime": "新大阪8:31",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "2102M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "奈良",
+            "Day": "平日",
+            "FirstTime": "新大阪17:41",
+            "EndTime": "奈良18:35",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "2103M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "土休日",
+            "FirstTime": "奈良8:10",
+            "EndTime": "新大阪9:05",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "2105M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "土休日",
+            "FirstTime": "奈良15:24",
+            "EndTime": "新大阪16:17",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "2102M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "奈良",
+            "Day": "土休日",
+            "FirstTime": "新大阪10:17",
+            "EndTime": "奈良11:11",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "2106M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "奈良",
+            "Day": "土休日",
+            "FirstTime": "新大阪17:32",
+            "EndTime": "奈良18:30",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "回2251M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "平日",
+            "FirstTime": "放出",
+            "EndTime": "新大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "回2258M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出",
+            "Day": "平日",
+            "FirstTime": "新大阪",
+            "EndTime": "放出",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "回****M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "土休日",
+            "FirstTime": "放出",
+            "EndTime": "新大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支12",
+            "TrainNo": "回****M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出",
+            "Day": "土休日",
+            "FirstTime": "新大阪",
+            "EndTime": "放出",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支13",
+            "TrainNo": "2103M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "平日",
+            "FirstTime": "奈良6:37",
+            "EndTime": "新大阪7:31",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支13",
+            "TrainNo": "2106M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "奈良",
+            "Day": "平日",
+            "FirstTime": "新大阪19:41",
+            "EndTime": "奈良20:35",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支13",
+            "TrainNo": "回2255M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "平日",
+            "FirstTime": "放出",
+            "EndTime": "新大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支13",
+            "TrainNo": "回2254M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出",
+            "Day": "平日",
+            "FirstTime": "新大阪",
+            "EndTime": "放出",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支13",
+            "TrainNo": "回****M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "土休日",
+            "FirstTime": "放出",
+            "EndTime": "新大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支13",
+            "TrainNo": "回****M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出",
+            "Day": "土休日",
+            "FirstTime": "新大阪",
+            "EndTime": "放出",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支14",
+            "TrainNo": "2105M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "平日",
+            "FirstTime": "奈良7:03",
+            "EndTime": "新大阪8:03",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支14",
+            "TrainNo": "2108M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "奈良",
+            "Day": "平日",
+            "FirstTime": "新大阪20:41",
+            "EndTime": "奈良21:35",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支14",
+            "TrainNo": "回2257M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "平日",
+            "FirstTime": "放出",
+            "EndTime": "新大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支14",
+            "TrainNo": "回2256M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出",
+            "Day": "平日",
+            "FirstTime": "新大阪",
+            "EndTime": "放出",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支14",
+            "TrainNo": "回****M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "土休日",
+            "FirstTime": "放出",
+            "EndTime": "新大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支14",
+            "TrainNo": "回****M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出",
+            "Day": "土休日",
+            "FirstTime": "新大阪",
+            "EndTime": "放出",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支15",
+            "TrainNo": "2101M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "平日",
+            "FirstTime": "奈良6:12",
+            "EndTime": "新大阪7:05",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支15",
+            "TrainNo": "2101M",
+            "Type": "直通快速",
+            "TypeChange": "",
+            "Destination": "新大阪",
+            "Day": "土休日",
+            "FirstTime": "奈良7:00",
+            "EndTime": "新大阪7:52",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支15",
+            "TrainNo": "回2252M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出",
+            "Day": "平日",
+            "FirstTime": "新大阪",
+            "EndTime": "放出",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支15",
+            "TrainNo": "回****M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出",
+            "Day": "土休日",
+            "FirstTime": "新大阪",
+            "EndTime": "放出",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支16",
+            "TrainNo": "203C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "京都15:02",
+            "EndTime": "西明石17:08",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支16",
+            "TrainNo": "1142C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "平日",
+            "FirstTime": "新三田9:05",
+            "EndTime": "京都10:54",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支16",
+            "TrainNo": "4625C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "松井山手19:32",
+            "EndTime": "西明石21:44",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支16",
+            "TrainNo": "4588C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "松井山手",
+            "Day": "平日",
+            "FirstTime": "西明石17:15",
+            "EndTime": "松井山手19:27",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支18",
+            "TrainNo": "1204C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "高槻",
+            "Day": "平日",
+            "FirstTime": "新三田16:47",
+            "EndTime": "高槻18:12",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支18",
+            "TrainNo": "1232C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "高槻",
+            "Day": "平日",
+            "FirstTime": "新三田20:16",
+            "EndTime": "高槻21:42",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支18",
+            "TrainNo": "1189C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "高槻15:03",
+            "EndTime": "新三田16:25",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支18",
+            "TrainNo": "1217C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "高槻18:32",
+            "EndTime": "新三田20:00",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支18",
+            "TrainNo": "1245C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "高槻22:09",
+            "EndTime": "新三田23:33",
+            "Position": ""
+        },
+        {
             "UnyoNo": "明支19",
             "TrainNo": "2784M",
             "Type": "快速",
@@ -273,6 +955,248 @@
             "Day": "平日",
             "FirstTime": "大阪16:06",
             "EndTime": "宝塚16:32",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "4459M",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "尼崎",
+            "Day": "平日",
+            "FirstTime": "四条畷7:33",
+            "EndTime": "尼崎8:22",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "4436M",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "四条畷",
+            "Day": "平日",
+            "FirstTime": "新三田5:56",
+            "EndTime": "四条畷7:26",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "5504M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "木津",
+            "Day": "平日",
+            "FirstTime": "宝塚16:41",
+            "EndTime": "木津18:19",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "5519M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "木津18:25",
+            "EndTime": "篠山口20:49",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "566M",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宝塚8:51",
+            "EndTime": "大阪9:21",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "2784M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口21:42",
+            "EndTime": "大阪22:52",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "3773M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪16:06",
+            "EndTime": "宝塚16:32",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "回4459M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "尼崎",
+            "EndTime": "宝塚",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "回566M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "回3773M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支19",
+            "TrainNo": "回2784M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1112C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "高槻",
+            "Day": "平日",
+            "FirstTime": "新三田7:19",
+            "EndTime": "高槻8:48",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1154C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "高槻",
+            "Day": "平日",
+            "FirstTime": "新三田10:33",
+            "EndTime": "高槻11:56",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1180C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "高槻",
+            "Day": "平日",
+            "FirstTime": "新三田13:48",
+            "EndTime": "高槻15:11",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1208C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "高槻",
+            "Day": "平日",
+            "FirstTime": "新三田17:17",
+            "EndTime": "高槻18:42",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1236C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "高槻",
+            "Day": "平日",
+            "FirstTime": "新三田20:45",
+            "EndTime": "高槻22:12",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1141C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "高槻9:03",
+            "EndTime": "新三田10:26",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1167C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "高槻12:18",
+            "EndTime": "新三田13:40",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1193C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "高槻15:33",
+            "EndTime": "新三田16:55",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1221C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "高槻19:02",
+            "EndTime": "新三田20:30",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "1249C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "高槻22:49",
+            "EndTime": "新三田0:12",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支20",
+            "TrainNo": "回1533M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "新三田",
             "Position": ""
         },
         {
@@ -298,6 +1222,380 @@
             "Position": ""
         },
         {
+            "UnyoNo": "明支21",
+            "TrainNo": "4414M",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "木津",
+            "Day": "平日",
+            "FirstTime": "新三田5:03",
+            "EndTime": "木津7:16",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支21",
+            "TrainNo": "5542M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "同志社前",
+            "Day": "平日",
+            "FirstTime": "篠山口19:43",
+            "EndTime": "同志社前21:53",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支21",
+            "TrainNo": "5429M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "篠山口",
+            "Day": "平日",
+            "FirstTime": "木津7:21",
+            "EndTime": "篠山口9:47",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支21",
+            "TrainNo": "回***S",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "放出(所)",
+            "Day": "平日",
+            "FirstTime": "同志社前",
+            "EndTime": "放出(所)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支21",
+            "TrainNo": "回2740M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支21",
+            "TrainNo": "回2757M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "210C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "平日",
+            "FirstTime": "西明石16:51",
+            "EndTime": "京都19:02",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "237C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "京都19:13",
+            "EndTime": "西明石21:23",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "4405S",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "京橋",
+            "Day": "平日",
+            "FirstTime": "放出5:15",
+            "EndTime": "京橋5:19",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "5739M",
+            "Type": "区間快速",
+            "TypeChange": "京橋から普通",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "松井山手6:31",
+            "EndTime": "（京橋7:08）",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "4439M",
+            "Type": "普通",
+            "TypeChange": "京橋まで区間快速",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "（京橋7:10）",
+            "EndTime": "新三田8:14",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "4521C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "長尾10:18",
+            "EndTime": "西明石12:28",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "4555C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "四条畷14:56",
+            "EndTime": "西明石16:43",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "4408S",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "松井山手",
+            "Day": "平日",
+            "FirstTime": "木津5:45",
+            "EndTime": "松井山手6:24",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "4486M",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "長尾",
+            "Day": "平日",
+            "FirstTime": "新三田8:16",
+            "EndTime": "長尾10:12",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支23",
+            "TrainNo": "4532C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "四条畷",
+            "Day": "平日",
+            "FirstTime": "西明石12:46",
+            "EndTime": "四条畷14:32",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支24",
+            "TrainNo": "123C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "京都6:31",
+            "EndTime": "西明石8:38",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支24",
+            "TrainNo": "506C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "平日",
+            "FirstTime": "神戸4:58",
+            "EndTime": "京都6:26",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支24",
+            "TrainNo": "回506C",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "神戸",
+            "Day": "平日",
+            "FirstTime": "西明石",
+            "EndTime": "神戸",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支25",
+            "TrainNo": "228C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "平日",
+            "FirstTime": "西明石19:06",
+            "EndTime": "京都21:13",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支25",
+            "TrainNo": "253C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "京都21:17",
+            "EndTime": "西明石23:31",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支25",
+            "TrainNo": "4535C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "四条畷12:26",
+            "EndTime": "西明石14:13",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支25",
+            "TrainNo": "4581C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "松井山手16:47",
+            "EndTime": "西明石19:00",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支25",
+            "TrainNo": "4512C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "四条畷",
+            "Day": "平日",
+            "FirstTime": "西明石10:15",
+            "EndTime": "四条畷12:02",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支25",
+            "TrainNo": "4546C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "松井山手",
+            "Day": "平日",
+            "FirstTime": "西明石14:31",
+            "EndTime": "松井山手16:42",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支27",
+            "TrainNo": "106C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "高槻",
+            "Day": "平日",
+            "FirstTime": "西明石5:24",
+            "EndTime": "高槻7:06",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支27",
+            "TrainNo": "220C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "平日",
+            "FirstTime": "西明石18:06",
+            "EndTime": "京都20:17",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支27",
+            "TrainNo": "256C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "高槻",
+            "Day": "平日",
+            "FirstTime": "西明石22:43",
+            "EndTime": "高槻0:30",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支27",
+            "TrainNo": "129C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "高槻7:24",
+            "EndTime": "西明石9:11",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支27",
+            "TrainNo": "247C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "京都20:28",
+            "EndTime": "西明石22:38",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支27",
+            "TrainNo": "4527C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "四条畷11:26",
+            "EndTime": "西明石13:13",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支27",
+            "TrainNo": "4565C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "西明石",
+            "Day": "平日",
+            "FirstTime": "松井山手15:47",
+            "EndTime": "西明石17:59",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支27",
+            "TrainNo": "4504C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "四条畷",
+            "Day": "平日",
+            "FirstTime": "西明石9:15",
+            "EndTime": "四条畷11:02",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支27",
+            "TrainNo": "4538C",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "松井山手",
+            "Day": "平日",
+            "FirstTime": "西明石13:31",
+            "EndTime": "松井山手15:42",
+            "Position": ""
+        },
+        {
             "UnyoNo": "明支36",
             "TrainNo": "3752M",
             "Type": "快速",
@@ -320,6 +1618,39 @@
             "Position": ""
         },
         {
+            "UnyoNo": "明支37",
+            "TrainNo": "2769M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪19:54",
+            "EndTime": "篠山口21:04",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支37",
+            "TrainNo": "2782M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口21:18",
+            "EndTime": "大阪22:27",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支37",
+            "TrainNo": "2785M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪23:30",
+            "EndTime": "篠山口0:39",
+            "Position": ""
+        },
+        {
             "UnyoNo": "明支43",
             "TrainNo": "3754M",
             "Type": "快速",
@@ -328,6 +1659,83 @@
             "Day": "平日",
             "FirstTime": "宝塚10:41",
             "EndTime": "大阪11:06",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支46",
+            "TrainNo": "3750M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚9:58",
+            "EndTime": "大阪10:24",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支46",
+            "TrainNo": "3771M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "大阪15:36",
+            "EndTime": "宝塚16:01",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支47",
+            "TrainNo": "3752M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宝塚10:17",
+            "EndTime": "大阪10:46",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支48",
+            "TrainNo": "2740M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "篠山口10:14",
+            "EndTime": "大阪11:21",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支48",
+            "TrainNo": "2757M",
+            "Type": "快速",
+            "TypeChange": "",
+            "Destination": "篠山口",
+            "Day": "土休日",
+            "FirstTime": "大阪17:54",
+            "EndTime": "篠山口19:03",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支48",
+            "TrainNo": "回2740M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支48",
+            "TrainNo": "回2757M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
             "Position": ""
         },
         {
@@ -427,17 +1835,6 @@
             "Day": "平日",
             "FirstTime": "西明石5:17",
             "EndTime": "京都7:19",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "106C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "高槻",
-            "Day": "平日",
-            "FirstTime": "西明石5:24",
-            "EndTime": "高槻7:06",
             "Position": ""
         },
         {
@@ -859,17 +2256,6 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支7",
-            "TrainNo": "184C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "京都",
-            "Day": "平日",
-            "FirstTime": "須磨13:57",
-            "EndTime": "京都15:42",
-            "Position": ""
-        },
-        {
             "UnyoNo": "明支",
             "TrainNo": "186C",
             "Type": "普通",
@@ -1003,17 +2389,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "210C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "京都",
-            "Day": "平日",
-            "FirstTime": "西明石16:51",
-            "EndTime": "京都19:02",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "212C",
             "Type": "普通",
             "TypeChange": "",
@@ -1058,17 +2433,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "220C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "京都",
-            "Day": "平日",
-            "FirstTime": "西明石18:06",
-            "EndTime": "京都20:17",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "222C",
             "Type": "普通",
             "TypeChange": "",
@@ -1098,17 +2462,6 @@
             "Day": "平日",
             "FirstTime": "西明石18:51",
             "EndTime": "京都21:02",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "228C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "京都",
-            "Day": "平日",
-            "FirstTime": "西明石19:06",
-            "EndTime": "京都21:13",
             "Position": ""
         },
         {
@@ -1256,17 +2609,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "256C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "高槻",
-            "Day": "平日",
-            "FirstTime": "西明石22:43",
-            "EndTime": "高槻0:30",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "258C",
             "Type": "普通",
             "TypeChange": "",
@@ -1399,17 +2741,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "123C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "京都6:31",
-            "EndTime": "西明石8:38",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "125C",
             "Type": "普通",
             "TypeChange": "",
@@ -1428,17 +2759,6 @@
             "Day": "平日",
             "FirstTime": "高槻7:14",
             "EndTime": "西明石8:56",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "129C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "高槻7:24",
-            "EndTime": "西明石9:11",
             "Position": ""
         },
         {
@@ -1706,17 +3026,6 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支7",
-            "TrainNo": "179C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "須磨",
-            "Day": "平日",
-            "FirstTime": "高槻12:24",
-            "EndTime": "須磨13:46",
-            "Position": ""
-        },
-        {
             "UnyoNo": "明支",
             "TrainNo": "181C",
             "Type": "普通",
@@ -1839,17 +3148,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "203C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "京都15:02",
-            "EndTime": "西明石17:08",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "205C",
             "Type": "普通",
             "TypeChange": "",
@@ -1868,17 +3166,6 @@
             "Day": "平日",
             "FirstTime": "京都15:32",
             "EndTime": "西明石17:38",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支7",
-            "TrainNo": "209C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "京都15:47",
-            "EndTime": "西明石17:53",
             "Position": ""
         },
         {
@@ -2026,17 +3313,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "237C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "京都19:13",
-            "EndTime": "西明石21:23",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "239C",
             "Type": "普通",
             "TypeChange": "",
@@ -2081,17 +3357,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "247C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "京都20:28",
-            "EndTime": "西明石22:38",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "249C",
             "Type": "普通",
             "TypeChange": "",
@@ -2110,17 +3375,6 @@
             "Day": "平日",
             "FirstTime": "京都20:58",
             "EndTime": "西明石23:10",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "253C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "京都21:17",
-            "EndTime": "西明石23:31",
             "Position": ""
         },
         {
@@ -2220,17 +3474,6 @@
             "Day": "平日",
             "FirstTime": "大阪5:14",
             "EndTime": "京都6:00",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "506C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "京都",
-            "Day": "平日",
-            "FirstTime": "神戸4:58",
-            "EndTime": "京都6:26",
             "Position": ""
         },
         {
@@ -2708,17 +3951,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "1112C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "高槻",
-            "Day": "平日",
-            "FirstTime": "新三田7:19",
-            "EndTime": "高槻8:48",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "1114C",
             "Type": "普通",
             "TypeChange": "",
@@ -2726,17 +3958,6 @@
             "Day": "平日",
             "FirstTime": "新三田7:35",
             "EndTime": "高槻9:06",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "1142C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "京都",
-            "Day": "平日",
-            "FirstTime": "新三田9:05",
-            "EndTime": "京都10:54",
             "Position": ""
         },
         {
@@ -2792,17 +4013,6 @@
             "Day": "平日",
             "FirstTime": "新三田10:18",
             "EndTime": "高槻11:41",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "1154C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "高槻",
-            "Day": "平日",
-            "FirstTime": "新三田10:33",
-            "EndTime": "高槻11:56",
             "Position": ""
         },
         {
@@ -2939,17 +4149,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "1180C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "高槻",
-            "Day": "平日",
-            "FirstTime": "新三田13:48",
-            "EndTime": "高槻15:11",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "1182C",
             "Type": "普通",
             "TypeChange": "",
@@ -3071,17 +4270,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "1204C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "高槻",
-            "Day": "平日",
-            "FirstTime": "新三田16:47",
-            "EndTime": "高槻18:12",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "1206C",
             "Type": "普通",
             "TypeChange": "",
@@ -3089,17 +4277,6 @@
             "Day": "平日",
             "FirstTime": "新三田16:59",
             "EndTime": "高槻18:27",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "1208C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "高槻",
-            "Day": "平日",
-            "FirstTime": "新三田17:17",
-            "EndTime": "高槻18:42",
             "Position": ""
         },
         {
@@ -3225,17 +4402,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "1232C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "高槻",
-            "Day": "平日",
-            "FirstTime": "新三田20:16",
-            "EndTime": "高槻21:42",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "1234C",
             "Type": "普通",
             "TypeChange": "",
@@ -3243,17 +4409,6 @@
             "Day": "平日",
             "FirstTime": "新三田20:31",
             "EndTime": "高槻21:57",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "1236C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "高槻",
-            "Day": "平日",
-            "FirstTime": "新三田20:45",
-            "EndTime": "高槻22:12",
             "Position": ""
         },
         {
@@ -3331,17 +4486,6 @@
             "Day": "平日",
             "FirstTime": "京都7:40",
             "EndTime": "新三田9:29",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "1141C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "高槻9:03",
-            "EndTime": "新三田10:26",
             "Position": ""
         },
         {
@@ -3478,17 +4622,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "1167C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "高槻12:18",
-            "EndTime": "新三田13:40",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "1169C",
             "Type": "普通",
             "TypeChange": "",
@@ -3599,17 +4732,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "1189C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "高槻15:03",
-            "EndTime": "新三田16:25",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "1191C",
             "Type": "普通",
             "TypeChange": "",
@@ -3617,17 +4739,6 @@
             "Day": "平日",
             "FirstTime": "高槻15:18",
             "EndTime": "新三田16:40",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "1193C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "高槻15:33",
-            "EndTime": "新三田16:55",
             "Position": ""
         },
         {
@@ -3753,17 +4864,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "1217C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "高槻18:32",
-            "EndTime": "新三田20:00",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "1219C",
             "Type": "普通",
             "TypeChange": "",
@@ -3771,17 +4871,6 @@
             "Day": "平日",
             "FirstTime": "高槻18:47",
             "EndTime": "新三田20:15",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "1221C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "高槻19:02",
-            "EndTime": "新三田20:30",
             "Position": ""
         },
         {
@@ -3907,17 +4996,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "1245C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "高槻22:09",
-            "EndTime": "新三田23:33",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "1247C",
             "Type": "普通",
             "TypeChange": "",
@@ -3925,17 +5003,6 @@
             "Day": "平日",
             "FirstTime": "高槻22:29",
             "EndTime": "新三田23:53",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "1249C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "高槻22:49",
-            "EndTime": "新三田0:12",
             "Position": ""
         },
         {
@@ -3969,17 +5036,6 @@
             "Day": "平日",
             "FirstTime": "四条畷4:53",
             "EndTime": "新三田6:21",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4405S",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "京橋",
-            "Day": "平日",
-            "FirstTime": "放出5:15",
-            "EndTime": "京橋5:19",
             "Position": ""
         },
         {
@@ -4127,17 +5183,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4429S",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "京橋",
-            "Day": "平日",
-            "FirstTime": "四条畷6:13",
-            "EndTime": "京橋6:35",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4431M",
             "Type": "普通",
             "TypeChange": "",
@@ -4189,28 +5234,6 @@
             "Day": "平日",
             "FirstTime": "松井山手6:22",
             "EndTime": "尼崎7:25",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "5739M",
-            "Type": "区間快速",
-            "TypeChange": "京橋から普通",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "松井山手6:31",
-            "EndTime": "（京橋7:08）",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4439M",
-            "Type": "普通",
-            "TypeChange": "京橋まで区間快速",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "（京橋7:10）",
-            "EndTime": "新三田8:14",
             "Position": ""
         },
         {
@@ -4343,17 +5366,6 @@
             "Day": "平日",
             "FirstTime": "（京橋7:55）",
             "EndTime": "西明石9:23",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4459M",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "尼崎",
-            "Day": "平日",
-            "FirstTime": "四条畷7:33",
-            "EndTime": "尼崎8:22",
             "Position": ""
         },
         {
@@ -4688,17 +5700,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4521C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "長尾10:18",
-            "EndTime": "西明石12:28",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4523C",
             "Type": "普通",
             "TypeChange": "",
@@ -4717,17 +5718,6 @@
             "Day": "平日",
             "FirstTime": "四条畷11:11",
             "EndTime": "西明石12:58",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4527C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "四条畷11:26",
-            "EndTime": "西明石13:13",
             "Position": ""
         },
         {
@@ -4761,17 +5751,6 @@
             "Day": "平日",
             "FirstTime": "四条畷12:11",
             "EndTime": "西明石13:58",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4535C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "四条畷12:26",
-            "EndTime": "西明石14:13",
             "Position": ""
         },
         {
@@ -4875,17 +5854,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4555C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "四条畷14:56",
-            "EndTime": "西明石16:43",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4557C",
             "Type": "普通",
             "TypeChange": "",
@@ -4926,17 +5894,6 @@
             "Day": "平日",
             "FirstTime": "長尾15:34",
             "EndTime": "西明石17:44",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4565C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "松井山手15:47",
-            "EndTime": "西明石17:59",
             "Position": ""
         },
         {
@@ -5014,17 +5971,6 @@
             "Day": "平日",
             "FirstTime": "四条畷17:03",
             "EndTime": "京橋17:25",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4581C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "松井山手16:47",
-            "EndTime": "西明石19:00",
             "Position": ""
         },
         {
@@ -5260,17 +6206,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4625C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "松井山手19:32",
-            "EndTime": "西明石21:44",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4627S",
             "Type": "普通",
             "TypeChange": "",
@@ -5322,17 +6257,6 @@
             "Day": "平日",
             "FirstTime": "四条畷20:33",
             "EndTime": "京橋20:55",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4637C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "西明石",
-            "Day": "平日",
-            "FirstTime": "松井山手20:17",
-            "EndTime": "西明石22:29",
             "Position": ""
         },
         {
@@ -5579,17 +6503,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4408S",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "松井山手",
-            "Day": "平日",
-            "FirstTime": "木津5:45",
-            "EndTime": "松井山手6:24",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4410M",
             "Type": "普通",
             "TypeChange": "",
@@ -5608,17 +6521,6 @@
             "Day": "平日",
             "FirstTime": "京橋6:00",
             "EndTime": "松井山手6:37",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4414M",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "木津",
-            "Day": "平日",
-            "FirstTime": "新三田5:03",
-            "EndTime": "木津7:16",
             "Position": ""
         },
         {
@@ -5689,17 +6591,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4430S",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "松井山手",
-            "Day": "平日",
-            "FirstTime": "京橋6:48",
-            "EndTime": "松井山手7:26",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4432M",
             "Type": "普通",
             "TypeChange": "",
@@ -5718,17 +6609,6 @@
             "Day": "平日",
             "FirstTime": "西明石5:29",
             "EndTime": "松井山手7:41",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4436M",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "四条畷",
-            "Day": "平日",
-            "FirstTime": "新三田5:56",
-            "EndTime": "四条畷7:26",
             "Position": ""
         },
         {
@@ -5997,17 +6877,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4486M",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "長尾",
-            "Day": "平日",
-            "FirstTime": "新三田8:16",
-            "EndTime": "長尾10:12",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4488C",
             "Type": "普通",
             "TypeChange": "",
@@ -6063,17 +6932,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4504C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "四条畷",
-            "Day": "平日",
-            "FirstTime": "西明石9:15",
-            "EndTime": "四条畷11:02",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4506C",
             "Type": "普通",
             "TypeChange": "",
@@ -6103,17 +6961,6 @@
             "Day": "平日",
             "FirstTime": "西明石10:01",
             "EndTime": "四条畷11:47",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4512C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "四条畷",
-            "Day": "平日",
-            "FirstTime": "西明石10:15",
-            "EndTime": "四条畷12:02",
             "Position": ""
         },
         {
@@ -6217,17 +7064,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4532C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "四条畷",
-            "Day": "平日",
-            "FirstTime": "西明石12:46",
-            "EndTime": "四条畷14:32",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4534C",
             "Type": "普通",
             "TypeChange": "",
@@ -6246,17 +7082,6 @@
             "Day": "平日",
             "FirstTime": "西明石13:16",
             "EndTime": "長尾15:29",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4538C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "松井山手",
-            "Day": "平日",
-            "FirstTime": "西明石13:31",
-            "EndTime": "松井山手15:42",
             "Position": ""
         },
         {
@@ -6290,17 +7115,6 @@
             "Day": "平日",
             "FirstTime": "西明石14:16",
             "EndTime": "松井山手16:27",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4546C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "松井山手",
-            "Day": "平日",
-            "FirstTime": "西明石14:31",
-            "EndTime": "松井山手16:42",
             "Position": ""
         },
         {
@@ -6525,17 +7339,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4588C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "松井山手",
-            "Day": "平日",
-            "FirstTime": "西明石17:15",
-            "EndTime": "松井山手19:27",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4590S",
             "Type": "普通",
             "TypeChange": "",
@@ -6587,17 +7390,6 @@
             "Day": "平日",
             "FirstTime": "京橋19:25",
             "EndTime": "四条畷19:43",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4600C",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "松井山手",
-            "Day": "平日",
-            "FirstTime": "西明石18:00",
-            "EndTime": "松井山手20:12",
             "Position": ""
         },
         {
@@ -6954,17 +7746,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "4668M",
-            "Type": "普通",
-            "TypeChange": "",
-            "Destination": "四条畷",
-            "Day": "平日",
-            "FirstTime": "宝塚23:28",
-            "EndTime": "四条畷0:36",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "4670C",
             "Type": "普通",
             "TypeChange": "",
@@ -7104,17 +7885,6 @@
             "Day": "平日",
             "FirstTime": "新三田8:41",
             "EndTime": "同志社前10:18",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "5444M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "木津",
-            "Day": "平日",
-            "FirstTime": "宝塚9:12",
-            "EndTime": "木津10:53",
             "Position": ""
         },
         {
@@ -7273,17 +8043,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "5970M",
-            "Type": "区間快速",
-            "TypeChange": "",
-            "Destination": "同志社前",
-            "Day": "平日",
-            "FirstTime": "塚口12:38",
-            "EndTime": "同志社前13:53",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "5972M",
             "Type": "区間快速",
             "TypeChange": "",
@@ -7394,17 +8153,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "5492M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "木津",
-            "Day": "平日",
-            "FirstTime": "塚口15:23",
-            "EndTime": "木津16:53",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "5494M",
             "Type": "快速",
             "TypeChange": "",
@@ -7456,17 +8204,6 @@
             "Day": "平日",
             "FirstTime": "塚口16:37",
             "EndTime": "同志社前17:47",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "5504M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "木津",
-            "Day": "平日",
-            "FirstTime": "宝塚16:41",
-            "EndTime": "木津18:19",
             "Position": ""
         },
         {
@@ -7592,17 +8329,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "5536M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "木津",
-            "Day": "平日",
-            "FirstTime": "新三田19:24",
-            "EndTime": "木津21:20",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "5538M",
             "Type": "快速",
             "TypeChange": "",
@@ -7621,17 +8347,6 @@
             "Day": "平日",
             "FirstTime": "新三田19:52",
             "EndTime": "木津21:46",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "5542M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "同志社前",
-            "Day": "平日",
-            "FirstTime": "篠山口19:43",
-            "EndTime": "同志社前21:53",
             "Position": ""
         },
         {
@@ -7790,17 +8505,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "5429M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "木津7:21",
-            "EndTime": "篠山口9:47",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "5431M",
             "Type": "快速",
             "TypeChange": "",
@@ -7944,17 +8648,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "5961M",
-            "Type": "区間快速",
-            "TypeChange": "",
-            "Destination": "塚口",
-            "Day": "平日",
-            "FirstTime": "木津10:59",
-            "EndTime": "塚口12:33",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "5963M",
             "Type": "区間快速",
             "TypeChange": "",
@@ -8061,17 +8754,6 @@
             "Day": "平日",
             "FirstTime": "木津13:29",
             "EndTime": "塚口15:03",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "5983M",
-            "Type": "区間快速",
-            "TypeChange": "",
-            "Destination": "塚口",
-            "Day": "平日",
-            "FirstTime": "同志社前14:03",
-            "EndTime": "塚口15:18",
             "Position": ""
         },
         {
@@ -8197,17 +8879,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "5507M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "新三田",
-            "Day": "平日",
-            "FirstTime": "木津16:56",
-            "EndTime": "新三田18:50",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "5509M",
             "Type": "快速",
             "TypeChange": "",
@@ -8259,17 +8930,6 @@
             "Day": "平日",
             "FirstTime": "同志社前18:25",
             "EndTime": "宝塚19:48",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "5519M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "篠山口",
-            "Day": "平日",
-            "FirstTime": "木津18:25",
-            "EndTime": "篠山口20:49",
             "Position": ""
         },
         {
@@ -8395,28 +9055,6 @@
         },
         {
             "UnyoNo": "明支",
-            "TrainNo": "5543M",
-            "Type": "快速",
-            "TypeChange": "京橋から普通",
-            "Destination": "宝塚",
-            "Day": "平日",
-            "FirstTime": "木津21:33",
-            "EndTime": "（京橋22:23）",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
-            "TrainNo": "4693M",
-            "Type": "普通",
-            "TypeChange": "京橋まで快速",
-            "Destination": "宝塚",
-            "Day": "平日",
-            "FirstTime": "（京橋22:26）",
-            "EndTime": "宝塚23:23",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支",
             "TrainNo": "5545M",
             "Type": "快速",
             "TypeChange": "京橋から普通",
@@ -8482,95 +9120,7 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支15",
-            "TrainNo": "2101M",
-            "Type": "直通快速",
-            "TypeChange": "",
-            "Destination": "新大阪",
-            "Day": "平日",
-            "FirstTime": "奈良6:12",
-            "EndTime": "新大阪7:05",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支13",
-            "TrainNo": "2103M",
-            "Type": "直通快速",
-            "TypeChange": "",
-            "Destination": "新大阪",
-            "Day": "平日",
-            "FirstTime": "奈良6:37",
-            "EndTime": "新大阪7:31",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支14",
-            "TrainNo": "2105M",
-            "Type": "直通快速",
-            "TypeChange": "",
-            "Destination": "新大阪",
-            "Day": "平日",
-            "FirstTime": "奈良7:03",
-            "EndTime": "新大阪8:03",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支12",
-            "TrainNo": "2107M",
-            "Type": "直通快速",
-            "TypeChange": "",
-            "Destination": "新大阪",
-            "Day": "平日",
-            "FirstTime": "奈良7:35",
-            "EndTime": "新大阪8:31",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支12",
-            "TrainNo": "2102M",
-            "Type": "直通快速",
-            "TypeChange": "",
-            "Destination": "奈良",
-            "Day": "平日",
-            "FirstTime": "新大阪17:41",
-            "EndTime": "奈良18:35",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支11",
-            "TrainNo": "2104M",
-            "Type": "直通快速",
-            "TypeChange": "",
-            "Destination": "奈良",
-            "Day": "平日",
-            "FirstTime": "新大阪18:41",
-            "EndTime": "奈良19:35",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支13",
-            "TrainNo": "2106M",
-            "Type": "直通快速",
-            "TypeChange": "",
-            "Destination": "奈良",
-            "Day": "平日",
-            "FirstTime": "新大阪19:41",
-            "EndTime": "奈良20:35",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支14",
-            "TrainNo": "2108M",
-            "Type": "直通快速",
-            "TypeChange": "",
-            "Destination": "奈良",
-            "Day": "平日",
-            "FirstTime": "新大阪20:41",
-            "EndTime": "奈良21:35",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支0",
+            "UnyoNo": "明支",
             "TrainNo": "5901M",
             "Type": "区間快速",
             "TypeChange": "",
@@ -8581,18 +9131,7 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支0",
-            "TrainNo": "5903M",
-            "Type": "区間快速",
-            "TypeChange": "",
-            "Destination": "尼崎",
-            "Day": "平日",
-            "FirstTime": "松井山手7:30",
-            "EndTime": "尼崎8:30",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支0",
+            "UnyoNo": "明支",
             "TrainNo": "5905M",
             "Type": "区間快速",
             "TypeChange": "",
@@ -8603,7 +9142,7 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支0",
+            "UnyoNo": "明支",
             "TrainNo": "5910M",
             "Type": "区間快速",
             "TypeChange": "",
@@ -8614,7 +9153,7 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支0",
+            "UnyoNo": "明支",
             "TrainNo": "5916M",
             "Type": "区間快速",
             "TypeChange": "",
@@ -8625,7 +9164,7 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支0",
+            "UnyoNo": "明支",
             "TrainNo": "5922M",
             "Type": "区間快速",
             "TypeChange": "",
@@ -8636,7 +9175,18 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支0",
+            "UnyoNo": "明支",
+            "TrainNo": "570M",
+            "Type": "普通",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "新三田8:54",
+            "EndTime": "大阪9:51",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
             "TrainNo": "2736M",
             "Type": "快速",
             "TypeChange": "",
@@ -8647,7 +9197,7 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支0",
+            "UnyoNo": "明支",
             "TrainNo": "2755M",
             "Type": "快速",
             "TypeChange": "",
@@ -8658,7 +9208,7 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支0",
+            "UnyoNo": "明支",
             "TrainNo": "2775M",
             "Type": "快速",
             "TypeChange": "",
@@ -8669,7 +9219,7 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支0",
+            "UnyoNo": "明支",
             "TrainNo": "3754M",
             "Type": "快速",
             "TypeChange": "",
@@ -8677,116 +9227,6 @@
             "Day": "土休日",
             "FirstTime": "宝塚10:41",
             "EndTime": "大阪11:06",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支19",
-            "TrainNo": "2784M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口21:42",
-            "EndTime": "大阪22:52",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支19",
-            "TrainNo": "3773M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "宝塚",
-            "Day": "土休日",
-            "FirstTime": "大阪16:06",
-            "EndTime": "宝塚16:32",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支37",
-            "TrainNo": "2769M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪19:54",
-            "EndTime": "篠山口21:04",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支37",
-            "TrainNo": "2782M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口21:18",
-            "EndTime": "大阪22:27",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支37",
-            "TrainNo": "2785M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪23:30",
-            "EndTime": "篠山口0:39",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支46",
-            "TrainNo": "3750M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "宝塚9:58",
-            "EndTime": "大阪10:24",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支46",
-            "TrainNo": "3771M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "宝塚",
-            "Day": "土休日",
-            "FirstTime": "大阪15:36",
-            "EndTime": "宝塚16:01",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支47",
-            "TrainNo": "3752M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "宝塚10:17",
-            "EndTime": "大阪10:46",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支48",
-            "TrainNo": "2740M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "大阪",
-            "Day": "土休日",
-            "FirstTime": "篠山口10:14",
-            "EndTime": "大阪11:21",
-            "Position": ""
-        },
-        {
-            "UnyoNo": "明支48",
-            "TrainNo": "2757M",
-            "Type": "快速",
-            "TypeChange": "",
-            "Destination": "篠山口",
-            "Day": "土休日",
-            "FirstTime": "大阪17:54",
-            "EndTime": "篠山口19:03",
             "Position": ""
         },
         {
@@ -16171,135 +16611,685 @@
             "Position": ""
         },
         {
-            "UnyoNo": "明支15",
-            "TrainNo": "2101M",
-            "Type": "直通快速",
+            "UnyoNo": "明支",
+            "TrainNo": "562M",
+            "Type": "普通",
             "TypeChange": "",
-            "Destination": "新大阪",
+            "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "奈良7:00",
-            "EndTime": "新大阪7:52",
+            "FirstTime": "新三田5:46",
+            "EndTime": "大阪6:42",
             "Position": ""
         },
         {
-            "UnyoNo": "明支12",
-            "TrainNo": "2103M",
-            "Type": "直通快速",
+            "UnyoNo": "明支",
+            "TrainNo": "564M",
+            "Type": "普通",
             "TypeChange": "",
-            "Destination": "新大阪",
+            "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "奈良8:10",
-            "EndTime": "新大阪9:05",
+            "FirstTime": "新三田6:17",
+            "EndTime": "大阪7:17",
             "Position": ""
         },
         {
-            "UnyoNo": "明支12",
-            "TrainNo": "2105M",
-            "Type": "直通快速",
+            "UnyoNo": "明支",
+            "TrainNo": "回5905M",
+            "Type": "回送",
             "TypeChange": "",
-            "Destination": "新大阪",
-            "Day": "土休日",
-            "FirstTime": "奈良15:24",
-            "EndTime": "新大阪16:17",
+            "Destination": "",
+            "Day": "平日",
+            "FirstTime": "",
+            "EndTime": "",
             "Position": ""
         },
         {
-            "UnyoNo": "明支11",
-            "TrainNo": "2107M",
-            "Type": "直通快速",
+            "UnyoNo": "明支",
+            "TrainNo": "回1521M",
+            "Type": "回送",
             "TypeChange": "",
-            "Destination": "新大阪",
-            "Day": "土休日",
-            "FirstTime": "奈良16:24",
-            "EndTime": "新大阪17:17",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "北伊丹(着発)",
+            "EndTime": "宝塚",
             "Position": ""
         },
         {
-            "UnyoNo": "明支12",
-            "TrainNo": "2102M",
-            "Type": "直通快速",
+            "UnyoNo": "明支",
+            "TrainNo": "回1523M",
+            "Type": "回送",
             "TypeChange": "",
-            "Destination": "奈良",
-            "Day": "土休日",
-            "FirstTime": "新大阪10:17",
-            "EndTime": "奈良11:11",
+            "Destination": "宝塚",
+            "Day": "平日",
+            "FirstTime": "北伊丹(電留)",
+            "EndTime": "宝塚",
             "Position": ""
         },
         {
-            "UnyoNo": "明支11",
-            "TrainNo": "2104M",
-            "Type": "直通快速",
+            "UnyoNo": "明支",
+            "TrainNo": "回1525M",
+            "Type": "回送",
             "TypeChange": "",
-            "Destination": "奈良",
-            "Day": "土休日",
-            "FirstTime": "新大阪11:17",
-            "EndTime": "奈良12:11",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "新三田",
             "Position": ""
         },
         {
-            "UnyoNo": "明支12",
-            "TrainNo": "2106M",
-            "Type": "直通快速",
+            "UnyoNo": "明支",
+            "TrainNo": "回1527M",
+            "Type": "回送",
             "TypeChange": "",
-            "Destination": "奈良",
-            "Day": "土休日",
-            "FirstTime": "新大阪17:32",
-            "EndTime": "奈良18:30",
+            "Destination": "尼崎",
+            "Day": "平日",
+            "FirstTime": "吹田",
+            "EndTime": "尼崎",
             "Position": ""
         },
         {
-            "UnyoNo": "明支11",
-            "TrainNo": "2108M",
-            "Type": "直通快速",
+            "UnyoNo": "明支",
+            "TrainNo": "回1535M",
+            "Type": "回送",
             "TypeChange": "",
-            "Destination": "奈良",
+            "Destination": "新三田",
+            "Day": "平日",
+            "FirstTime": "北伊丹(電留)",
+            "EndTime": "新三田",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1501C",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "甲子園口",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "甲子園口",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1502C",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "甲子園口",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1504C",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "甲子園口",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回501C",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "神戸",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "神戸",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5680M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "吹田",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "吹田",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2322M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2321M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2323M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5661M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "平日",
+            "FirstTime": "野洲",
+            "EndTime": "京都",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1532M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "北伊丹(電留)",
+            "Day": "平日",
+            "FirstTime": "新三田",
+            "EndTime": "北伊丹(電留)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1536M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "北伊丹(電留)",
+            "Day": "平日",
+            "FirstTime": "新三田",
+            "EndTime": "北伊丹(電留)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1538M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "北伊丹(着発)",
+            "Day": "平日",
+            "FirstTime": "宝塚",
+            "EndTime": "北伊丹(着発)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1521M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宝塚",
             "Day": "土休日",
-            "FirstTime": "新大阪18:32",
-            "EndTime": "奈良19:30",
+            "FirstTime": "北伊丹(着発)",
+            "EndTime": "宝塚",
             "Position": ""
         },
         {
-            "UnyoNo":"明支",
-            "TrainNo":"562M",
-            "Type":"普通",
-            "TypeChange":"",
-            "Destination":"大阪",
-            "Day":"土休日",
-            "FirstTime":"新三田5:46",
-            "EndTime":"大阪6:42",
+            "UnyoNo": "明支",
+            "TrainNo": "回1535M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "北伊丹(電留)",
+            "EndTime": "宝塚",
             "Position": ""
         },
         {
-            "UnyoNo":"明支",
-            "TrainNo":"564M",
-            "Type":"普通",
-            "TypeChange":"",
-            "Destination":"大阪",
-            "Day":"土休日",
-            "FirstTime":"新三田6:17",
-            "EndTime":"大阪7:17",
+            "UnyoNo": "明支",
+            "TrainNo": "回1537M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宝塚",
+            "Day": "土休日",
+            "FirstTime": "北伊丹(電留)",
+            "EndTime": "宝塚",
             "Position": ""
         },
         {
-            "UnyoNo":"明支",
-            "TrainNo":"566M",
-            "Type":"普通",
-            "TypeChange":"",
-            "Destination":"大阪",
-            "Day":"平日",
-            "FirstTime":"宝塚8:51",
-            "EndTime":"大阪9:21",
+            "UnyoNo": "明支",
+            "TrainNo": "回1504B",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "甲子園口",
+            "EndTime": "宮原(操)",
             "Position": ""
         },
         {
-            "UnyoNo":"明支",
-            "TrainNo":"570M",
-            "Type":"普通",
-            "TypeChange":"",
-            "Destination":"大阪",
-            "Day":"平日",
-            "FirstTime":"新三田8:54",
-            "EndTime":"大阪9:51",
+            "UnyoNo": "明支",
+            "TrainNo": "回1532M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "北伊丹(電留)",
+            "Day": "土休日",
+            "FirstTime": "新三田",
+            "EndTime": "北伊丹(電留)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1536M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "北伊丹(電留)",
+            "Day": "土休日",
+            "FirstTime": "新三田",
+            "EndTime": "北伊丹(電留)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1538M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "北伊丹(着発)",
+            "Day": "土休日",
+            "FirstTime": "宝塚",
+            "EndTime": "北伊丹(着発)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回501B",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "神戸",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "神戸",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回506B",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "神戸",
+            "Day": "土休日",
+            "FirstTime": "西明石",
+            "EndTime": "神戸",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5680K",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "吹田",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "吹田",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2322K",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2321K",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2323K",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2325K",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5562M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "京都",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5661K",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "土休日",
+            "FirstTime": "野洲",
+            "EndTime": "京都",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回564M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1539M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "塚口",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "塚口",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1549M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "塚口",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "塚口",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回1545M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "塚口",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "塚口",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回570M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回3750M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回3752M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回3752M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回3754M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回3754M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2736M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2738M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回3771M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回3771M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回3773M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2755M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2755M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2769M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2769M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2775M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2775M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2785M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "平日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2785M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "大阪",
+            "Day": "土休日",
+            "FirstTime": "宮原(操)",
+            "EndTime": "大阪",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2782M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2782M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回2784M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "大阪",
+            "EndTime": "宮原(操)",
             "Position": ""
         }
     ]
