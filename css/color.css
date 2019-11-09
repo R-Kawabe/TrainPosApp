@@ -57,8 +57,20 @@ span.rapid {
     color: darkorange;
 }
 
+span.rapidC {
+    color: blue;
+}
+
 span.specialrapid {
     color: blue;
+}
+
+span.newrapid {
+    color: darkorange;
+}
+
+span.specialrapidC {
+    color: goldenrod;
 }
 
 span.tanbajirapid {

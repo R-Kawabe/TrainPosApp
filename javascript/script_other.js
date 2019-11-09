@@ -137,20 +137,6 @@ class Train {
 
 /**
  * 
- * @param {*} obj 
- * @return {Train[]}
- */
-function matchDest(obj) {
-    const destination = new Train(obj["dest"]);
-    return destination.filter(train => {
-        // return train.dest.match(text) != null;
-        if (train.Dest != null) return train.dest;
-        else train.Dest = "";
-    });
-}
-
-/**
- * 
  * @param {*} trainType 
  */
 function AddDispTypeCol(trainType) {

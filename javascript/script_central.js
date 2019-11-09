@@ -1,4 +1,4 @@
-function getLineData_other(line) {
+function getLineData_Central(line) {
     // document.getElementsByName('word1').addEventListener('click', function (e) {
     let params = new URLSearchParams();
     params.set('wordC', line);
@@ -8,7 +8,7 @@ function getLineData_other(line) {
             return response.json();
         })
         .then(function (data) {
-            const trains = data.trains.map(buildTrain); //mapで回して関数に従って格納？
+            const trains = data.lst.map(buildTrain); //mapで回して関数に従って格納？
             viewTrains(trains); //関数を実行しhtmlへ出力
         })
         .catch(function (error) {
@@ -24,15 +24,14 @@ function getLineData_other(line) {
  */
 function buildTrain(obj) { //jsonから取得した各要素について？？？
     const train = new Train();
-    train.dest = obj["dest"];
-    train.direction = obj["direction"];
-    train.delayMinutes = obj["delayMinutes"];
-    train.displayType = obj["displayType"];
-    train.nickname = obj["nickname"];
-    train.no = obj["no"];
-    train.pos = obj["pos"];
-    train.type = obj["type"];
-    train.notice = obj["notice"];
+    train.dest = obj["yukisaki"];
+    train.direction = obj["jogeKbn"];
+    train.delayMinutes = obj["chienJifun"];
+    train.displayType = obj["resshaShubetsuMei"];
+    train.nickname = obj["aishoMei"];
+    train.no = obj["resshaBng"];
+    train.pos = obj["ryokakuEkiCd"];
+    train.ekikanKbn = obj["ekiEkikanKbn"];
     return train;
 }
 
@@ -54,7 +53,7 @@ function trainElement(train) {
     const nickname = nicknameSet(train.nickname);
     const direction = directionSet(train.direction);
     const delayMinutes = delayMinutesSet(train.delayMinutes);
-    const position = StaGet_Central(train.pos);
+    const position = StaGet_Central(train.pos, train.ekikanKbn);
     // const text = `${train.no} ${train.displayType}${nickname} ${train.dest}行き ${delayMinutes} 走行位置：${position}${direction}`;
     const text = train.no + " " + DispTypeAddCol + nickname + " " + DestAddCol + "行き " + delayMinutes + " 走行位置：" + position + direction;
     const elem = document.createElement('div');
@@ -66,16 +65,17 @@ function trainElement(train) {
 
 /**
  * 
- * @param {string} pos 
+ * @param {*} pos 
+ * @param {*} ekikanKbn 
  */
-function StaGet_other(pos) {
-    const position = pos.split('_');
-    const pos1 = posMatch_O(position[0]);
-    const pos2 = posMatch_O(position[1]);
-    if (pos2[0].name == "") return pos1[0].name;
-    else {
-        const result = (pos1[0].name + "－" + pos2[0].name);
-        return result;
+function StaGet_Central(pos, ekikanKbn) {
+    if (ekikanKbn == 1) {
+        const position = posMatch_C(pos);
+        return position[0].name;
+    }
+    else if (ekikanKbn == 2) {
+        const position = posMatch_C(pos);
+        return position[0].name + " 付近 ";
     }
 }
 
@@ -93,7 +93,7 @@ function nicknameSet(nickname) {
  * @param {*} direction 
  */
 function directionSet(direction) {
-    if (direction == 0) return "上り";
+    if (direction == 1) return "上り";
     else return "下り";
 }
 
@@ -130,23 +130,8 @@ class Train {
         this.delayMinutes = 0;
         this.nickname = "";
         this.pos = "";
-        this.type = "";
-        this.notice = "";
+        this.ekikanKbn = 0;
     }
-}
-
-/**
- * 
- * @param {*} obj 
- * @return {Train[]}
- */
-function matchDest(obj) {
-    const destination = new Train(obj["dest"]);
-    return destination.filter(train => {
-        // return train.dest.match(text) != null;
-        if (train.Dest != null) return train.dest;
-        else train.Dest = "";
-    });
 }
 
 /**
@@ -217,3 +202,30 @@ function AddDispTypeCol(trainType) {
 function AddDestCol(trainDest) {
     return '<span class="destination">' + trainDest + '</span>';
 }
+
+// /**
+//  * 
+//  * @param {*} pos 
+//  * @param {*} ekikanKbn 
+//  * @param {*} direction 
+//  */
+// function StaGet_Central(pos, ekikanKbn, direction) {
+//     if (ekikanKbn == 1) {
+//         const position = posMatch_C(pos);
+//         return position[0].name;
+//     }
+//     else if (ekikanKbn == 2 && direction == 2) {
+//         const parsePos = new Number(pos);
+//         resultPos = parsePos + 10;
+//         const num = new String(resultPos);
+//         const position2 = posMatch_C(num);
+//         return position2[0].name;
+//     }
+//     else if (ekikanKbn == 2 && direction == 1) {
+//         const parsePos = new Number(pos);
+//         resultPos = parsePos - 10;
+//         const num = new String(resultPos);
+//         const position2 = posMatch_C(num);
+//         return position2[0].name;
+//     }
+// }
