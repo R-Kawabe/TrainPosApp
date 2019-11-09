@@ -2,7 +2,7 @@ function getLineData_Central(line) {
     // document.getElementsByName('word1').addEventListener('click', function (e) {
     let params = new URLSearchParams();
     params.set('wordC', line);
-    fetch('lineC.php?' + params.toString(), { mode: 'no-cors' })
+    fetch('lineC.php?' + params.toString(), { mode: 'cors' })
         .then(function (response) {
             console.log(response.status); //200
             return response.json();
