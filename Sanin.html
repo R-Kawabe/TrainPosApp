@@ -25,16 +25,19 @@
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
+            <p>運行情報</p>
+            <button type="button" class="button"
+                onclick="window.open('https://trafficinfo.westjr.co.jp/chugoku.html','_blank')">JRW運行位置</button><br>
             <p>路線選択</p>
             <button class="button" onclick="getLineData_other('sanin3')" name="word1">A 山陰本線</button><br>
             <button class="button" onclick="getLineData_other('sanin4')" name="word1">D 山陰本線</button><br>
             <button class="button" onclick="getLineData_other('hakubi2')" name="word1">V 伯備線</button><br>
             <p>他エリア</p>
             <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
-            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="近畿エリア2"><br>
+            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="北陸・近畿エリア2"><br>
             <input type="button" class="button" onclick="location.href='./Okayama.html'" value="岡山・福山エリア"><br>
             <input type="button" class="button" onclick="location.href='./HiroSeki.html'" value="広島・下関エリア"><br>
-            <!-- <input type="button" class="button" onclick="location.href='./JRCentral.html'" value="東海エリア"> -->
+            <input type="button" class="button" onclick="location.href='./Central.html'" value="東海エリア">
             <p>運用検索</p>
             <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ">
         </aside>

@@ -16,15 +16,18 @@
     <link rel="stylesheet" href="css/color.css">
     <link rel="icon" type="image/png" href="image/favicon1.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon2.png">
-    <title>Kinki2Area</title>
+    <title>Hokuriku&Kinki2Area</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="head-div">近畿エリア2</div>
+        <div class="head-div">北陸・近畿エリア2</div>
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
+            <p>運行情報</p>
+            <button type="button" class="button"
+                onclick="window.open('https://trafficinfo.westjr.co.jp/kinki.html','_blank')">JRW運行位置</button><br>
             <p>路線選択</p>
             <button class="button" onclick="getLineData_other('hokuriku')" name="word1">北陸本線</button><br>
             <button class="button" onclick="getLineData_other('nara')" name="word1">D 奈良線</button><br>
