@@ -246,6 +246,10 @@ function AddDispTypeCol(trainType, linename) {
             const typeCol = '<span class="limitedexp">' + trainType + '</span>';
             return typeCol;
         }
+        case "急行": {
+            const typeCol = '<span class="express">' + trainType + '</span>';
+            return typeCol;
+        }
         case "関空特急": {
             const typeCol = '<span class="limitedexp">' + trainType + '</span>';
             return typeCol;

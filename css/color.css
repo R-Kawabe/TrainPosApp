@@ -101,6 +101,10 @@ span.limitedexp {
     color: red;
 }
 
+span.express {
+    color: orangered;
+}
+
 span.notinservice {
     color: white;
     background-color: black;

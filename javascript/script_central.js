@@ -1,8 +1,8 @@
-function getLineData_Central(line) {
+async function getLineData_Central(line) {
     // document.getElementsByName('word1').addEventListener('click', function (e) {
     let params = new URLSearchParams();
     params.set('wordC', line);
-    fetch('lineC.php?' + params.toString())
+    await fetch('lineC.php?' + params.toString())
         .then(function (response) {
             console.log(response.status); //200
             return response.json();
@@ -166,6 +166,10 @@ function AddDispTypeCol(trainType) {
         }
         case "特急": {
             const typeCol = '<span class="limitedexp">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "急行": {
+            const typeCol = '<span class="express">' + trainType + '</span>';
             return typeCol;
         }
         case "寝台特急": {
