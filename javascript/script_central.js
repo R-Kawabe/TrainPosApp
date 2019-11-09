@@ -1,8 +1,8 @@
-async function getLineData_Central(line) {
+function getLineData_Central(line) {
     // document.getElementsByName('word1').addEventListener('click', function (e) {
     let params = new URLSearchParams();
     params.set('wordC', line);
-    await fetch('lineC.php?' + params.toString())
+    fetch('lineC.php?' + params.toString(), { mode: 'cors' })
         .then(function (response) {
             console.log(response.status); //200
             return response.json();

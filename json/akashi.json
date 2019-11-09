@@ -139,8 +139,8 @@
             "TypeChange": "",
             "Destination": "尼崎",
             "Day": "平日",
-            "FirstTime": "塚口18:57",
-            "EndTime": "尼崎19:01",
+            "FirstTime": "塚口18:59",
+            "EndTime": "尼崎19:03",
             "Position": ""
         },
         {
@@ -426,7 +426,7 @@
             "Destination": "宝塚",
             "Day": "平日",
             "FirstTime": "木津21:33",
-            "EndTime": "（京橋22:23）",
+            "EndTime": "宝塚23:23",
             "Position": ""
         },
         {
@@ -436,7 +436,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "宝塚",
             "Day": "平日",
-            "FirstTime": "（京橋22:26）",
+            "FirstTime": "木津21:33",
             "EndTime": "宝塚23:23",
             "Position": ""
         },
@@ -458,8 +458,8 @@
             "TypeChange": "",
             "Destination": "四条畷",
             "Day": "平日",
-            "FirstTime": "放出",
-            "EndTime": "四条畷",
+            "FirstTime": "放出5:**",
+            "EndTime": "四条畷6:**",
             "Position": ""
         },
         {
@@ -469,8 +469,8 @@
             "TypeChange": "",
             "Destination": "放出",
             "Day": "平日",
-            "FirstTime": "四条畷",
-            "EndTime": "放出",
+            "FirstTime": "四条畷0:**",
+            "EndTime": "放出0:**",
             "Position": ""
         },
         {
@@ -480,8 +480,8 @@
             "TypeChange": "",
             "Destination": "宝塚",
             "Day": "平日",
-            "FirstTime": "尼崎",
-            "EndTime": "宝塚",
+            "FirstTime": "尼崎8:34",
+            "EndTime": "宝塚8:55",
             "Position": ""
         },
         {
@@ -1063,8 +1063,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "平日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)15:54",
+            "EndTime": "大阪16:02",
             "Position": ""
         },
         {
@@ -1074,8 +1074,8 @@
             "TypeChange": "",
             "Destination": "宮原(操)",
             "Day": "平日",
-            "FirstTime": "大阪",
-            "EndTime": "宮原(操)",
+            "FirstTime": "大阪23:02",
+            "EndTime": "宮原(操)23:10",
             "Position": ""
         },
         {
@@ -1328,7 +1328,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "松井山手6:31",
-            "EndTime": "（京橋7:08）",
+            "EndTime": "新三田8:14",
             "Position": ""
         },
         {
@@ -1338,7 +1338,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "新三田",
             "Day": "平日",
-            "FirstTime": "（京橋7:10）",
+            "FirstTime": "松井山手6:31",
             "EndTime": "新三田8:14",
             "Position": ""
         },
@@ -5123,7 +5123,7 @@
             "Destination": "西明石",
             "Day": "平日",
             "FirstTime": "奈良5:32",
-            "EndTime": "（京橋6:15）",
+            "EndTime": "西明石7:43",
             "Position": ""
         },
         {
@@ -5133,7 +5133,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "平日",
-            "FirstTime": "（京橋6:18）",
+            "FirstTime": "奈良5:32",
             "EndTime": "西明石7:43",
             "Position": ""
         },
@@ -5167,7 +5167,7 @@
             "Destination": "西明石",
             "Day": "平日",
             "FirstTime": "木津5:31",
-            "EndTime": "（京橋6:30）",
+            "EndTime": "西明石8:00",
             "Position": ""
         },
         {
@@ -5177,7 +5177,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "平日",
-            "FirstTime": "（京橋6:33）",
+            "FirstTime": "木津5:31",
             "EndTime": "西明石8:00",
             "Position": ""
         },
@@ -5200,7 +5200,7 @@
             "Destination": "西明石",
             "Day": "平日",
             "FirstTime": "奈良5:39",
-            "EndTime": "（京橋6:47）",
+            "EndTime": "西明石8:15",
             "Position": ""
         },
         {
@@ -5210,7 +5210,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "平日",
-            "FirstTime": "（京橋6:49）",
+            "FirstTime": "奈良5:39",
             "EndTime": "西明石8:15",
             "Position": ""
         },
@@ -5255,7 +5255,7 @@
             "Destination": "西明石",
             "Day": "平日",
             "FirstTime": "京田辺6:31",
-            "EndTime": "（京橋7:15）",
+            "EndTime": "西明石8:45",
             "Position": ""
         },
         {
@@ -5265,7 +5265,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "平日",
-            "FirstTime": "（京橋7:17）",
+            "FirstTime": "京田辺6:31",
             "EndTime": "西明石8:45",
             "Position": ""
         },
@@ -5299,7 +5299,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "松井山手6:54",
-            "EndTime": "（京橋7:30）",
+            "EndTime": "新三田8:36",
             "Position": ""
         },
         {
@@ -5309,7 +5309,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "新三田",
             "Day": "平日",
-            "FirstTime": "（京橋7:32）",
+            "FirstTime": "松井山手6:54",
             "EndTime": "新三田8:36",
             "Position": ""
         },
@@ -5354,7 +5354,7 @@
             "Destination": "西明石",
             "Day": "平日",
             "FirstTime": "京田辺7:08",
-            "EndTime": "（京橋7:53）",
+            "EndTime": "西明石9:23",
             "Position": ""
         },
         {
@@ -5364,7 +5364,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "平日",
-            "FirstTime": "（京橋7:55）",
+            "FirstTime": "京田辺7:08",
             "EndTime": "西明石9:23",
             "Position": ""
         },
@@ -5420,7 +5420,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "松井山手7:53",
-            "EndTime": "（京橋8:30）",
+            "EndTime": "新三田9:41",
             "Position": ""
         },
         {
@@ -5430,7 +5430,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "新三田",
             "Day": "平日",
-            "FirstTime": "（京橋8:33）",
+            "FirstTime": "松井山手7:53",
             "EndTime": "新三田9:41",
             "Position": ""
         },
@@ -5453,7 +5453,7 @@
             "Destination": "宝塚",
             "Day": "平日",
             "FirstTime": "京田辺7:54",
-            "EndTime": "（京橋8:39）",
+            "EndTime": "宝塚9:30",
             "Position": ""
         },
         {
@@ -5463,7 +5463,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "宝塚",
             "Day": "平日",
-            "FirstTime": "（京橋8:41）",
+            "FirstTime": "京田辺7:54",
             "EndTime": "宝塚9:30",
             "Position": ""
         },
@@ -5497,7 +5497,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "京田辺8:09",
-            "EndTime": "（京橋8:52）",
+            "EndTime": "新三田10:10",
             "Position": ""
         },
         {
@@ -5507,7 +5507,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "新三田",
             "Day": "平日",
-            "FirstTime": "（京橋8:54）",
+            "FirstTime": "京田辺8:09",
             "EndTime": "新三田10:10",
             "Position": ""
         },
@@ -5541,7 +5541,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "京田辺8:26",
-            "EndTime": "（京橋9:10）",
+            "EndTime": "新三田10:17",
             "Position": ""
         },
         {
@@ -5551,7 +5551,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "新三田",
             "Day": "平日",
-            "FirstTime": "（京橋9:13）",
+            "FirstTime": "京田辺8:26",
             "EndTime": "新三田10:17",
             "Position": ""
         },
@@ -5585,7 +5585,7 @@
             "Destination": "西明石",
             "Day": "平日",
             "FirstTime": "京田辺8:48",
-            "EndTime": "（京橋9:29）",
+            "EndTime": "西明石10:58",
             "Position": ""
         },
         {
@@ -5595,7 +5595,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "平日",
-            "FirstTime": "（京橋9:31）",
+            "FirstTime": "京田辺8:48",
             "EndTime": "西明石10:58",
             "Position": ""
         },
@@ -5629,7 +5629,7 @@
             "Destination": "西明石",
             "Day": "平日",
             "FirstTime": "松井山手9:08",
-            "EndTime": "（京橋9:44）",
+            "EndTime": "西明石11:13",
             "Position": ""
         },
         {
@@ -5639,7 +5639,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "平日",
-            "FirstTime": "（京橋9:46）",
+            "FirstTime": "松井山手9:08",
             "EndTime": "西明石11:13",
             "Position": ""
         },
@@ -7675,7 +7675,7 @@
             "Destination": "奈良",
             "Day": "平日",
             "FirstTime": "西明石21:01",
-            "EndTime": "（尼崎22:08）",
+            "EndTime": "奈良23:41",
             "Position": ""
         },
         {
@@ -7685,7 +7685,7 @@
             "TypeChange": "尼崎まで普通",
             "Destination": "奈良",
             "Day": "平日",
-            "FirstTime": "（尼崎22:14）",
+            "FirstTime": "西明石21:01",
             "EndTime": "奈良23:41",
             "Position": ""
         },
@@ -7697,7 +7697,7 @@
             "Destination": "木津",
             "Day": "平日",
             "FirstTime": "西明石21:21",
-            "EndTime": "（尼崎22:28）",
+            "EndTime": "木津23:53",
             "Position": ""
         },
         {
@@ -7707,7 +7707,7 @@
             "TypeChange": "尼崎まで普通",
             "Destination": "木津",
             "Day": "平日",
-            "FirstTime": "（尼崎22:34）",
+            "FirstTime": "西明石21:21",
             "EndTime": "木津23:53",
             "Position": ""
         },
@@ -7719,7 +7719,7 @@
             "Destination": "京田辺",
             "Day": "平日",
             "FirstTime": "西明石21:41",
-            "EndTime": "（尼崎22:48）",
+            "EndTime": "京田辺23:54",
             "Position": ""
         },
         {
@@ -7729,7 +7729,7 @@
             "TypeChange": "尼崎まで普通",
             "Destination": "京田辺",
             "Day": "平日",
-            "FirstTime": "（尼崎22:54）",
+            "FirstTime": "西明石21:41",
             "EndTime": "京田辺23:54",
             "Position": ""
         },
@@ -7917,7 +7917,7 @@
             "Destination": "同志社前",
             "Day": "平日",
             "FirstTime": "宝塚9:49",
-            "EndTime": "（尼崎10:10）",
+            "EndTime": "同志社前11:23",
             "Position": ""
         },
         {
@@ -7927,7 +7927,7 @@
             "TypeChange": "尼崎まで快速",
             "Destination": "同志社前",
             "Day": "平日",
-            "FirstTime": "（尼崎10:17）",
+            "FirstTime": "宝塚9:49",
             "EndTime": "同志社前11:23",
             "Position": ""
         },
@@ -7950,7 +7950,7 @@
             "Destination": "同志社前",
             "Day": "平日",
             "FirstTime": "宝塚10:26",
-            "EndTime": "（尼崎10:45）",
+            "EndTime": "同志社前11:53",
             "Position": ""
         },
         {
@@ -7960,7 +7960,7 @@
             "TypeChange": "尼崎まで快速",
             "Destination": "同志社前",
             "Day": "平日",
-            "FirstTime": "（尼崎10:47）",
+            "FirstTime": "宝塚10:26",
             "EndTime": "同志社前11:53",
             "Position": ""
         },
@@ -8401,7 +8401,7 @@
             "Destination": "同志社前",
             "Day": "平日",
             "FirstTime": "新三田21:26",
-            "EndTime": "（尼崎22:02）",
+            "EndTime": "同志社前23:06",
             "Position": ""
         },
         {
@@ -8411,7 +8411,7 @@
             "TypeChange": "尼崎まで快速",
             "Destination": "同志社前",
             "Day": "平日",
-            "FirstTime": "（尼崎22:04）",
+            "FirstTime": "新三田21:26",
             "EndTime": "同志社前23:06",
             "Position": ""
         },
@@ -8423,7 +8423,7 @@
             "Destination": "京田辺",
             "Day": "平日",
             "FirstTime": "新三田22:34",
-            "EndTime": "（尼崎23:10）",
+            "EndTime": "同志社前0:14",
             "Position": ""
         },
         {
@@ -8433,7 +8433,7 @@
             "TypeChange": "尼崎まで快速",
             "Destination": "京田辺",
             "Day": "平日",
-            "FirstTime": "（尼崎23:14）",
+            "FirstTime": "新三田22:34",
             "EndTime": "同志社前0:14",
             "Position": ""
         },
@@ -8445,7 +8445,7 @@
             "Destination": "松井山手",
             "Day": "平日",
             "FirstTime": "宝塚23:11",
-            "EndTime": "（尼崎23:30）",
+            "EndTime": "松井山手0:27",
             "Position": ""
         },
         {
@@ -8455,7 +8455,7 @@
             "TypeChange": "尼崎まで快速",
             "Destination": "松井山手",
             "Day": "平日",
-            "FirstTime": "（尼崎23:34）",
+            "FirstTime": "宝塚23:11",
             "EndTime": "松井山手0:27",
             "Position": ""
         },
@@ -9061,7 +9061,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "木津21:59",
-            "EndTime": "（京橋22:51）",
+            "EndTime": "新三田0:03",
             "Position": ""
         },
         {
@@ -9071,7 +9071,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "新三田",
             "Day": "平日",
-            "FirstTime": "（京橋22:55）",
+            "FirstTime": "木津21:59",
             "EndTime": "新三田0:03",
             "Position": ""
         },
@@ -9083,7 +9083,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "同志社前22:26",
-            "EndTime": "（京橋23:12）",
+            "EndTime": "新三田0:24",
             "Position": ""
         },
         {
@@ -9093,7 +9093,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "新三田",
             "Day": "平日",
-            "FirstTime": "（京橋23:15）",
+            "FirstTime": "同志社前22:26",
             "EndTime": "新三田0:24",
             "Position": ""
         },
@@ -9105,7 +9105,7 @@
             "Destination": "新三田",
             "Day": "平日",
             "FirstTime": "木津22:33",
-            "EndTime": "（京橋23:29）",
+            "EndTime": "新三田0:32",
             "Position": ""
         },
         {
@@ -9115,7 +9115,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "新三田",
             "Day": "平日",
-            "FirstTime": "（京橋23:35）",
+            "FirstTime": "木津22:33",
             "EndTime": "新三田0:32",
             "Position": ""
         },
@@ -12581,7 +12581,7 @@
             "Destination": "新三田",
             "Day": "土休日",
             "FirstTime": "木津5:31",
-            "EndTime": "（京橋6:30）",
+            "EndTime": "新三田7:37",
             "Position": ""
         },
         {
@@ -12591,7 +12591,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "新三田",
             "Day": "土休日",
-            "FirstTime": "（京橋6:32）",
+            "FirstTime": "木津5:31",
             "EndTime": "新三田7:37",
             "Position": ""
         },
@@ -12625,7 +12625,7 @@
             "Destination": "宝塚",
             "Day": "土休日",
             "FirstTime": "奈良5:39",
-            "EndTime": "（京橋6:50）",
+            "EndTime": "宝塚7:38",
             "Position": ""
         },
         {
@@ -12635,7 +12635,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "宝塚",
             "Day": "土休日",
-            "FirstTime": "（京橋6:52）",
+            "FirstTime": "奈良5:39",
             "EndTime": "宝塚7:38",
             "Position": ""
         },
@@ -12691,7 +12691,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "松井山手6:54",
-            "EndTime": "（京橋7:28）",
+            "EndTime": "西明石8:58",
             "Position": ""
         },
         {
@@ -12701,7 +12701,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋7:31）",
+            "FirstTime": "松井山手6:54",
             "EndTime": "西明石8:58",
             "Position": ""
         },
@@ -12746,7 +12746,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "京田辺7:18",
-            "EndTime": "（京橋7:58）",
+            "EndTime": "西明石9:28",
             "Position": ""
         },
         {
@@ -12756,7 +12756,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋8:01）",
+            "FirstTime": "京田辺7:18",
             "EndTime": "西明石9:28",
             "Position": ""
         },
@@ -12801,7 +12801,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "松井山手7:54",
-            "EndTime": "（京橋8:28）",
+            "EndTime": "西明石9:58",
             "Position": ""
         },
         {
@@ -12811,7 +12811,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋8:30）",
+            "FirstTime": "松井山手7:54",
             "EndTime": "西明石9:58",
             "Position": ""
         },
@@ -12856,7 +12856,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "松井山手8:24",
-            "EndTime": "（京橋8:57）",
+            "EndTime": "西明石10:28",
             "Position": ""
         },
         {
@@ -12866,7 +12866,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋9:00）",
+            "FirstTime": "松井山手8:24",
             "EndTime": "西明石10:28",
             "Position": ""
         },
@@ -12911,7 +12911,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "松井山手8:54",
-            "EndTime": "（京橋9:27）",
+            "EndTime": "西明石10:58",
             "Position": ""
         },
         {
@@ -12921,7 +12921,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋9:30）",
+            "FirstTime": "松井山手8:54",
             "EndTime": "西明石10:58",
             "Position": ""
         },
@@ -12966,7 +12966,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "松井山手9:24",
-            "EndTime": "（京橋9:57）",
+            "EndTime": "西明石11:28",
             "Position": ""
         },
         {
@@ -12976,7 +12976,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋10:00）",
+            "FirstTime": "松井山手9:24",
             "EndTime": "西明石11:28",
             "Position": ""
         },
@@ -13021,7 +13021,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "松井山手9:54",
-            "EndTime": "（京橋10:27）",
+            "EndTime": "西明石11:58",
             "Position": ""
         },
         {
@@ -13031,7 +13031,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋10:30）",
+            "FirstTime": "松井山手9:54",
             "EndTime": "西明石11:58",
             "Position": ""
         },
@@ -13076,7 +13076,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "松井山手10:24",
-            "EndTime": "（京橋10:57）",
+            "EndTime": "西明石12:28",
             "Position": ""
         },
         {
@@ -13086,7 +13086,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋11:00）",
+            "FirstTime": "松井山手10:24",
             "EndTime": "西明石12:28",
             "Position": ""
         },
@@ -13131,7 +13131,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "松井山手10:54",
-            "EndTime": "（京橋11:27）",
+            "EndTime": "西明石12:58",
             "Position": ""
         },
         {
@@ -13141,7 +13141,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋11:30）",
+            "FirstTime": "松井山手10:54",
             "EndTime": "西明石12:58",
             "Position": ""
         },
@@ -13186,7 +13186,7 @@
             "Destination": "西明石",
             "Day": "土休日",
             "FirstTime": "松井山手11:24",
-            "EndTime": "（京橋11:57）",
+            "EndTime": "西明石13:28",
             "Position": ""
         },
         {
@@ -13196,7 +13196,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "西明石",
             "Day": "土休日",
-            "FirstTime": "（京橋12:00）",
+            "FirstTime": "松井山手11:24",
             "EndTime": "西明石13:28",
             "Position": ""
         },
@@ -14880,7 +14880,7 @@
             "Destination": "同志社前",
             "Day": "土休日",
             "FirstTime": "西明石20:02",
-            "EndTime": "（尼崎21:08）",
+            "EndTime": "同志社前22:18",
             "Position": ""
         },
         {
@@ -14890,7 +14890,7 @@
             "TypeChange": "尼崎まで普通",
             "Destination": "同志社前",
             "Day": "土休日",
-            "FirstTime": "（尼崎21:14）",
+            "FirstTime": "西明石20:02",
             "EndTime": "同志社前22:18",
             "Position": ""
         },
@@ -14902,7 +14902,7 @@
             "Destination": "松井山手",
             "Day": "土休日",
             "FirstTime": "宝塚21:23",
-            "EndTime": "（尼崎21:42）",
+            "EndTime": "松井山手22:49",
             "Position": ""
         },
         {
@@ -14912,7 +14912,7 @@
             "TypeChange": "尼崎まで快速",
             "Destination": "松井山手",
             "Day": "土休日",
-            "FirstTime": "（尼崎21:44）",
+            "FirstTime": "宝塚21:23",
             "EndTime": "松井山手22:49",
             "Position": ""
         },
@@ -14924,7 +14924,7 @@
             "Destination": "同志社前",
             "Day": "土休日",
             "FirstTime": "西明石20:41",
-            "EndTime": "（尼崎21:48）",
+            "EndTime": "同志社前22:52",
             "Position": ""
         },
         {
@@ -14934,7 +14934,7 @@
             "TypeChange": "尼崎まで普通",
             "Destination": "同志社前",
             "Day": "土休日",
-            "FirstTime": "（尼崎21:54）",
+            "FirstTime": "西明石20:41",
             "EndTime": "同志社前22:52",
             "Position": ""
         },
@@ -14968,7 +14968,7 @@
             "Destination": "木津",
             "Day": "土休日",
             "FirstTime": "西明石21:21",
-            "EndTime": "（尼崎22:28）",
+            "EndTime": "木津23:53",
             "Position": ""
         },
         {
@@ -14978,7 +14978,7 @@
             "TypeChange": "尼崎まで普通",
             "Destination": "木津",
             "Day": "土休日",
-            "FirstTime": "（尼崎22:34）",
+            "FirstTime": "西明石21:21",
             "EndTime": "木津23:53",
             "Position": ""
         },
@@ -15001,7 +15001,7 @@
             "Destination": "京田辺",
             "Day": "土休日",
             "FirstTime": "西明石21:41",
-            "EndTime": "（尼崎22:48）",
+            "EndTime": "京田辺0:14",
             "Position": ""
         },
         {
@@ -15011,7 +15011,7 @@
             "TypeChange": "尼崎まで普通",
             "Destination": "京田辺",
             "Day": "土休日",
-            "FirstTime": "（尼崎22:54）",
+            "FirstTime": "西明石21:41",
             "EndTime": "京田辺0:14",
             "Position": ""
         },
@@ -15760,7 +15760,7 @@
             "Destination": "奈良",
             "Day": "土休日",
             "FirstTime": "新三田21:33",
-            "EndTime": "（尼崎22:10）",
+            "EndTime": "奈良23:41",
             "Position": ""
         },
         {
@@ -15770,7 +15770,7 @@
             "TypeChange": "尼崎まで快速",
             "Destination": "奈良",
             "Day": "土休日",
-            "FirstTime": "（尼崎22:14）",
+            "FirstTime": "新三田21:33",
             "EndTime": "奈良23:41",
             "Position": ""
         },
@@ -15782,7 +15782,7 @@
             "Destination": "京田辺",
             "Day": "土休日",
             "FirstTime": "新三田22:34",
-            "EndTime": "（尼崎23:10）",
+            "EndTime": "京田辺0:14",
             "Position": ""
         },
         {
@@ -15792,7 +15792,7 @@
             "TypeChange": "尼崎まで快速",
             "Destination": "京田辺",
             "Day": "土休日",
-            "FirstTime": "（尼崎23:14）",
+            "FirstTime": "新三田22:34",
             "EndTime": "京田辺0:14",
             "Position": ""
         },
@@ -15804,7 +15804,7 @@
             "Destination": "松井山手",
             "Day": "土休日",
             "FirstTime": "宝塚23:11",
-            "EndTime": "（尼崎23:30）",
+            "EndTime": "松井山手0:27",
             "Position": ""
         },
         {
@@ -15814,7 +15814,7 @@
             "TypeChange": "尼崎まで快速",
             "Destination": "松井山手",
             "Day": "土休日",
-            "FirstTime": "（尼崎23:34）",
+            "FirstTime": "宝塚23:11",
             "EndTime": "松井山手0:27",
             "Position": ""
         },
@@ -16442,7 +16442,7 @@
             "Destination": "塚口",
             "Day": "土休日",
             "FirstTime": "同志社前20:26",
-            "EndTime": "（京橋21:11）",
+            "EndTime": "宝塚22:03",
             "Position": ""
         },
         {
@@ -16452,7 +16452,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "宝塚",
             "Day": "土休日",
-            "FirstTime": "（京橋21:15）",
+            "FirstTime": "同志社前20:26",
             "EndTime": "宝塚22:03",
             "Position": ""
         },
@@ -16464,7 +16464,7 @@
             "Destination": "宝塚",
             "Day": "土休日",
             "FirstTime": "木津20:33",
-            "EndTime": "（京橋21:31）",
+            "EndTime": "宝塚22:24",
             "Position": ""
         },
         {
@@ -16474,7 +16474,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "宝塚",
             "Day": "土休日",
-            "FirstTime": "（京橋21:35）",
+            "FirstTime": "木津20:33",
             "EndTime": "宝塚22:24",
             "Position": ""
         },
@@ -16486,7 +16486,7 @@
             "Destination": "宝塚",
             "Day": "土休日",
             "FirstTime": "木津20:52",
-            "EndTime": "（京橋21:51）",
+            "EndTime": "新三田23:04",
             "Position": ""
         },
         {
@@ -16496,7 +16496,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "新三田",
             "Day": "土休日",
-            "FirstTime": "（京橋21:55）",
+            "FirstTime": "木津20:52",
             "EndTime": "新三田23:04",
             "Position": ""
         },
@@ -16508,7 +16508,7 @@
             "Destination": "新三田",
             "Day": "土休日",
             "FirstTime": "同志社前21:27",
-            "EndTime": "（京橋22:11）",
+            "EndTime": "宝塚23:03",
             "Position": ""
         },
         {
@@ -16518,7 +16518,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "宝塚",
             "Day": "土休日",
-            "FirstTime": "（京橋22:15）",
+            "FirstTime": "同志社前21:27",
             "EndTime": "宝塚23:03",
             "Position": ""
         },
@@ -16530,7 +16530,7 @@
             "Destination": "宝塚",
             "Day": "土休日",
             "FirstTime": "木津21:33",
-            "EndTime": "（京橋22:35）",
+            "EndTime": "宝塚23:23",
             "Position": ""
         },
         {
@@ -16540,7 +16540,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "宝塚",
             "Day": "土休日",
-            "FirstTime": "（京橋22:35）",
+            "FirstTime": "木津21:33",
             "EndTime": "宝塚23:23",
             "Position": ""
         },
@@ -16552,7 +16552,7 @@
             "Destination": "宝塚",
             "Day": "土休日",
             "FirstTime": "木津21:59",
-            "EndTime": "（京橋22:51）",
+            "EndTime": "新三田0:03",
             "Position": ""
         },
         {
@@ -16562,7 +16562,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "新三田",
             "Day": "土休日",
-            "FirstTime": "（京橋22:55",
+            "FirstTime": "木津21:59",
             "EndTime": "新三田0:03",
             "Position": ""
         },
@@ -16574,7 +16574,7 @@
             "Destination": "新三田",
             "Day": "土休日",
             "FirstTime": "同志社前22:26",
-            "EndTime": "（京橋23:12）",
+            "EndTime": "新三田0:24",
             "Position": ""
         },
         {
@@ -16584,7 +16584,7 @@
             "TypeChange": "京橋まで快速",
             "Destination": "新三田",
             "Day": "土休日",
-            "FirstTime": "（京橋23:15）",
+            "FirstTime": "同志社前22:26",
             "EndTime": "新三田0:24",
             "Position": ""
         },
@@ -16596,7 +16596,7 @@
             "Destination": "新三田",
             "Day": "土休日",
             "FirstTime": "木津22:33",
-            "EndTime": "（京橋23:29）",
+            "EndTime": "新三田0:32",
             "Position": ""
         },
         {
@@ -16606,7 +16606,7 @@
             "TypeChange": "京橋まで区間快速",
             "Destination": "新三田",
             "Day": "土休日",
-            "FirstTime": "（京橋23:35）",
+            "FirstTime": "木津22:33",
             "EndTime": "新三田0:32",
             "Position": ""
         },
@@ -16639,8 +16639,8 @@
             "TypeChange": "",
             "Destination": "",
             "Day": "平日",
-            "FirstTime": "",
-            "EndTime": "",
+            "FirstTime": "尼崎",
+            "EndTime": "塚口",
             "Position": ""
         },
         {
@@ -16650,8 +16650,8 @@
             "TypeChange": "",
             "Destination": "宝塚",
             "Day": "平日",
-            "FirstTime": "北伊丹(着発)",
-            "EndTime": "宝塚",
+            "FirstTime": "北伊丹(着発)4:36",
+            "EndTime": "宝塚4:47",
             "Position": ""
         },
         {
@@ -16716,8 +16716,8 @@
             "TypeChange": "",
             "Destination": "宮原(操)",
             "Day": "平日",
-            "FirstTime": "甲子園口",
-            "EndTime": "宮原(操)",
+            "FirstTime": "甲子園口9:46",
+            "EndTime": "宮原(操)10:11",
             "Position": ""
         },
         {
@@ -16727,8 +16727,8 @@
             "TypeChange": "",
             "Destination": "宮原(操)",
             "Day": "平日",
-            "FirstTime": "甲子園口",
-            "EndTime": "宮原(操)",
+            "FirstTime": "甲子園口23:48",
+            "EndTime": "宮原(操)0:11",
             "Position": ""
         },
         {
@@ -16749,8 +16749,8 @@
             "TypeChange": "",
             "Destination": "吹田",
             "Day": "平日",
-            "FirstTime": "大阪",
-            "EndTime": "吹田",
+            "FirstTime": "大阪5:24",
+            "EndTime": "吹田5:33",
             "Position": ""
         },
         {
@@ -16771,8 +16771,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "平日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)4:56",
+            "EndTime": "大阪5:04",
             "Position": ""
         },
         {
@@ -16782,8 +16782,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "平日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)5:05",
+            "EndTime": "大阪5:11",
             "Position": ""
         },
         {
@@ -16795,6 +16795,17 @@
             "Day": "平日",
             "FirstTime": "野洲",
             "EndTime": "京都",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5663M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "京都",
+            "Day": "平日",
+            "FirstTime": "野洲",
+            "EndTime": "京都16:54",
             "Position": ""
         },
         {
@@ -16936,8 +16947,19 @@
             "TypeChange": "",
             "Destination": "吹田",
             "Day": "土休日",
-            "FirstTime": "大阪",
-            "EndTime": "吹田",
+            "FirstTime": "大阪5:24",
+            "EndTime": "吹田5:33",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5527K",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "尼崎",
+            "Day": "土休日",
+            "FirstTime": "吹田5:36",
+            "EndTime": "尼崎5:53",
             "Position": ""
         },
         {
@@ -16958,8 +16980,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)4:56",
+            "EndTime": "大阪5:04",
             "Position": ""
         },
         {
@@ -16969,8 +16991,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)5:05",
+            "EndTime": "大阪5:11",
             "Position": ""
         },
         {
@@ -16980,8 +17002,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)5:57",
+            "EndTime": "大阪6:04",
             "Position": ""
         },
         {
@@ -17048,6 +17070,17 @@
             "Day": "平日",
             "FirstTime": "宮原(操)",
             "EndTime": "塚口",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回528C",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "平日",
+            "FirstTime": "大阪8:59",
+            "EndTime": "宮原(操)9:07",
             "Position": ""
         },
         {
@@ -17145,8 +17178,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "平日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)15:24",
+            "EndTime": "大阪15:32",
             "Position": ""
         },
         {
@@ -17156,8 +17189,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)15:24",
+            "EndTime": "大阪15:32",
             "Position": ""
         },
         {
@@ -17167,8 +17200,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)15:54",
+            "EndTime": "大阪16:02",
             "Position": ""
         },
         {
@@ -17178,8 +17211,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "平日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)17:26",
+            "EndTime": "大阪17:34",
             "Position": ""
         },
         {
@@ -17189,8 +17222,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)17:26",
+            "EndTime": "大阪17:34",
             "Position": ""
         },
         {
@@ -17200,8 +17233,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "平日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)19:41",
+            "EndTime": "大阪19:49",
             "Position": ""
         },
         {
@@ -17211,8 +17244,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)19:41",
+            "EndTime": "大阪19:49",
             "Position": ""
         },
         {
@@ -17222,8 +17255,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "平日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)20:41",
+            "EndTime": "大阪20:49",
             "Position": ""
         },
         {
@@ -17233,8 +17266,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)20:41",
+            "EndTime": "大阪20:49",
             "Position": ""
         },
         {
@@ -17244,8 +17277,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "平日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)23:12",
+            "EndTime": "大阪23:20",
             "Position": ""
         },
         {
@@ -17255,8 +17288,8 @@
             "TypeChange": "",
             "Destination": "大阪",
             "Day": "土休日",
-            "FirstTime": "宮原(操)",
-            "EndTime": "大阪",
+            "FirstTime": "宮原(操)23:12",
+            "EndTime": "大阪23:20",
             "Position": ""
         },
         {
@@ -17288,8 +17321,41 @@
             "TypeChange": "",
             "Destination": "宮原(操)",
             "Day": "土休日",
-            "FirstTime": "大阪",
-            "EndTime": "宮原(操)",
+            "FirstTime": "大阪23:02",
+            "EndTime": "宮原(操)23:10",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5916M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "塚口17:59",
+            "EndTime": "尼崎18:03",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5922M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "塚口18:29",
+            "EndTime": "尼崎18:33",
+            "Position": ""
+        },
+        {
+            "UnyoNo": "明支",
+            "TrainNo": "回5910M",
+            "Type": "回送",
+            "TypeChange": "",
+            "Destination": "宮原(操)",
+            "Day": "土休日",
+            "FirstTime": "塚口17:29",
+            "EndTime": "尼崎17:33",
             "Position": ""
         }
     ]
