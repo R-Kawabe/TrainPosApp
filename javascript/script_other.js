@@ -5,6 +5,9 @@ function getLineData_other(line) {
     fetch('line.php?' + params.toString())
         .then(function (response) {
             console.log(response.status); //200
+            if (!response.ok) {
+                throw new Error("eeeee");
+            }
             return response.json();
         })
         .then(function (data) {

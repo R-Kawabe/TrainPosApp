@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-store">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../javascript/getDate.js"></script>
+    <script src="../javascript/station.js"></script>
+    <script src="../javascript/script_other.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/color.css">
+    <link rel="icon" type="image/png" href="image/favicon1.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon2.png">
+    <title>Hokuriku&Kinki2Area</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="head-div">北陸・近畿エリア2</div>
+    </header>
+    <main class="main-wrap">
+        <aside class="sidebar">
+            <p>運行情報</p>
+            <button type="button" class="button"
+                onclick="window.open('https://trafficinfo.westjr.co.jp/kinki.html','_blank')">JRW運行情報</button><br>
+            <p>路線選択</p>
+            <button class="button" onclick="getLineData_other('hokuriku')" name="word1">北陸本線</button><br>
+            <button class="button" onclick="getLineData_other('nara')" name="word1">D 奈良線</button><br>
+            <button class="button" onclick="getLineData_other('sagano')" name="word1">E 嵯峨野線</button><br>
+            <button class="button" onclick="getLineData_other('sanin1')" name="word1">E 山陰本線</button><br>
+            <button class="button" onclick="getLineData_other('sanin2')" name="word1">E/A 山陰本線</button><br>
+            <button class="button" onclick="getLineData_other('fukuchiyama')" name="word1">G 福知山線</button><br>
+            <button class="button" onclick="getLineData_other('bantan')" name="word1">J 播但線</button><br>
+            <button class="button" onclick="getLineData_other('maizuru')" name="word1">L 舞鶴線</button><br>
+            <button class="button" onclick="getLineData_other('wakayama1')" name="word1">T 和歌山線</button><br>
+            <button class="button" onclick="getLineData_other('kinokuni')" name="word1">W きのくに線</button><br>
+            <p>他エリア</p>
+            <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
+            <input type="button" class="button" onclick="location.href='./Okayama.html'" value="岡山・福山エリア"><br>
+            <input type="button" class="button" onclick="location.href='./HiroSeki.html'" value="広島・下関エリア"><br>
+            <input type="button" class="button" onclick="location.href='./Sanin.html'" value="山陰エリア"><br>
+            <!-- <input type="button" class="button" onclick="location.href='./Central.html'" value="東海エリア"> -->
+            <p>運用検索</p>
+            <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ">
+        </aside>
+        <article class="main">
+            <div id="Date-Time"></div>
+            <div id="elem"></div>
+        </article>
+    </main>
+    <!-- <div>
+        <input type="text" placeholder="hoge" id="search_text">
+        <button id="search_button">検索</button>
+    </div> -->
+    <footer class="footer">
+        author twitter @num6_no_hito<br> <a href="../index.html">トップに戻る</a>
+    </footer>
+</body>
+
+</html>
