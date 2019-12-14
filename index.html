@@ -12,9 +12,9 @@
     <script src="../src/Entity/array.js" defer></script>
     <script src="../src/Repository/createBtn.js" defer></script>
     <script src="../src/Repository/getDate.js" defer></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/button.css">
-    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="../css/style.css?v2.0.1">
+    <link rel="stylesheet" href="../css/button.css?v2.0.1">
+    <link rel="stylesheet" href="../css/color.css?v2.0.1">
     <link rel="icon" type="image/png" href="public/image/favicon1.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon2.png">
 </head>
@@ -23,7 +23,7 @@
     <header class="header">
         <div class="head-div" id="area">TrainPos/InfoSearch App</div>
     </header>
-    <main class="main-wrap">
+    <main class="main-wrap" ontouchstart="">
         <aside class="sidebar">
             <p>運用検索</p>
             <div id="UnyoSearchArea"></div>
@@ -50,28 +50,27 @@
                 現時点確定済み（土休）：
             </div>
 
-            <h4>今後の展開</h4>
+            <h4>実装予定の機能（時期未定）</h4>
             <div>
                 <ul>
-                    <li>ソート機能実装</li>
                     <li>運用検索ページの機能拡張</li>
                 </ul>
             </div>
 
             <h4 class="carefull">注意事項</h4>
             <div>
-                &#x26a0;&#xfe0f;このWebアプリは個人で作成した非公式のものであり、表示されている内容に一部誤りがある場合があります。<br>
+                &#x26a0;&#xfe0f;このWebアプリは個人で作成した非公式のものであり、表示されている内容に誤りがある場合があります。<br>
                 &#x26a0;&#xfe0f;元データは公式で配信されている、JR西日本<button type="button" class="traininfo"
                     onclick="window.open('https://www.train-guide.westjr.co.jp/','_blank')">列車走行位置</button>および、JR東海<button
                     type="button" class="traininfo"
                     onclick="window.open('https://traininfo.jr-central.co.jp/zairaisen/index.html?lang=ja','_blank')">在来線運行状況</button>から取得しています。<br>
-                &#x26a0;&#xfe0f;当サイトを利用したことにより被った不利益については、作成者は一切の責任を負いかねます。<br></div>
+                &#x26a0;&#xfe0f;当サイトを利用したことにより被った不利益について、作成者は一切責任を負いません。<br></div>
 
             <h4>作成者より</h4>
             <div>
                 このWebアプリは、JR西日本公式のサービス「列車走行位置」について、
-                作成者自身が「もっとほかの情報も表示してくれたらいいのに」と思ったことから作成したものです。<br>
-                表示される種別や行先はもちろん、列車番号や両数も、公式の「列車走行位置」で配信されているデータを使用しています（公式の方では列番や両数は表示されないようになっています）。<br>
+                作成者自身が「ほかの情報も表示してくれたらいいのに」と思ったことから作成したものです。<br>
+                表示される種別や行先はもちろん、列車番号や両数も、公式で配信されているデータを使用しています（公式では列番や両数は表示されないようになっています）。<br>
                 データの取得方法は作成者自身が自力でプログラミングしたものではなく、ネット上で似たようなプログラムを組まれていた方のコードを真似させていただきました。<br>
             </div>
         </article>

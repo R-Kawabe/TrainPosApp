@@ -1,0 +1,89 @@
+.kakomi-hokuriku:hover {
+    background-color: white;
+    border: 1px solid blue;
+}
+
+.kakomi-kosei:hover {
+    background-color: white;
+    border: 1px solid deepskyblue;
+}
+
+.kakomi-osakahigashi:hover {
+    background-color: white;
+    border: 1px solid steelblue;
+}
+
+.kakomi-takarazuka:hover {
+    background-color: white;
+    border: 1px solid yellow;
+}
+
+.kakomi-tozai:hover {
+    background-color: white;
+    border: 1px solid deeppink;
+}
+
+.kakomi-osakaloop:hover {
+    background-color: white;
+    border: 1px solid red;
+}
+
+.kakomi-yumesaki:hover {
+    background-color: white;
+    border: 1px solid navy;
+}
+
+.kakomi-yamatoji:hover {
+    background-color: white;
+    border: 1px solid green;
+}
+
+.kakomi-hanwa:hover {
+    background-color: white;
+    border: 1px solid darkorange;
+}
+
+.kakomi-kansaiairport:hover {
+    background-color: white;
+    border: 1px solid darkblue;
+}
+
+.kakomi-kusatsu:hover {
+    background-color: white;
+    border: 1px solid lime;
+}
+
+.kakomi-nara:hover {
+    background-color: white;
+    border: 1px solid darkgoldenrod;
+}
+
+.kakomi-kakogawa:hover {
+    background-color: white;
+    border: 1px solid turquoise;
+}
+
+.kakomi-kishin:hover {
+    background-color: white;
+    border: 1px solid orangered;
+}
+
+.kakomi-wakayama2:hover {
+    background-color: white;
+    border: 1px solid hotpink;
+}
+
+.kakomi-kansai:hover {
+    background-color: white;
+    border: 1px solid purple;
+}
+
+.kakomi-kinokuni:hover {
+    background-color: white;
+    border: 1px solid darkturquoise;
+}
+
+.kakomi-other:hover {
+    background-color: white;
+    border: 1px solid black;
+}

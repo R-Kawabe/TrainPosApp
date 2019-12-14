@@ -32,7 +32,8 @@ const sideBtnArray = [
         'areaName': 'UnyoSearchArea',
         'url': 'public/unyoSearch.html',
         'value': '運用検索ページ'
-    }, {
+    },
+    {
         'areaName': 'WinfoBtnArea',
         'url': 'https://trafficinfo.westjr.co.jp/kinki.html',
         'value': 'JRW運行情報'

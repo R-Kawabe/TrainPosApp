@@ -25,7 +25,8 @@ function trainElement(train) {
     // const text = `${train.no} ${train.displayType}${train.nickname} ${train.typeChange} ${train.via} ${train.dest.text}行き ${train.numberOfCars}両 ${delayMinutes} 走行位置：${position}${direction}`;
     const text = train.no + " " + LineMark + DispTypeAddCol + train.nickname + " " + train.typeChange + " " + train.via + " " + DestAddCol + "行き " + train.numberOfCars + "両 " + delayMinutes + " 走行位置：" + position + direction;
     const elem = document.createElement('div');
-    elem.className = 'kakomi-box3';
+    // elem.className = 'kakomi-box3';
+    elem.className = `kakomi-box3 kakomi-${train.dest.line}`;
     // elem.innerText = text;
     elem.innerHTML = text;
     return elem;
