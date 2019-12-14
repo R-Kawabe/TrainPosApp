@@ -9,10 +9,17 @@
     <meta http-equiv="Cache-Control" content="no-store">
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="../javascript/getDate.js"></script>
-    <script src="../javascript/station.js"></script>
-    <script src="../javascript/script_other.js"></script>
+    <script src="../src/Service/fetch.js" defer></script>
+    <script src="../src/Entity/array.js" defer></script>
+    <script src="../src/Repository/createBtn.js" defer></script>
+    <script src="../src/Repository/getDate.js" defer></script>
+    <script src="../src/Entity/entity.js" defer></script>
+    <script src="../src/Entity/stationList.js" defer></script>
+    <script src="../src/Service/scriptOther.js" defer></script>
+    <script src="../src/Repository/stationGet.js" defer></script>
+    <script src="../src/Repository/setOption.js" defer></script>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/color.css">
     <link rel="icon" type="image/png" href="image/favicon1.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon2.png">
@@ -21,26 +28,20 @@
 
 <body>
     <header class="header">
-        <div class="head-div">岡山・福山エリア</div>
+        <div class="head-div" id="area">岡山・福山エリア</div>
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
             <p>運行情報</p>
-            <button type="button" class="button"
-                onclick="window.open('https://trafficinfo.westjr.co.jp/chugoku.html','_blank')">JRW運行情報</button><br>
+            <div id="WinfoBtnArea"></div>
             <p>路線選択</p>
-            <button class="button" onclick="getLineData_other('sanyo1')" name="word1">S/W/X 山陽本線</button><br>
-            <button class="button" onclick="getLineData_other('setoohashi')" name="word1">M 瀬戸大橋線</button><br>
-            <button class="button" onclick="getLineData_other('unominato')" name="word1">L 宇野みなと線</button><br>
-            <button class="button" onclick="getLineData_other('hakubi1')" name="word1">V 伯備線</button><br>
-            <p>他エリア</p>
-            <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
-            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="北陸・近畿エリア2"><br>
-            <input type="button" class="button" onclick="location.href='./HiroSeki.html'" value="広島・下関エリア"><br>
-            <input type="button" class="button" onclick="location.href='./Sanin.html'" value="山陰エリア"><br>
-            <!-- <input type="button" class="button" onclick="location.href='./Central.html'" value="東海エリア"><br> -->
+            <div id="lineSelect"></div>
+            <p>JR西 他エリア</p>
+            <div id="areaSelect"></div>
+            <p>JR東海</p>
+            <div id="CentralPage"></div>
             <p>運用検索</p>
-            <input type="button" class="button" onclick="location.href='./unyoSearch.html'" value="運用検索のページ">
+            <div id="UnyoSearchArea"></div>
         </aside>
         <article class="main">
             <div id="Date-Time"></div>

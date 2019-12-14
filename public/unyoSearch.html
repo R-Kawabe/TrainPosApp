@@ -9,9 +9,15 @@
     <meta http-equiv="Cache-Control" content="no-store">
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="../javascript/getDate.js"></script>
-    <script src="../javascript/unyoData.js"></script>
+    <script src="../src/Entity/array.js" defer></script>
+    <script src="../src/Entity/entity.js" defer></script>
+    <script src="../src/Repository/createBtn.js" defer></script>
+    <script src="../src/Repository/getDate.js" defer></script>
+    <script src="../src/Repository/setOption.js" defer></script>
+    <script src="../src/Service/fetch.js" defer></script>
+    <script src="../src/Service/unyoSearch.js" defer></script>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/color.css">
     <link rel="icon" type="image/png" href="image/favicon1.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon2.png">
@@ -20,14 +26,14 @@
 
 <body>
     <header class="header">
-        <div class="head-div">運用検索ページ</div>
+        <div class="head-div" id="area">運用検索ページ</div>
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
             <p>全件表示</p>
-            <button class="button" onclick="get('miyahara')" name="word_U">宮原支所運用</button><br>
-            <button class="button" onclick="get('akashi')" name="word_U">明石支所運用</button>
+            <div id="sishoBtn"></div>
             <form id="Unyo_Search" class="form">
+                <!-- 次回アップデート：検索フォームを動的に生成 -->
                 <p class="form">検索フォーム</p>
                 <div>
                     <label for="Unyo_Text">運用番号</label>
@@ -55,25 +61,19 @@
                 </div>
             </form>
             <p>在線ページ</p>
-            <!-- <p>JR東海</p>
-            <input type="button" class="button" onclick="location.href='./Central.html'" value="東海エリア"><br> -->
             <p>JR西日本</p>
-            <input type="button" class="button" onclick="location.href='./Kinki.html'" value="近畿エリア"><br>
-            <input type="button" class="button" onclick="location.href='./Kinki2.html'" value="北陸・近畿エリア2"><br>
-            <input type="button" class="button" onclick="location.href='./Okayama.html'" value="岡山・福山エリア"><br>
-            <input type="button" class="button" onclick="location.href='./HiroSeki.html'" value="広島・下関エリア"><br>
-            <input type="button" class="button" onclick="location.href='./Sanin.html'" value="山陰エリア"><br>
-            <p>各社運行情報</p>
-            <button type="button" class="button"
-                onclick="window.open('https://trafficinfo.westjr.co.jp/kinki.html','_blank')">JRW運行情報</button><br>
-            <!-- <button type="button" class="button"
-                onclick="window.open('https://traininfo.jr-central.co.jp/zairaisen/index.html?lang=ja','_blank')">JRC運行状況</button> -->
+            <div id="areaSelect"></div>
+            <p>JR東海</p>
+            <div id="CentralPage"></div>
+            <p>運行情報</p>
+            <div id="WinfoBtnArea"></div>
+            <div id="CinfoBtnArea"></div>
         </aside>
         <article class="main">
             <div id="Date-Time"></div>
-            <div class="output-area">
-                <div id="outputArea">始めに全件表示してから検索を始めてください。<br>
-                回送列車の時刻は目安です。</div>
+            <div class="elem">
+                <div id="elem">始めに全件表示してから検索を始めてください。<br>
+                    回送列車の時刻は目安です。</div>
             </div>
         </article>
     </main>

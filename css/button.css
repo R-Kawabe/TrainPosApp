@@ -1,0 +1,273 @@
+.button {
+    background-color: #333;
+    border: 2px solid #333;
+    color: white;
+    line-height: 50px;
+}
+
+.kinki:hover {
+    background-color: whitesmoke;
+    border-color: blue;
+    color: blue;
+}
+
+.kinki2:hover {
+    background-color: whitesmoke;
+    border-color: darkblue;
+    color: darkblue;
+}
+
+.okayama:hover {
+    background-color: whitesmoke;
+    border-color: orangered;
+    color: orangered;
+}
+
+.hiroseki:hover {
+    background-color: whitesmoke;
+    border-color: orange;
+    color: orange;
+}
+
+.sanin:hover {
+    background-color: whitesmoke;
+    border-color: blueviolet;
+    color: purple;
+}
+
+.hokurikubiwako:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.kyoto:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.kobesanyo:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.ako:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.kosei:hover {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    color: white;
+}
+
+.osakahigashi:hover {
+    background-color: steelblue;
+    border-color: steelblue;
+    color: white;
+}
+
+.takarazuka:hover {
+    background-color: yellow;
+    border-color: yellow;
+    color: black;
+}
+
+.tozai:hover {
+    background-color: deeppink;
+    border-color: deeppink;
+    color: white;
+}
+
+.gakkentoshi:hover {
+    background-color: deeppink;
+    border-color: deeppink;
+    color: white;
+}
+
+.osakaloop:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.yumesaki:hover {
+    background-color: navy;
+    border-color: navy;
+    color: white;
+}
+
+.yamatoji:hover {
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+.hanwahagoromo:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+}
+
+.kansaiairport:hover {
+    background-color: royalblue;
+    border-color: royalblue;
+    color: white;
+}
+
+.hokuriku:hover {
+    background-color: darkblue;
+    border-color: darkblue;
+    color: white;
+}
+
+.kusatsu:hover {
+    background-color: lime;
+    border-color: lime;
+    color: black;
+}
+
+.nara:hover {
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
+    color: white;
+}
+
+.sagano:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: white;
+}
+
+.sanin1:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: white;
+}
+
+.sanin2:hover {
+    /* background: linear-gradient(blueviolet 0%, blueviolet 50%, yellowgreen 50%, yellowgreen 100%); */
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: white;
+}
+
+.fukuchiyama:hover {
+    background-color: yellow;
+    border-color: yellow;
+    color: black;
+}
+
+.bantan:hover {
+    background-color: firebrick;
+    border-color: firebrick;
+    color: white;
+}
+
+.maizuru:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+    color: black;
+}
+
+.wakayama1:hover {
+    background-color: hotpink;
+    border-color: hotpink;
+    color: white;
+}
+
+.kansai:hover {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+}
+
+.kinokuni:hover {
+    background-color: darkturquoise;
+    border-color: darkturquoise;
+    color: white;
+}
+
+.sanyo1:hover {
+    /* background-color: linear-gradient(yellowgreen 0%, yellowgreen 33%, orange 33%, orange 67%, deepskyblue 67%, deepskyblue 100%); */
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+    color: white;
+}
+
+.setoohashi:hover {
+    background-color: royalblue;
+    border-color: royalblue;
+    color: white;
+}
+
+.unominato:hover {
+    background-color: darkturquoise;
+    border-color: darkturquoise;
+    color: white;
+}
+
+.hakubi1:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+    color: white;
+}
+
+.sanyo2:hover {
+    /* background-color: linear-gradient(green 0%, green 50%, crimson 50%, crimson 100%); */
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+.sanyo3:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.kabe:hover {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    color: white;
+}
+
+.kure:hover {
+    background-color: goldenrod;
+    border-color: goldenrod;
+    color: black;
+}
+
+.sanin3:hover {
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+    color: black;
+}
+
+.sanin4:hover {
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}
+
+.hakubi2:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+    color: white;
+}
+
+.miyahara:hover {
+    background-color: limegreen;
+    border-color: limegreen;
+    color: white;
+}
+
+.akashi:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}

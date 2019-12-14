@@ -1,6 +1,6 @@
 <?php
 
-$word1 = ($_GET['word1']);
+$word1 = ($_GET['word']);
 
 header('Content-Type: application/json');
 

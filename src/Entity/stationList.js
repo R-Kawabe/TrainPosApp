@@ -2919,26 +2919,3 @@ var stations_other = [
         "name": ""
     }
 ];
-
-/**
- * 
- * @param {*} pos 
- */
-function posMatch_O(pos_o) {
-    return stations_other.filter(Ostation => {
-        if (Ostation.code === pos_o) return Ostation;
-
-    });
-}
-
-
-/**
- * 
- * @param {*} pos 
- */
-function posMatch_U(pos_u) {
-    return stations_urban.filter(Ustation => {
-        if (Ustation.code === pos_u) return Ustation;
-
-    });
-}

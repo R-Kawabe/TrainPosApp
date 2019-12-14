@@ -3076,16 +3076,3 @@ var stations_Central = [ //東海エリア駅情報
         "name": "猪谷"
     }
 ];
-
-/**
- * 
- * @param {string} pos_C
- */
-function posMatch_C(pos_C) {
-    return stations_Central.filter(Cstation => {
-        if (Cstation.code === pos_C) {
-            return Cstation.name;
-        }
-    });
-}
-//hogehoge

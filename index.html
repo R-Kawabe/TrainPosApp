@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,40 +9,36 @@
     <meta http-equiv="Cache-Control" content="no-store">
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="javascript/getDate.js"></script>
+    <script src="../src/Entity/array.js" defer></script>
+    <script src="../src/Repository/createBtn.js" defer></script>
+    <script src="../src/Repository/getDate.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
     <link rel="icon" type="image/png" href="public/image/favicon1.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon2.png">
-    <title>TrainfoViewApp</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="head-div">TrainPos/InfoSearch App</div>
+        <div class="head-div" id="area">TrainPos/InfoSearch App</div>
     </header>
     <main class="main-wrap">
         <aside class="sidebar">
             <p>運用検索</p>
-            <input type="button" class="button" onclick="location.href='public/unyoSearch.html'" value="運用検索のページ"><br>
-            <p>各社運行情報</p>
-            <button type="button" class="button"
-                onclick="window.open('https://trafficinfo.westjr.co.jp/kinki.html','_blank')">JRW運行情報</button><br>
-            <!-- <button type="button" class="button"
-                onclick="window.open('https://traininfo.jr-central.co.jp/zairaisen/index.html?lang=ja','_blank')">JRC運行状況</button> -->
-            <p>JR東海<br>【旧】自作アプリ</p>
-            <input type="button" class="button"
-                onclick="window.open('https://script.google.com/macros/s/AKfycbzLWMeBoGAf5pmtxm20RP18zFxCzn_khJ9-W2wK-1CkQWxHoCw/exec?page=Tokai','_blank')"
-                value="東海エリア"><br>
+            <div id="UnyoSearchArea"></div>
+            <p>運行情報</p>
+            <div id="WinfoBtnArea"></div>
+            <div id="CinfoBtnArea"></div>
             <p>JR西日本</p>
-            <input type="button" class="button" onclick="location.href='public/Kinki.html'" value="近畿エリア"><br>
-            <input type="button" class="button" onclick="location.href='public/Kinki2.html'" value="北陸・近畿エリア2"><br>
-            <input type="button" class="button" onclick="location.href='public/Okayama.html'" value="岡山・福山エリア"><br>
-            <input type="button" class="button" onclick="location.href='public/HiroSeki.html'" value="広島・下関エリア"><br>
-            <input type="button" class="button" onclick="location.href='public/Sanin.html'" value="山陰エリア"><br>
+            <div id="areaSelect"></div>
+            <p>JR東海</p>
+            <div id="CentralPage"></div>
         </aside>
         <article class="main">
             <div id="Date-Time"></div>
             <h4>更新情報</h4>
+            <div>2019/12/20 00:00 [C]草津線，[V]関西本線に対応しました</div>
+            <div>2019/12/20 00:00 更新</div>
             <div>2019/11/09 15:35 レイアウトを若干変更</div>
             <div>2019/11/01 16:20 枠をつけました</div>
             <div><a href="public/past_update.html">過去の更新</a></div>
@@ -57,10 +53,8 @@
             <h4>今後の展開</h4>
             <div>
                 <ul>
-                    <li>運用データ追加</li>
                     <li>ソート機能実装</li>
                     <li>運用検索ページの機能拡張</li>
-                    <li>東海エリア追加中止</li>
                 </ul>
             </div>
 
@@ -71,7 +65,7 @@
                     onclick="window.open('https://www.train-guide.westjr.co.jp/','_blank')">列車走行位置</button>および、JR東海<button
                     type="button" class="traininfo"
                     onclick="window.open('https://traininfo.jr-central.co.jp/zairaisen/index.html?lang=ja','_blank')">在来線運行状況</button>から取得しています。<br>
-                    &#x26a0;&#xfe0f;当サイトを利用したことにより被った不利益については、作成者は一切の責任を負いかねます。<br></div>
+                &#x26a0;&#xfe0f;当サイトを利用したことにより被った不利益については、作成者は一切の責任を負いかねます。<br></div>
 
             <h4>作成者より</h4>
             <div>
