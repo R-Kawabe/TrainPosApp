@@ -131,7 +131,11 @@ function AddDispTypeCol(trainType, linename) {//otherはlinename=""を定義し�
             typeCol = '<span class="limitedexp">' + trainType + '</span>';
             return typeCol;
         }
-        case ("寝台特急" || "寝台"): {
+        case "寝台特急": {
+            typeCol = '<span class="extra">' + trainType + '</span>';
+            return typeCol;
+        }
+        case "寝台": {
             typeCol = '<span class="extra">' + trainType + '</span>';
             return typeCol;
         }

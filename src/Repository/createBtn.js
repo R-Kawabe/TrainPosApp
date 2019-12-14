@@ -55,19 +55,14 @@ function infoButton(areaName, url, value) {
     button.type = 'button';
     button.className = 'button';
     button.onclick = function () {
-        switch (value) {
-            case '運用検索ページ':
-                switch (area) {
-                    case 'TrainPos/InfoSearch App':
-                        location.href = url;
-                        break;
-                    default:
-                        location.href = url.replace('public/', './');
-                        break;
-                }
-            default: window.open(url, '_blank');
+        switch (area) {
+            case 'TrainPos/InfoSearch App':
+                if (value === '運用検索ページ') location.href = url;
+                else window.open(url, '_blank');
                 break;
-
+            default:
+                if (value === '運用検索ページ') location.href = url.replace('public/', './');
+                else window.open(url, '_blank');
         }
     }
     button.innerText = value;
