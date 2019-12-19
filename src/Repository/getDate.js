@@ -1,7 +1,4 @@
-// const Endpoint = '/Date.php';
-
 function clock() {
-
     // 現在日時を表すインスタンスを取得
     let now = new Date();
     // 年
@@ -28,15 +25,11 @@ function clock() {
 
     // HTML span clock_date 日付を表示
     document.getElementById("Date-Time").innerHTML = year + "/" + month + "/" + date + "（" + day + "）" + time + ":" + min + ":" + sec;
-
 }
 
 // clock関数を1000ミリ秒（毎秒）に実行する
 setInterval(clock, 1000);
 
-
-// window.addEventListener('load', async () => {
-//     const res = await fetch(Endpoint);
-//     const text = await res.text();
-//     document.getElementById('Date-Time').textContent = `日付/時刻：${text}`;
-// }, false);
+function headerDate(){
+    //
+}

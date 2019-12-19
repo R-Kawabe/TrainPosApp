@@ -31,8 +31,11 @@ window.addEventListener('load', () => {
             AreaArray.map(k => areaButton(k.code, k.area, k.url.replace('public/', './')));
             UnyoList.map(k => unyoButton(k.code, k.name));
             break;
-        default:
+        case 'TrainPos/InfoSearch App':
             AreaArray.map(k => areaButton(k.code, k.area, k.url));
+            break;
+        default:
+            AreaArray.map(k => areaButton(k.code, k.area, k.url.replace('public/', './')));
             break;
     }
     if (area === '運用検索ページ') {

@@ -9,48 +9,48 @@
     <meta http-equiv="Cache-Control" content="no-store">
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="../src/Service/fetch.js" defer></script>
     <script src="../src/Entity/array.js" defer></script>
+    <script src="../src/Entity/entity.js" defer></script>
     <script src="../src/Repository/createBtn.js" defer></script>
     <script src="../src/Repository/getDate.js" defer></script>
-    <script src="../src/Entity/entity.js" defer></script>
-    <script src="../src/Service/script.js" defer></script>
-    <script src="../src/Entity/stationList.js" defer></script>
-    <script src="../src/Repository/stationGet.js" defer></script>
-    <script src="../src/Repository/setOption.js" defer></script>
+    <!-- <script src="../src/Repository/setOption.js" defer></script> -->
+    <!-- <script src="../src/Service/fetch.js" defer></script> -->
+    <script src="../src/Service/unyoTable.js" defer></script>
     <link rel="stylesheet" href="../css/style.css?v2.1.0">
     <link rel="stylesheet" href="../css/button.css?v2.1.0">
     <link rel="stylesheet" href="../css/color.css?v2.1.0">
-    <link rel="stylesheet" href="../css/box.css?v2.1.0">
     <link rel="icon" type="image/png" href="image/favicon1.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon2.png">
-    <title>KinkiArea</title>
+    <title>UnyoView</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="head-div" id="area">近畿エリア</div>
+        <div class="head-div" id="area">充当列車確認ページ</div>
     </header>
     <main class="main-wrap" ontouchstart="">
         <aside class="sidebar">
-            <p>運行情報</p>
-            <div id="WinfoBtnArea"></div>
-            <p>路線選択</p>
-            <div id="lineSelect"></div>
-            <p>JR西 他エリア</p>
+            <p>List</p>
+            <p>運用検索</p>
+            <div id="UnyoSearchArea"></div>
+            <p>在線ページ</p>
+            <p>JR西日本</p>
             <div id="areaSelect"></div>
             <p>JR東海</p>
             <div id="CentralPage"></div>
-            <p>運用検索</p>
-            <div id="UnyoSearchArea"></div>
+            <p>運行情報</p>
+            <div id="WinfoBtnArea"></div>
+            <div id="CinfoBtnArea"></div>
         </aside>
         <article class="main">
             <div id="Date-Time"></div>
-            <div id="elem"></div>
+            <div class="elem">
+                <div id="elem"></div>
+            </div>
         </article>
     </main>
     <footer class="footer">
-        author twitter @num6_no_hito<br> <span style="background-color:whitesmoke;"><a
+        author twitter @num6_no_hito<br><span style="background-color:whitesmoke;"><a
                 href="../index.html">トップに戻る</a></span>
     </footer>
 </body>

@@ -41,6 +41,12 @@
     color: white;
 }
 
+.hokurikuA:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
 .kyoto:hover {
     background-color: blue;
     border-color: blue;

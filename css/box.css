@@ -87,3 +87,104 @@
     background-color: white;
     border: 1px solid black;
 }
+
+/* 
+.local:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.regionalrapid:hover {
+    background-color: black;
+    border-color: black;
+    color: green;
+}
+
+.rapid:hover {
+    background-color: black;
+    border-color: black;
+    color: darkorange;
+}
+
+.rapidC:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.specialrapid:hover {
+    background-color: black;
+    border-color: black;
+    color: blue;
+}
+
+.newrapid:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+}
+
+.specialrapidC:hover {
+    background-color: goldenrod;
+    border-color: goldenrod;
+    color: white;
+}
+
+.tanbajirapid:hover {
+    color: goldenrod;
+}
+
+.kixrapid:hover {
+    background-color: royalblue;
+    border-color: royalblue;
+    color: darkorange;
+}
+
+.kishujirapid:hover {
+    background-color: black;
+    border-color: black;
+    color: darkorange;
+}
+
+.yamatojirapid:hover {
+    background-color: black;
+    border-color: black;
+    color: green;
+}
+
+.miyakojirapid:hover {
+    background-color: black;
+    border-color: black;
+    color: darkgoldenrod;
+}
+
+.directrapid:hover {
+    background-color: black;
+    border-color: black;
+    color: steelblue;
+}
+
+.limitedexp:hover {
+    background-color: black;
+    border-color: black;
+    color: red;
+}
+
+.express:hover {
+    background-color: black;
+    border-color: black;
+    color: orangered;
+}
+
+.notinservice:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.extra:hover {
+    background-color: black;
+    color: white;
+    background-color: purple;
+} */

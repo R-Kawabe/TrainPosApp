@@ -87,6 +87,10 @@ function AddDispTypeCol(trainType, linename) {//otherはlinename=""を定義し�
             typeCol = '<span class="kishujirapid">' + trainType + '</span>';
             return typeCol;
         }
+        case "シャトル": {
+            typeCol = '<span class="kixrapid">' + trainType + '</span>';
+            return typeCol;
+        }
         case "関空快速": {
             typeCol = '<span class="kixrapid">' + trainType + '</span>';
             return typeCol;
@@ -173,7 +177,7 @@ function AddDestCol(trainDest) {
 function LineMarkGet(LineMark) {//無印のみ
     switch (LineMark) {
         case "hokuriku": {
-            const GetMark = '<span class="hokuriku">[A]</span>';
+            const GetMark = '<span class="hokurikuA">[A]</span>';
             return GetMark;
         }
         case "kosei": {
@@ -221,11 +225,11 @@ function LineMarkGet(LineMark) {//無印のみ
             return GetMark;
         }
         case "hanwa": {
-            const GetMark = '<span class="hanwa">[R]</span>';
+            const GetMark = '<span class="hanwahagoromo">[R]</span>';
             return GetMark;
         }
-        case "kansaiairport": {
-            const GetMark = '<span class="kix">[S]</span>';
+        case "kansaiairport": {//
+            const GetMark = '<span class="kansaiairport">[S]</span>';
             return GetMark;
         }
         case "wakayama2": {
