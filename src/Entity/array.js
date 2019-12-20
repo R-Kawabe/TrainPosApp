@@ -30,7 +30,7 @@ const AreaArray = [
 const sideBtnArray = [
     {
         'areaName': 'UnyoSearchArea',
-        'url': 'public/test.html',
+        'url': 'public/UnyoSearch.html',
         'value': '運用検索ページ'
     },
     {
