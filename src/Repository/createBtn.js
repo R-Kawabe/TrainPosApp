@@ -41,7 +41,11 @@ window.addEventListener('load', () => {
     if (area === '運用検索ページ') {
         sideBtnArray.splice(0, 1);
         sideBtnArray.map(k => infoButton(k.areaName, k.url, k.value));
-    } else {
+    } else if (area === '運用表') {
+        sideBtnArray.splice(1, 1);
+        sideBtnArray.map(k => infoButton(k.areaName, k.url, k.value));
+    }
+    else {
         sideBtnArray.map(k => infoButton(k.areaName, k.url, k.value));
     }
 }, false);
@@ -60,11 +64,11 @@ function infoButton(areaName, url, value) {
     button.onclick = function () {
         switch (area) {
             case 'TrainPos/InfoSearch App':
-                if (value === '運用検索ページ') location.href = url;
+                if (value === '運用検索ページ' || value === '運用表') location.href = url;
                 else window.open(url, '_blank');
                 break;
             default:
-                if (value === '運用検索ページ') location.href = url.replace('public/', './');
+                if (value === '運用検索ページ' || value === '運用表') location.href = url.replace('public/', './');
                 else window.open(url, '_blank');
         }
     }
