@@ -5,6 +5,7 @@ const elem = document.getElementById('elem');
  * @param {String} line 
  */
 async function getData(line) {
+    elem.innerHTML = "<div class='nowloading'>読み込み中</div>";
     const area = document.getElementById('area');
     let params = new URLSearchParams();
     params.set('word', line);

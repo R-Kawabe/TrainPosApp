@@ -63,6 +63,19 @@ html, body {
     color: red;
 }
 
+.nowloading{
+    text-align: center;
+    font-weight: bolder;
+    margin: 5px auto;
+    padding: 5px;
+    /* width: 90%; */
+    border: 1px solid black;
+    /* 枠線 */
+    background-color: white;
+    /* 背景色 */
+    box-shadow: 1px 1px 2px #ccc;
+}
+
 @media screen and (min-width: 801px) {
     /* この部分にパソコン用だけに対応させたいCSSコードを入力していく */
     .head-div {
