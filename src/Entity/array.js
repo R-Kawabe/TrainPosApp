@@ -201,43 +201,43 @@ const SaninAreaLine = [
 
 const CentralAreaLine = [
     {
-        'code': '10001',
+        'code': 'zaisenichijoho_10001',
         'line': 'CA 東海道本線1'
     }, {
-        'code': '10011',
+        'code': 'zaisenichijoho_10011',
         'line': 'CA 東海道本線2'
     }, {
-        'code': '10013',
+        'code': 'zaisenichijoho_10013',
         'line': 'CB 御殿場線'
     }, {
-        'code': '10012',
+        'code': 'zaisenichijoho_10012',
         'line': 'CC 身延線'
     }, {
-        'code': '10010',
+        'code': 'zaisenichijoho_10010',
         'line': 'CD 飯田線'
     }, {
-        'code': '10002',
+        'code': 'zaisenichijoho_10002',
         'line': 'CE 武豊線'
     }, {
-        'code': '10003',
+        'code': 'zaisenichijoho_10003',
         'line': 'CF 中央本線'
     }, {
-        'code': '10004',
+        'code': 'zaisenichijoho_10004',
         'line': 'CG 高山本線'
     }, {
-        'code': '10005',
+        'code': 'zaisenichijoho_10005',
         'line': 'CI 太田線'
     }, {
-        'code': '10006',
+        'code': 'zaisenichijoho_10006',
         'line': 'CJ 関西本線'
     }, {
-        'code': '10007',
+        'code': 'zaisenichijoho_10007',
         'line': '紀勢本線'
     }, {
-        'code': '10009',
+        'code': 'zaisenichijoho_10009',
         'line': '名松線'
     }, {
-        'code': '10008',
+        'code': 'zaisenichijoho_10008',
         'line': '参宮線'
     }
 ];
