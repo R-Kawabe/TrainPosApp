@@ -144,7 +144,13 @@ const Kinki2AreaLine = [
         'line': 'L 舞鶴線'
     }, {
         'code': 'wakayama1',
-        'line': 'T 和歌山線'
+        'line': 'T 和歌山線1 (和-五)'
+    }, {
+        'code': 'wakayama2',
+        'line': 'T 和歌山線2 (五-王)'
+    }, {
+        'code': 'manyomahoroba',
+        'line': 'U 万葉まほろば線'
     }, {
         'code': 'kansai',
         'line': 'V 関西本線'
@@ -190,6 +196,9 @@ const SaninAreaLine = [
     {
         'code': 'sanin3',
         'line': 'A 山陰本線'
+    }, {
+        'code': 'imbi1',
+        'line': 'B 因美線'
     }, {
         'code': 'sanin4',
         'line': 'D 山陰本線'

@@ -186,6 +186,18 @@
     color: white;
 }
 
+.wakayama2:hover {
+    background-color: hotpink;
+    border-color: hotpink;
+    color: white;
+}
+
+.manyomahoroba:hover {
+    background-color: firebrick;
+    border-color: firebrick;
+    color: white;
+}
+
 .kansai:hover {
     background-color: purple;
     border-color: purple;
@@ -263,6 +275,12 @@
 .hakubi2:hover {
     background-color: darkgreen;
     border-color: darkgreen;
+    color: white;
+}
+
+.imbi1:hover {
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
     color: white;
 }
 

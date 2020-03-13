@@ -173,7 +173,11 @@ span.kansaiairport {
     color: royalblue;
 }
 
-span.wakayama {
+span.wakayama1 {
+    color: hotpink;
+}
+
+span.wakayama2 {
     color: hotpink;
 }
 
@@ -183,4 +187,12 @@ span.kansai {
 
 span.kinokuni {
     color: darkturquoise;
+}
+
+span.manyomahoroba {
+    color: firebrick;
+}
+
+span.imbi1 {
+    color: goldenrod;
 }

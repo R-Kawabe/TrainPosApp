@@ -68,9 +68,19 @@
     border: 1px solid orangered;
 }
 
+.kakomi-wakayama1:hover {
+    background-color: white;
+    border: 1px solid hotpink;
+}
+
 .kakomi-wakayama2:hover {
     background-color: white;
     border: 1px solid hotpink;
+}
+
+.kakomi-manyomahoroba:hover {
+    background-color: white;
+    border: 1px solid firebrick;
 }
 
 .kakomi-kansai:hover {
