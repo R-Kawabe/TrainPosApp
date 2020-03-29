@@ -1380,6 +1380,10 @@ var stations_Central = [ //東海エリア駅情報
         "name": "袋井"
     },
     {
+        "code": "4300",
+        "name": "御厨"
+    },
+    {
         "code": "3390",
         "name": "磐田"
     },
