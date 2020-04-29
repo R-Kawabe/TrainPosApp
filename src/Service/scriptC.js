@@ -3,7 +3,7 @@
  * @param {Train[]} trains 
  */
 function viewTrainsC(trains) {
-    const elem = document.getElementById("elem");
+    // const elem = document.getElementById("elem");
     while (child = elem.firstChild) elem.removeChild(child);
     const trainElems = trains.map(trainElementC);
     trainElems.forEach(element => {
