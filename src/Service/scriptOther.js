@@ -3,6 +3,7 @@
  * @param {Train[]} trains 
  */
 function viewTrainsOther(trains) {
+    const elem = document.getElementById("elem");
     while (child = elem.firstChild) elem.removeChild(child);
     const trainElems = trains.map(trainElementoOther);
     trainElems.forEach(element => {

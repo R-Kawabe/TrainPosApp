@@ -1010,7 +1010,11 @@ var stations_urban = [//欠番：383,403,408,1507
     {//和歌山線
         "code": "3501",
         "name": "畠田"
-    }
+    },
+    {
+        "code": "3504",
+        "name": "高田"
+    },
 ];
 
 var stations_other = [
@@ -3055,10 +3059,6 @@ var stations_other = [
     {
         "code": "0600",
         "name": "金橋"
-    },
-    {
-        "code": "0601",
-        "name": "高田"
     },
     {
         "code": "0601",
