@@ -42,6 +42,7 @@ async function fetchTrain(request, param) {
             mode: 'cors',
             header: 'Content-Type: application/json',
             cache: 'no-cache',
+            credentials: 'same-origin',
         });
         if (!result.ok) {
             throw new Error("error");
