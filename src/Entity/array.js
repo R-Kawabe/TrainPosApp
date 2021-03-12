@@ -28,16 +28,16 @@ const AreaArray = [
 ];
 
 const sideBtnArray = [
-    {
-        'areaName': 'UnyoSearchArea',
-        'url': 'public/UnyoSearch.html',
-        'value': '運用検索ページ'
-    },
-    {
-        'areaName': 'UnyoTableArea',
-        'url': 'public/UnyoTable.html',
-        'value': '運用表'
-    },
+    // {
+    //     'areaName': 'UnyoSearchArea',
+    //     'url': 'public/UnyoSearch.html',
+    //     'value': '運用検索ページ'
+    // },
+    // {
+    //     'areaName': 'UnyoTableArea',
+    //     'url': 'public/UnyoTable.html',
+    //     'value': '運用表'
+    // },
     {
         'areaName': 'WinfoBtnArea',
         'url': 'https://trafficinfo.westjr.co.jp/kinki.html',
@@ -91,7 +91,7 @@ const KinkiAreaLine = [
         'line': 'G 宝塚線'
     }, {
         'code': 'tozai',
-        'line': 'H 東西線'
+        'line': 'H JR東西線'
     }, {
         'code': 'gakkentoshi',
         'line': 'H 学研都市線'
