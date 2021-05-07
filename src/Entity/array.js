@@ -33,11 +33,11 @@ const sideBtnArray = [
     //     'url': 'public/UnyoSearch.html',
     //     'value': '運用検索ページ'
     // },
-    // {
-    //     'areaName': 'UnyoTableArea',
-    //     'url': 'public/UnyoTable.html',
-    //     'value': '運用表'
-    // },
+    {
+        'areaName': 'UnyoTableArea',
+        'url': 'public/UnyoTable.html',
+        'value': '運用表'
+    },
     {
         'areaName': 'WinfoBtnArea',
         'url': 'https://trafficinfo.westjr.co.jp/kinki.html',
