@@ -11,12 +11,16 @@ $options = stream_context_create(array('ssl' => array(
 
 switch ($word1) {
     case "kyoto": {
-            $text1 = "https://www.train-guide.westjr.co.jp/api/v3/" . $word1 . ".json";
-            $text2 = "https://www.train-guide.westjr.co.jp/api/v3/" . $word1 . "_sp.json";
-            $json1 = json_decode(file_get_contents($text1, false, $options), true);
-            $json2 = json_decode(file_get_contents($text2, false, $options), true);
-            $result = array_merge_recursive($json1, $json2);
-            echo json_encode($result);
+            // $text1 = "https://www.train-guide.westjr.co.jp/api/v3/" . $word1 . ".json";
+            // $text2 = "https://www.train-guide.westjr.co.jp/api/v3/" . $word1 . "_sp.json";
+            // $json1 = json_decode(file_get_contents($text1, false, $options), true);
+            // $json2 = json_decode(file_get_contents($text2, false, $options), true);
+            // $result = array_merge_recursive($json1, $json2);
+            // echo json_encode($result);
+            $url = "https://www.train-guide.westjr.co.jp/api/v3/kyoto.json"
+            $json = json_decode(file_get_contents($url, false, $options), true);
+            json_validate($json)
+            echo $json
         }
         break;
     case "kosei": {
