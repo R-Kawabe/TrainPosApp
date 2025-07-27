@@ -96,3 +96,4 @@ switch ($word1) {
 //         return array_merge_recursive($carry, $item);
 //     }, []);
 // }
+?>
