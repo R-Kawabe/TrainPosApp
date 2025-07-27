@@ -14,7 +14,6 @@ switch ($word1) {
             // echo json_encode($result);
             $url = "https://www.train-guide.westjr.co.jp/api/v3/kyoto.json"
             $json = json_decode(file_get_contents($url, false), true);
-            json_validate($json)
             echo json_encode($json);
         }
         break;
