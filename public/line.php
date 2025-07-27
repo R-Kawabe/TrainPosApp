@@ -4,12 +4,17 @@ $word1 = ($_GET['word']);
 
 header('Content-Type: application/json');
 
+$options = stream_context_create(array('ssl' => array(
+  'verify_peer'      => false,
+  'verify_peer_name' => false
+)));
+
 switch ($word1) {
     case "kyoto": {
             $text1 = "https://www.train-guide.westjr.co.jp/api/v3/" . $word1 . ".json";
             $text2 = "https://www.train-guide.westjr.co.jp/api/v3/" . $word1 . "_sp.json";
-            $json1 = json_decode(file_get_contents($text1), true);
-            $json2 = json_decode(file_get_contents($text2), true);
+            $json1 = json_decode(file_get_contents($text1, false, $options), true);
+            $json2 = json_decode(file_get_contents($text2, false, $options), true);
             $result = array_merge_recursive($json1, $json2);
             echo json_encode($result);
         }

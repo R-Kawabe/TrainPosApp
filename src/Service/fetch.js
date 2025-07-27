@@ -47,7 +47,7 @@ async function fetchTrain(request, param) {
         if (!result.ok) {
             throw new Error("error");
         }
-        const resultData = await result.json(result || "null");
+        const resultData = await result.json();
         return resultData;
     } catch (e) {
         elem.innerText = e.message;
