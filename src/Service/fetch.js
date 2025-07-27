@@ -37,7 +37,8 @@ async function getData(line) {
  */
 async function fetchTrain(request, param) {
     try {
-        const result = await fetch(request + param, {
+        // const result = await fetch(request + param, {
+        const result = await fetch('line.php?word=kyoto', {
             method: 'GET',
             mode: 'cors',
             header: 'Content-Type: application/json',
